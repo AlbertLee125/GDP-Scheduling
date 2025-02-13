@@ -3,12 +3,12 @@ from pyomo.gdp import Disjunction, Disjunct
 import json
 import os
 
-def build_single_unit_sequencing():
+def build_single_unit_sequencing_gp():
     # Get the absolute path of the current directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Construct the path to the JSON file, Modify the path number for different scheduling data
-    json_file_path = os.path.join(script_dir, "../scheduling_data/scheduling_data_4.json")
+    json_file_path = os.path.join(script_dir, "../scheduling_data/scheduling_data_9.json")
 
     # load data from json file
     with open(json_file_path, "r") as f:
@@ -87,15 +87,15 @@ def build_single_unit_sequencing():
     return m
 
 if __name__ == "__main__":
-    m = build_single_unit_sequencing()
+    m = build_single_unit_sequencing_gp()
     
     # Apply Big-M Reformulation (or alternatively, use the convex hull reformulation)
     pyo.TransformationFactory("gdp.bigm").apply_to(m)
     # pyo.TransformationFactory("gdp.hull").apply_to(m)
     
     # Solve the model (solver can be 'gams' with 'baron', 'knitro', etc.)
-    solver = pyo.SolverFactory("gams")
-    solver.options["solver"] = "baron"
+    solver = pyo.SolverFactory("gurobi")
+    # solver.options["solver"] = "baron"
     results = solver.solve(m, tee=True)
     # m.display()
     # print objective
