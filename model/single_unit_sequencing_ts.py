@@ -3,7 +3,7 @@ from pyomo.gdp import Disjunction, Disjunct
 import json
 import os
 
-def build_single_unit_sequencing_gp():
+def build_single_unit_sequencing_time_slots():
     # Get the absolute path of the current directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -22,64 +22,58 @@ def build_single_unit_sequencing_gp():
     data["due_time"] = {int(k): v for k, v in data["due_time"].items()}
 
     # Orders (jobs)
-    m.I = pyo.Set(initialize=data["jobs"])  
+    m.I = pyo.Set(initialize=data["jobs"])
+
+    # Create discrete time slots from 1 to the number of jobs
+    num_slots = len(data["jobs"])
+    m.T = pyo.Set(initialize=range(1, num_slots + 1))
 
     # Define parameters dynamically from JSON
     m.p = pyo.Param(m.I, initialize=data["processing_time"])
     m.r = pyo.Param(m.I, initialize=data["release_time"])
     m.d = pyo.Param(m.I, initialize=data["due_time"])
 
-    # Define the bounds for start times: 
-    # Each job must start no earlier than its release time and no later than its due date minus processing time.
+    # Define x as the domain of the jobs using time slots
     def x_bounds_rule(m, i):
-        return (m.r[i], m.d[i] - m.p[i])
-    m.x = pyo.Var(m.I, bounds=x_bounds_rule)
+        return (0, 1e6)
+    m.x = pyo.Var(m.T, bounds=x_bounds_rule)
 
     # Compute bounds for makespan:
     lower_bound_makespan = min(data["release_time"][i] + data["processing_time"][i] for i in data["jobs"])
     upper_bound_makespan = max(data["due_time"][i] for i in data["jobs"])
     m.makespan = pyo.Var(bounds=(lower_bound_makespan, upper_bound_makespan))
 
-    # General Precedence Disjunction
-    def define_disjuncts(m, i, j):
-        if i < j:
-            m.before = Disjunct()
-            m.after = Disjunct()
+    # Define the time slots disjuncts
+    def time_slot_disjunct(disjunct, i, t):
+        m = disjunct.model()
+        disjunct.cons = pyo.ConstraintList()
+        # xt>=r(i)
+        disjunct.cons.add(m.x[t] >= m.r[i])
+        # xt+p(i)<=d(i)
+        disjunct.cons.add(m.x[t] + m.p[i] <= m.d[i])
+        # if t = num_slots, then makespan >= x[t] + p[i]
+        if t == num_slots:
+            disjunct.cons.add(m.makespan >= m.x[t] + m.p[i])
+        # if t < num_slots, then x[t] + p[i] <= x[t+1]
+        else:
+            disjunct.cons.add(m.x[t] + m.p[i] <= m.x[t + 1])
+    m.time_slot_disjunct = Disjunct(m.I, m.T, rule=time_slot_disjunct)
 
-            # Access the parent model inside the disjuncts
-            model_ref = m.model()
+    # Define the time slot disjunctions
+    def time_slot_disjunction_rule(m, t):
+        return [m.time_slot_disjunct[i, t] for i in m.I]
+    m.time_slot_disjunction = Disjunction(m.T, rule=time_slot_disjunction_rule)
 
-            # i before j
-            @m.before.Constraint()
-            def before_constraint(m):
-                return model_ref.x[i] + model_ref.p[i] <= model_ref.x[j]
+    # Define the logical constraints for one to be true
+    def logical_constraints1(m, t):
+        return pyo.exactly(1, (m.time_slot_disjunct[i,t].indicator_var for i in m.I))
+    m.logical_constraints1 = pyo.LogicalConstraint(m.T, rule=logical_constraints1)
 
-            # j before i
-            @m.after.Constraint()
-            def after_constraint(m):
-                return model_ref.x[j] + model_ref.p[j] <= model_ref.x[i]
-            
-    m.disjuncts = pyo.Block(m.I, m.I, rule=define_disjuncts)
 
-    def sequencing_disjunction(m, i, j):
-        if i < j:
-            return [m.disjuncts[i, j].before, m.disjuncts[i, j].after]
-        return pyo.Constraint.Skip
-    
-    m.sequencing_disjunction = Disjunction(m.I, m.I, rule=sequencing_disjunction)
-
-    # Define Constraints 
-    def release_time_constraint(m, i):
-        return m.x[i] >= m.r[i]
-    m.release_time_constraint = pyo.Constraint(m.I, rule=release_time_constraint)
-
-    def due_date_constraint(m, i):
-        return m.x[i] + m.p[i] <= m.d[i]
-    m.due_date_constraint = pyo.Constraint(m.I, rule=due_date_constraint)
-
-    def makespan_constraint(m, i):
-        return m.x[i] + m.p[i] <= m.makespan
-    m.makespan_constraint = pyo.Constraint(m.I, rule=makespan_constraint)
+    # Define the logical constraints for one to be true
+    def logical_constraints2(m, i):
+        return pyo.exactly(1, (m.time_slot_disjunct[i,t].indicator_var for t in m.T))
+    m.logical_constraints2 = pyo.LogicalConstraint(m.I, rule=logical_constraints2)
 
     # Define objective: minimize makespan
     m.obj = pyo.Objective(expr=m.makespan, sense=pyo.minimize)
@@ -87,11 +81,11 @@ def build_single_unit_sequencing_gp():
     return m
 
 if __name__ == "__main__":
-    m = build_single_unit_sequencing_gp()
+    m = build_single_unit_sequencing_time_slots()
     
     # Apply Big-M Reformulation (or alternatively, use the convex hull reformulation)
-    # pyo.TransformationFactory("gdp.bigm").apply_to(m)
-    pyo.TransformationFactory("gdp.hull").apply_to(m)
+    pyo.TransformationFactory("gdp.bigm").apply_to(m)
+    # pyo.TransformationFactory("gdp.hull").apply_to(m)
     
     # Solve the model (solver can be 'gams' with 'baron', 'knitro', etc.)
     solver = pyo.SolverFactory("gurobi")
