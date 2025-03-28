@@ -37,7 +37,7 @@ def build_single_unit_sequencing_Immediate_Precedence():
 
     # Compute bounds for makespan:
     lower_bound_makespan = min(data["release_time"][i] + data["processing_time"][i] for i in data["jobs"])
-    upper_bound_makespan = max(data["due_time"][i] for i in data["jobs"])
+    upper_bound_makespan = max(data["due_time"][i] for i in data["jobs"])         
     m.makespan = pyo.Var(bounds=(lower_bound_makespan, upper_bound_makespan))
 
     # first job disjuncts
@@ -50,11 +50,6 @@ def build_single_unit_sequencing_Immediate_Precedence():
                 disjunct.cons.add(m.x[i] + m.p[i] <= m.x[j])
     m.first_job_disjunct = Disjunct(m.I, rule=first_job_disjunct_rule)
 
-    def first_job_disjunction_rule(m):
-    # Return a list of first-job disjuncts, one per job
-        return [m.first_job_disjunct[i] for i in m.I]
-    m.first_job_disjunction = Disjunction(rule=first_job_disjunction_rule)
-
     # last job disjuncts
     def last_job_disjunct_rule(disjunct, i):
         m = disjunct.model()
@@ -65,43 +60,52 @@ def build_single_unit_sequencing_Immediate_Precedence():
                 disjunct.cons.add(m.x[j] + m.p[j] <= m.x[i])
     m.last_job_disjunct = Disjunct(m.I, rule=last_job_disjunct_rule)
 
-    def last_job_disjunction_rule(m):
-    # Return a list of last-job disjuncts, one per job
-        return [m.last_job_disjunct[i] for i in m.I]
-    m.last_job_disjunction = Disjunction(rule=last_job_disjunction_rule)
-
     # Logic Expression
     def logic_expression_rule(m, i):
         return pyo.lnot(pyo.land(m.first_job_disjunct[i].indicator_var, m.last_job_disjunct[i].indicator_var))
     m.logic_expression = pyo.LogicalConstraint(m.I, rule=logic_expression_rule)
 
-    # Immediate precedence disjuncts
+    def one_first_job_rule(m, i):
+        return pyo.exactly(1, (m.first_job_disjunct[i].indicator_var))
+    m.one_first_job = pyo.LogicalConstraint(m.I, rule=one_first_job_rule)
+
+    def one_last_job_rule(m, i):
+        return pyo.exactly(1, (m.last_job_disjunct[i].indicator_var))
+    m.one_last_job = pyo.LogicalConstraint(m.I, rule=one_last_job_rule)
+
+    # --- Split Immediate Precedence Disjuncts ---
+    # Define a common disjunct rule for immediate precedence.
     def immediate_precedence_disjunct_rule(disjunct, i, j):
         m = disjunct.model()
         if i == j:
-            disjunct.deactivate() # Deactivate the disjunct if i == j
+            disjunct.deactivate()  # deactivate if indices are the same
         else:
-            disjunct.cons = pyo.Constraint(expr=m.x[i] + m.p[i] <= m.x[j])
-    m.immediate_precedence_disjunct = Disjunct(m.I, m.I, rule=immediate_precedence_disjunct_rule)
+            disjunct.cons = pyo.Constraint(expr = m.x[i] + m.p[i] <= m.x[j])
+    
+    # Create two separate sets of immediate precedence disjuncts:
+    m.immediate_precedence_successor = Disjunct(m.I, m.I, rule=immediate_precedence_disjunct_rule)
+    m.immediate_precedence_predecessor = Disjunct(m.I, m.I, rule=immediate_precedence_disjunct_rule)
 
-    # Successor Disjunction
+    # Successor Disjunction: For each job i, either one of the immediate precedence_successor disjuncts holds
+    # (i.e. job i must precede all its successors) or the last-job condition holds.
     def successor_disjunction_rule(m, i):
-        return [m.immediate_precedence_disjunct[i, j] for j in m.I if j != i] + [m.last_job_disjunct[i]]
+        return [m.immediate_precedence_successor[i, j] for j in m.I if j != i] + [m.last_job_disjunct[i]]
     m.SuccessorDisjunction = Disjunction(m.I, rule=successor_disjunction_rule)
 
-    # Predecessor Disjunction
+    # Predecessor Disjunction: For each job i, either one of the immediate precedence_predecessor disjuncts holds
+    # (i.e. job i must follow all its predecessors) or the first-job condition holds.
     def predecessor_disjunction_rule(m, i):
-        return [m.immediate_precedence_disjunct[j, i] for j in m.I if j != i] + [m.first_job_disjunct[i]]
+        return [m.immediate_precedence_predecessor[j, i] for j in m.I if j != i] + [m.first_job_disjunct[i]]
     m.PredecessorDisjunction = Disjunction(m.I, rule=predecessor_disjunction_rule)
 
-    # Define Constraints 
-    def release_time_constraint(m, i):
-        return m.x[i] >= m.r[i]
-    m.release_time_constraint = pyo.Constraint(m.I, rule=release_time_constraint)
+    # # Define Constraints 
+    # def release_time_constraint(m, i):
+    #     return m.x[i] >= m.r[i]
+    # m.release_time_constraint = pyo.Constraint(m.I, rule=release_time_constraint)
 
-    def due_date_constraint(m, i):
-        return m.x[i] + m.p[i] <= m.d[i]
-    m.due_date_constraint = pyo.Constraint(m.I, rule=due_date_constraint)
+    # def due_date_constraint(m, i):
+    #     return m.x[i] + m.p[i] <= m.d[i]
+    # m.due_date_constraint = pyo.Constraint(m.I, rule=due_date_constraint)
 
     def makespan_constraint(m, i):
         return m.x[i] + m.p[i] <= m.makespan
@@ -259,8 +263,8 @@ def build_single_unit_sequencing_Immediate_Precedence_HR():
     return m
 
 if __name__ == "__main__":
-    # m = build_single_unit_sequencing_Immediate_Precedence() # Putting the same disjunct in multiple disjunctions is not supported in Pyomo.
-    m = build_single_unit_sequencing_Immediate_Precedence_BigM()
+    m = build_single_unit_sequencing_Immediate_Precedence() # Putting the same disjunct in multiple disjunctions is not supported in Pyomo.
+    # m = build_single_unit_sequencing_Immediate_Precedence_BigM()
     # m = build_single_unit_sequencing_Immediate_Precedence_HR()
 
     # Apply Big-M Reformulation (or alternatively, use the convex hull reformulation)
