@@ -3,12 +3,15 @@ from pyomo.gdp import Disjunction, Disjunct
 import json
 import os
 
-def build_single_unit_sequencing_gp():
+def build_single_unit_sequencing_gp(j):
     # Get the absolute path of the current directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Construct the path to the JSON file, Modify the path number for different scheduling data
-    json_file_path = os.path.join(script_dir, "../scheduling_data/scheduling_data_1.json")
+    # Construct the path to the JSON file, Modify the path number for different scheduling data
+    json_file_path = os.path.join(
+        script_dir, f"../scheduling_data/scheduling_data_{j}.json"
+    )
 
     # load data from json file
     with open(json_file_path, "r") as f:
@@ -96,7 +99,7 @@ if __name__ == "__main__":
     # Solve the model (solver can be 'gams' with 'baron', 'knitro', etc.)
     solver = pyo.SolverFactory("gurobi")
     # solver.options["solver"] = "baron"
-    results = solver.solve(m, tee=True)
+    results = solver.solve(m, tee=True, time_limit=900)
     # m.display()
     # print objective
     print("Objective value (makespan):", pyo.value(m.obj))

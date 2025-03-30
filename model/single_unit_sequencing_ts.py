@@ -90,6 +90,82 @@ def build_single_unit_sequencing_time_slots(j):
 
     return m
 
+def build_single_unit_sequencing_time_slots_hull(j):
+    # Get the absolute path of the current directory
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Construct the path to the JSON file, Modify the path number for different scheduling data
+    json_file_path = os.path.join(
+        script_dir, f"../scheduling_data/scheduling_data_{j}.json"
+    )
+
+    # load data from json file
+    with open(json_file_path, "r") as f:
+        data = json.load(f)
+
+    m = pyo.ConcreteModel()
+
+    # Convert dictionary keys from strings to integers
+    data["processing_time"] = {int(k): v for k, v in data["processing_time"].items()}
+    data["release_time"] = {int(k): v for k, v in data["release_time"].items()}
+    data["due_time"] = {int(k): v for k, v in data["due_time"].items()}
+
+    # Orders (jobs)
+    m.I = pyo.Set(initialize=data["jobs"])
+
+    # Create discrete time slots from 1 to the number of jobs
+    num_slots = len(data["jobs"])
+    m.T = pyo.Set(initialize=range(1, num_slots + 1))
+
+    # Define parameters dynamically from JSON
+    m.p = pyo.Param(m.I, initialize=data["processing_time"])
+    m.r = pyo.Param(m.I, initialize=data["release_time"])
+    m.d = pyo.Param(m.I, initialize=data["due_time"])
+
+    # Define x as the domain of the jobs using time slots
+    def x_bounds_rule(m, i):
+        return (0, 1e6)
+
+    m.x = pyo.Var(m.T, bounds=x_bounds_rule)
+    m.y = pyo.Var(m.I, m.T, within=pyo.Binary)
+
+    # Compute bounds for makespan:
+    lower_bound_makespan = min(
+        data["release_time"][i] + data["processing_time"][i] for i in data["jobs"]
+    )
+    upper_bound_makespan = max(data["due_time"][i] for i in data["jobs"])
+    m.makespan = pyo.Var(bounds=(lower_bound_makespan, upper_bound_makespan))
+
+    # Reaggregated Variables and Constraints
+    def release_time_rule(m, t):
+        return m.x[t] >= sum(m.r[i] * m.y[i, t] for i in m.I)
+    m.release_time = pyo.Constraint(m.T, rule=release_time_rule)
+
+    def due_time_rule(m, t):
+        return m.x[t] <= sum((m.d[i] - m.p[i]) * m.y[i, t] for i in m.I)
+    m.due_time = pyo.Constraint(m.T, rule=due_time_rule)
+
+    def processing_time_rule(m, t):
+        if t == num_slots:
+            return m.makespan - m.x[t] >= sum(m.p[i] * m.y[i, t] for i in m.I)
+        else:
+            return m.x[t + 1] - m.x[t] >= sum(m.p[i] * m.y[i, t] for i in m.I)
+    m.processing_time = pyo.Constraint(m.T, rule=processing_time_rule)
+
+    # Logical Constraints
+    def one_assignment_rule1(m, i):
+        return sum(m.y[i, t] for t in m.T) == 1
+    m.one_assignment1 = pyo.Constraint(m.I, rule=one_assignment_rule1)
+
+    def one_assignment_rule2(m, t):
+        return sum(m.y[i, t] for i in m.I) == 1
+    m.one_assignment2 = pyo.Constraint(m.T, rule=one_assignment_rule2)
+
+    # Define objective: minimize makespan
+    m.obj = pyo.Objective(expr=m.makespan, sense=pyo.minimize)
+
+    return m
+
 def print_true_indicator_variables(m):
     print("True Indicator Variables:")
     for i in m.I:
@@ -99,15 +175,17 @@ def print_true_indicator_variables(m):
                 print(f"Job {i} scheduled in time slot {t} (Indicator: {disjunct.indicator_var})")
 
 if __name__ == "__main__":
-    m = build_single_unit_sequencing_time_slots(2)
+    # m = build_single_unit_sequencing_time_slots(2)
 
     # Apply Big-M Reformulation (or alternatively, use the convex hull reformulation)
     # pyo.TransformationFactory("gdp.bigm").apply_to(m)
-    pyo.TransformationFactory("gdp.hull").apply_to(m)
-    m.pprint()
+    # pyo.TransformationFactory("gdp.hull").apply_to(m)
+    # m.pprint()
+    m = build_single_unit_sequencing_time_slots_hull(10)
+
 
     # Solve the model (solver can be 'gams' with 'baron', 'knitro', etc.)
-    # solver = pyo.SolverFactory("gurobi")
+    solver = pyo.SolverFactory("gurobi")
     # solver = pyo.SolverFactory("gdpopt.gloa") # for gdpopt.loa, lbb
     # solver = pyo.SolverFactory("gdpopt.ldsda")
     # solver = pyo.SolverFactory("gdpopt.enumerate")
@@ -121,7 +199,7 @@ if __name__ == "__main__":
     #                         # starting_point=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
     #                        disjunction_list=[m.time_slot_disjunction]) # for gdpopt.ldsda
 
-    # results = solver.solve(m, tee=True)
+    results = solver.solve(m, tee=True)
     # m.display()
     # print objective and solution time
     # print("Objective value (makespan):", pyo.value(m.obj))

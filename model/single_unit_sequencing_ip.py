@@ -65,13 +65,14 @@ def build_single_unit_sequencing_Immediate_Precedence():
         return pyo.lnot(pyo.land(m.first_job_disjunct[i].indicator_var, m.last_job_disjunct[i].indicator_var))
     m.logic_expression = pyo.LogicalConstraint(m.I, rule=logic_expression_rule)
 
-    def one_first_job_rule(m, i):
-        return pyo.exactly(1, (m.first_job_disjunct[i].indicator_var))
-    m.one_first_job = pyo.LogicalConstraint(m.I, rule=one_first_job_rule)
+    def one_first_job_rule(m):
+        return sum(m.first_job_disjunct[i].indicator_var for i in m.I) == 1
+    m.one_first_job = pyo.Constraint(rule=one_first_job_rule)
 
-    def one_last_job_rule(m, i):
-        return pyo.exactly(1, (m.last_job_disjunct[i].indicator_var))
-    m.one_last_job = pyo.LogicalConstraint(m.I, rule=one_last_job_rule)
+    def one_last_job_rule(m):
+        return sum(m.last_job_disjunct[i].indicator_var for i in m.I) == 1
+    m.one_last_job = pyo.Constraint(rule=one_last_job_rule)
+
 
     # --- Split Immediate Precedence Disjuncts ---
     # Define a common disjunct rule for immediate precedence.
@@ -121,7 +122,7 @@ def build_single_unit_sequencing_Immediate_Precedence_BigM():
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Construct the path to the JSON file, Modify the path number for different scheduling data
-    json_file_path = os.path.join(script_dir, "../scheduling_data/scheduling_data_2.json")
+    json_file_path = os.path.join(script_dir, "../scheduling_data/scheduling_data_9.json")
 
     # load data from json file
     with open(json_file_path, "r") as f:
@@ -252,7 +253,7 @@ def build_single_unit_sequencing_Immediate_Precedence_HR():
     lower_bound_makespan = min(data["release_time"][i] + data["processing_time"][i] for i in data["jobs"])
     upper_bound_makespan = max(data["due_time"][i] for i in data["jobs"])
     m.makespan = pyo.Var(bounds=(lower_bound_makespan, upper_bound_makespan))
-
+     
     # Introduce binary variables:
     # y_first[i] = 1 if job i is chosen as the first job.
     # y_last[i]  = 1 if job i is chosen as the last job.
@@ -263,8 +264,8 @@ def build_single_unit_sequencing_Immediate_Precedence_HR():
     return m
 
 if __name__ == "__main__":
-    m = build_single_unit_sequencing_Immediate_Precedence() # Putting the same disjunct in multiple disjunctions is not supported in Pyomo.
-    # m = build_single_unit_sequencing_Immediate_Precedence_BigM()
+    # m = build_single_unit_sequencing_Immediate_Precedence() # Putting the same disjunct in multiple disjunctions is not supported in Pyomo.
+    m = build_single_unit_sequencing_Immediate_Precedence_BigM()
     # m = build_single_unit_sequencing_Immediate_Precedence_HR()
 
     # Apply Big-M Reformulation (or alternatively, use the convex hull reformulation)
