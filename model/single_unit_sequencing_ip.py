@@ -74,29 +74,36 @@ def build_single_unit_sequencing_Immediate_Precedence():
     m.one_last_job = pyo.Constraint(rule=one_last_job_rule)
 
 
-    # --- Split Immediate Precedence Disjuncts ---
-    # Define a common disjunct rule for immediate precedence.
+    # --- Define the Ordered-Pairs Set for Immediate Precedence ---
+    def pair_filter(model, i, j):
+        return i != j
+    m.Ipairs = pyo.Set(dimen=2, initialize=m.I * m.I, filter=pair_filter)
+
+    # --- Immediate Precedence Disjuncts ---
+    # A common rule for immediate precedence: if job i immediately precedes job j, then:
+    # x[i] + p[i] <= x[j]
     def immediate_precedence_disjunct_rule(disjunct, i, j):
         m = disjunct.model()
-        if i == j:
-            disjunct.deactivate()  # deactivate if indices are the same
-        else:
-            disjunct.cons = pyo.Constraint(expr = m.x[i] + m.p[i] <= m.x[j])
-    
-    # Create two separate sets of immediate precedence disjuncts:
-    m.immediate_precedence_successor = Disjunct(m.I, m.I, rule=immediate_precedence_disjunct_rule)
-    m.immediate_precedence_predecessor = Disjunct(m.I, m.I, rule=immediate_precedence_disjunct_rule)
+        # Since m.Ipairs already enforces i != j, no need to check again.
+        disjunct.cons = pyo.Constraint(expr = m.x[i] + m.p[i] <= m.x[j])
+    # Create disjuncts indexed over ordered pairs
+    m.immediate_precedence_successor = Disjunct(m.Ipairs, rule=immediate_precedence_disjunct_rule)
+    m.immediate_precedence_predecessor = Disjunct(m.Ipairs, rule=immediate_precedence_disjunct_rule)
 
+    # --- Disjunctions ---
     # Successor Disjunction: For each job i, either one of the immediate precedence_successor disjuncts holds
-    # (i.e. job i must precede all its successors) or the last-job condition holds.
+    # (i.e. job i immediately precedes some job j) or job i is last.
     def successor_disjunction_rule(m, i):
-        return [m.immediate_precedence_successor[i, j] for j in m.I if j != i] + [m.last_job_disjunct[i]]
+        # Collect disjuncts with i as the first index from m.Ipairs
+        succ_disjuncts = [m.immediate_precedence_successor[i, j] for (i_, j) in m.Ipairs if i_ == i]
+        return succ_disjuncts + [m.last_job_disjunct[i]]
     m.SuccessorDisjunction = Disjunction(m.I, rule=successor_disjunction_rule)
 
     # Predecessor Disjunction: For each job i, either one of the immediate precedence_predecessor disjuncts holds
-    # (i.e. job i must follow all its predecessors) or the first-job condition holds.
+    # (i.e. job i immediately follows some job j) or job i is first.
     def predecessor_disjunction_rule(m, i):
-        return [m.immediate_precedence_predecessor[j, i] for j in m.I if j != i] + [m.first_job_disjunct[i]]
+        pred_disjuncts = [m.immediate_precedence_predecessor[j, i] for (j, i_) in m.Ipairs if i_ == i]
+        return pred_disjuncts + [m.first_job_disjunct[i]]
     m.PredecessorDisjunction = Disjunction(m.I, rule=predecessor_disjunction_rule)
 
     # # Define Constraints 
@@ -224,7 +231,7 @@ def build_single_unit_sequencing_Immediate_Precedence_HR():
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Construct the path to the JSON file, Modify the path number for different scheduling data
-    json_file_path = os.path.join(script_dir, "../scheduling_data/scheduling_data_1.json")
+    json_file_path = os.path.join(script_dir, "../scheduling_data/scheduling_data_5.json")
 
     # load data from json file
     with open(json_file_path, "r") as f:
@@ -249,6 +256,11 @@ def build_single_unit_sequencing_Immediate_Precedence_HR():
         return (m.r[i], m.d[i] - m.p[i])
     m.x = pyo.Var(m.I, bounds=x_bounds_rule)
 
+    # Define Ordered Pairs Set
+    def pair_filter(model, i, j):
+        return i != j
+    m.Ipairs = pyo.Set(dimen=2, initialize=m.I * m.I, filter=pair_filter)
+
     # Compute bounds for makespan:
     lower_bound_makespan = min(data["release_time"][i] + data["processing_time"][i] for i in data["jobs"])
     upper_bound_makespan = max(data["due_time"][i] for i in data["jobs"])
@@ -259,14 +271,106 @@ def build_single_unit_sequencing_Immediate_Precedence_HR():
     # y_last[i]  = 1 if job i is chosen as the last job.
     m.y_first = pyo.Var(m.I, domain=pyo.Binary)
     m.y_last  = pyo.Var(m.I, domain=pyo.Binary)
-    m.y = pyo.Var(m.I, m.I, domain=pyo.Binary)
+    m.y = pyo.Var(m.Ipairs, domain=pyo.Binary)
+
+    # Disjunction-sum constraints:
+    def pred_disjunction_rule(m, i):
+        # For job i acting as predecessor: either it has a follower or it is last.
+        return sum(m.y[i, j] for j in m.I if j != i) + m.y_last[i] == 1
+    m.PredDisc = pyo.Constraint(m.I, rule=pred_disjunction_rule)
+
+    def succ_disjunction_rule(m, j):
+        # For job j acting as successor: either it has a predecessor or it is first.
+        return sum(m.y[i, j] for i in m.I if i != j) + m.y_first[j] == 1
+    m.SuccDisc =  pyo.Constraint(m.I, rule=succ_disjunction_rule)
+
+    # There must be exactly one first and one last job overall.
+    m.OneFirst =  pyo.Constraint(expr = sum(m.y_first[j] for j in m.I) == 1)
+    m.OneLast  =  pyo.Constraint(expr = sum(m.y_last[i] for i in m.I) == 1)
+
+    def demorgan_rule(m, i):
+        return m.y_first[i] + m.y_last[i] <= 1
+    m.demorgan = pyo.Constraint(m.I, rule=demorgan_rule)
+    
+    
+    # Disaggregated (Convex-Hull) Variables
+    # For each pair (i,j) in m.Ipairs, create a predecessor copy (x_hat_pre)
+    # for job i when it immediately precedes job j and a successor copy (x_hat_succ)
+    # for job j in that disjunct.
+    m.x_hat_pre = pyo.Var(m.Ipairs, domain=pyo.NonNegativeReals)
+    m.x_hat_succ = pyo.Var(m.Ipairs, domain=pyo.NonNegativeReals)
+
+    # For the "first" and "last" alternatives (when no predecessor or successor is chosen)
+    m.x_hat_first = pyo.Var(m.I, domain=pyo.NonNegativeReals)
+    m.x_hat_last = pyo.Var(m.I, domain=pyo.NonNegativeReals)
+
+    # Linking (Re-aggregation) Constraints
+    # Re-aggregate the disaggregated variables to recover the original start time.
+    def linking_pre_rule(m, i):
+        # For job i as predecessor: sum over all disaggregated copies when i is the predecessor plus its "last" alternative.
+        return m.x[i] == sum(m.x_hat_pre[i,j] for j in m.I if j != i) + m.x_hat_last[i]
+    m.linking_pre = pyo.Constraint(m.I, rule=linking_pre_rule)
+
+    def linking_succ_rule(m, j):
+        # For job j as successor: sum over all disaggregated copies when j is the successor plus its "first" alternative.
+        return m.x[j] == sum(m.x_hat_succ[i,j] for i in m.I if i != j) + m.x_hat_first[j]
+    m.linking_succ = pyo.Constraint(m.I, rule=linking_succ_rule)
+
+    # Immediate Precedence (Sequencing) Constraints
+    # For each pair (i,j) in m.Ipairs, if job i immediately precedes job j (y[i,j] = 1)
+    # then the successor copy must be at least the predecessor copy plus processing time of i.
+    def sequencing_rule(m, i, j):
+        return m.x_hat_succ[i,j] - m.x_hat_pre[i,j] >= m.p[i] * m.y[i,j]
+    m.sequencing = pyo.Constraint(m.Ipairs, rule=sequencing_rule)
+
+    # Bounds on Disaggregated Variables
+    def x_hat_pre_lb(m, i, j):
+        return m.x_hat_pre[i,j] >= m.r[i] * m.y[i,j]
+    m.x_hat_pre_lb = pyo.Constraint(m.Ipairs, rule=x_hat_pre_lb)
+
+    def x_hat_pre_ub(m, i, j):
+        return m.x_hat_pre[i,j] <= (m.d[i] - m.p[i]) * m.y[i,j]
+    m.x_hat_pre_ub = pyo.Constraint(m.Ipairs, rule=x_hat_pre_ub)
+
+    # For the successor copy, a common lower bound is r[i] + p[i] (you may refine this further).
+    def x_hat_succ_lb(m, i, j):
+        return m.x_hat_succ[i,j] >= (m.r[i] + m.p[i]) * m.y[i,j]
+    m.x_hat_succ_lb = pyo.Constraint(m.Ipairs, rule=x_hat_succ_lb)
+
+    def x_hat_succ_ub(m, i, j):
+        return m.x_hat_succ[i,j] <= (m.d[j] - m.p[j]) * m.y[i,j]
+    m.x_hat_succ_ub = pyo.Constraint(m.Ipairs, rule=x_hat_succ_ub)
+
+    # Bounds for first and last copies:
+    def x_hat_first_lb(m, j):
+        return m.x_hat_first[j] >= m.r[j] * m.y_first[j]
+    m.x_hat_first_lb = pyo.Constraint(m.I, rule=x_hat_first_lb)
+
+    def x_hat_first_ub(m, j):
+        return m.x_hat_first[j] <= (m.d[j] - m.p[j]) * m.y_first[j]
+    m.x_hat_first_ub = pyo.Constraint(m.I, rule=x_hat_first_ub)
+
+    def x_hat_last_lb(m, i):
+        return m.x_hat_last[i] >= m.r[i] * m.y_last[i]
+    m.x_hat_last_lb = pyo.Constraint(m.I, rule=x_hat_last_lb)
+
+    def x_hat_last_ub(m, i):
+        return m.x_hat_last[i] <= (m.d[i] - m.p[i]) * m.y_last[i]
+    m.x_hat_last_ub = pyo.Constraint(m.I, rule=x_hat_last_ub)
+
+    def makespan_constraint(m, i):
+        return m.x[i] + m.p[i] <= m.makespan
+    m.makespan_constraint = pyo.Constraint(m.I, rule=makespan_constraint)
+
+    # Define objective: minimize makespan
+    m.obj = pyo.Objective(expr=m.makespan, sense=pyo.minimize)
 
     return m
 
 if __name__ == "__main__":
     # m = build_single_unit_sequencing_Immediate_Precedence() # Putting the same disjunct in multiple disjunctions is not supported in Pyomo.
-    m = build_single_unit_sequencing_Immediate_Precedence_BigM()
-    # m = build_single_unit_sequencing_Immediate_Precedence_HR()
+    # m = build_single_unit_sequencing_Immediate_Precedence_BigM()
+    m = build_single_unit_sequencing_Immediate_Precedence_HR()
 
     # Apply Big-M Reformulation (or alternatively, use the convex hull reformulation)
     # pyo.TransformationFactory("gdp.bigm").apply_to(m)
