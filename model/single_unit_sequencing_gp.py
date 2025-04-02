@@ -8,7 +8,6 @@ def build_single_unit_sequencing_gp(j):
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Construct the path to the JSON file, Modify the path number for different scheduling data
-    # Construct the path to the JSON file, Modify the path number for different scheduling data
     json_file_path = os.path.join(
         script_dir, f"../scheduling_data/scheduling_data_{j}.json"
     )

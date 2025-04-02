@@ -124,12 +124,14 @@ def build_single_unit_sequencing_Immediate_Precedence():
 
     return m
 
-def build_single_unit_sequencing_Immediate_Precedence_BigM():
+def build_single_unit_sequencing_Immediate_Precedence_BigM(j):
     # Get the absolute path of the current directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Construct the path to the JSON file, Modify the path number for different scheduling data
-    json_file_path = os.path.join(script_dir, "../scheduling_data/scheduling_data_9.json")
+    json_file_path = os.path.join(
+        script_dir, f"../scheduling_data/scheduling_data_{j}.json"
+    )
 
     # load data from json file
     with open(json_file_path, "r") as f:
@@ -226,13 +228,14 @@ def build_single_unit_sequencing_Immediate_Precedence_BigM():
 
     return m
 
-def build_single_unit_sequencing_Immediate_Precedence_HR():
+def build_single_unit_sequencing_Immediate_Precedence_HR(j):
     # Get the absolute path of the current directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Construct the path to the JSON file, Modify the path number for different scheduling data
-    json_file_path = os.path.join(script_dir, "../scheduling_data/scheduling_data_5.json")
-
+    json_file_path = os.path.join(
+        script_dir, f"../scheduling_data/scheduling_data_{j}.json"
+    )
     # load data from json file
     with open(json_file_path, "r") as f:
         data = json.load(f)
@@ -368,9 +371,10 @@ def build_single_unit_sequencing_Immediate_Precedence_HR():
     return m
 
 if __name__ == "__main__":
+    j=10
     # m = build_single_unit_sequencing_Immediate_Precedence() # Putting the same disjunct in multiple disjunctions is not supported in Pyomo.
-    # m = build_single_unit_sequencing_Immediate_Precedence_BigM()
-    m = build_single_unit_sequencing_Immediate_Precedence_HR()
+    # m = build_single_unit_sequencing_Immediate_Precedence_BigM(j)
+    m = build_single_unit_sequencing_Immediate_Precedence_HR(j)
 
     # Apply Big-M Reformulation (or alternatively, use the convex hull reformulation)
     # pyo.TransformationFactory("gdp.bigm").apply_to(m)

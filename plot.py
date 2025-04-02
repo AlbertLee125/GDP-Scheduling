@@ -1,0 +1,590 @@
+import json
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Replace the following multiline string with the path to your JSON file if needed.
+json_data = r'''
+[
+    {
+        "scheduling_data": 1,
+        "model_name": "Immediate Precedence BigM",
+        "transformation": "MINLP",
+        "time_sec": 60.17479634284973,
+        "objective": 429.99999995689996,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 1,
+        "model_name": "Immediate Precedence HR",
+        "transformation": "MINLP",
+        "time_sec": 0.4562709331512451,
+        "objective": 430.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 1,
+        "model_name": "Time Slots Hull",
+        "transformation": "MINLP",
+        "time_sec": 0.10398292541503906,
+        "objective": 430.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 2,
+        "model_name": "Immediate Precedence BigM",
+        "transformation": "MINLP",
+        "time_sec": 60.07294321060181,
+        "objective": 437.99896036462195,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 2,
+        "model_name": "Immediate Precedence HR",
+        "transformation": "MINLP",
+        "time_sec": 1.5446653366088867,
+        "objective": 437.99991818036176,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 2,
+        "model_name": "Time Slots Hull",
+        "transformation": "MINLP",
+        "time_sec": 0.13891077041625977,
+        "objective": 438.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 3,
+        "model_name": "Immediate Precedence BigM",
+        "transformation": "MINLP",
+        "time_sec": 9.345355749130249,
+        "objective": 558.9999511797232,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 3,
+        "model_name": "Immediate Precedence HR",
+        "transformation": "MINLP",
+        "time_sec": 38.29018020629883,
+        "objective": 559.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 3,
+        "model_name": "Time Slots Hull",
+        "transformation": "MINLP",
+        "time_sec": 0.630974292755127,
+        "objective": 559.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 4,
+        "model_name": "Immediate Precedence BigM",
+        "transformation": "MINLP",
+        "time_sec": 60.10680556297302,
+        "objective": 663.9999999334999,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 4,
+        "model_name": "Immediate Precedence HR",
+        "transformation": "MINLP",
+        "time_sec": 24.006653308868408,
+        "objective": 664.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 4,
+        "model_name": "Time Slots Hull",
+        "transformation": "MINLP",
+        "time_sec": 0.42926692962646484,
+        "objective": 664.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 5,
+        "model_name": "Immediate Precedence BigM",
+        "transformation": "MINLP",
+        "time_sec": 60.07311391830444,
+        "objective": 679.999732133366,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 5,
+        "model_name": "Immediate Precedence HR",
+        "transformation": "MINLP",
+        "time_sec": 60.08792448043823,
+        "objective": 679.9998619118951,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 5,
+        "model_name": "Time Slots Hull",
+        "transformation": "MINLP",
+        "time_sec": 0.631049394607544,
+        "objective": 680.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 6,
+        "model_name": "Immediate Precedence BigM",
+        "transformation": "MINLP",
+        "time_sec": 60.13065958023071,
+        "objective": 786.998878456242,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 6,
+        "model_name": "Immediate Precedence HR",
+        "transformation": "MINLP",
+        "time_sec": 42.87179398536682,
+        "objective": 739.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 6,
+        "model_name": "Time Slots Hull",
+        "transformation": "MINLP",
+        "time_sec": 0.9613745212554932,
+        "objective": 739.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 7,
+        "model_name": "Immediate Precedence BigM",
+        "transformation": "MINLP",
+        "time_sec": 60.14351224899292,
+        "objective": "ABORTED",
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+    },
+    {
+        "scheduling_data": 7,
+        "model_name": "Immediate Precedence HR",
+        "transformation": "MINLP",
+        "time_sec": 60.144296646118164,
+        "objective": "ABORTED",
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+    },
+    {
+        "scheduling_data": 7,
+        "model_name": "Time Slots Hull",
+        "transformation": "MINLP",
+        "time_sec": 1.2056653499603271,
+        "objective": 700.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 8,
+        "model_name": "Immediate Precedence BigM",
+        "transformation": "MINLP",
+        "time_sec": 60.113524198532104,
+        "objective": "ABORTED",
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+    },
+    {
+        "scheduling_data": 8,
+        "model_name": "Immediate Precedence HR",
+        "transformation": "MINLP",
+        "time_sec": 43.72488975524902,
+        "objective": 771.9999999223867,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 8,
+        "model_name": "Time Slots Hull",
+        "transformation": "MINLP",
+        "time_sec": 0.7614209651947021,
+        "objective": 772.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 9,
+        "model_name": "Immediate Precedence BigM",
+        "transformation": "MINLP",
+        "time_sec": 60.10952186584473,
+        "objective": "ABORTED",
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+    },
+    {
+        "scheduling_data": 9,
+        "model_name": "Immediate Precedence HR",
+        "transformation": "MINLP",
+        "time_sec": 60.56138300895691,
+        "objective": "ABORTED",
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+    },
+    {
+        "scheduling_data": 9,
+        "model_name": "Time Slots Hull",
+        "transformation": "MINLP",
+        "time_sec": 0.4587595462799072,
+        "objective": 853.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 10,
+        "model_name": "Immediate Precedence BigM",
+        "transformation": "MINLP",
+        "time_sec": 60.12647080421448,
+        "objective": "ABORTED",
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+    },
+    {
+        "scheduling_data": 10,
+        "model_name": "Immediate Precedence HR",
+        "transformation": "MINLP",
+        "time_sec": 60.18696975708008,
+        "objective": "ABORTED",
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+    },
+    {
+        "scheduling_data": 10,
+        "model_name": "Time Slots Hull",
+        "transformation": "MINLP",
+        "time_sec": 1.2193808555603027,
+        "objective": 929.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 1,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 15.572304725646973,
+        "objective": 430.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 1,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 60.09648942947388,
+        "objective": 429.9999993834732,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 1,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 38.892895221710205,
+        "objective": 430.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 1,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 0.34299564361572266,
+        "objective": 430.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 2,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 3.2972636222839355,
+        "objective": 438.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 2,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 24.6594340801239,
+        "objective": 438.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 2,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 60.10837411880493,
+        "objective": 438.0,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 2,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 0.7412889003753662,
+        "objective": 438.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 3,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 0.2906148433685303,
+        "objective": 559.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 3,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 0.4296231269836426,
+        "objective": 559.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 3,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 60.12355661392212,
+        "objective": 576.0,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 3,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 5.765990495681763,
+        "objective": 559.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 4,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 60.133153200149536,
+        "objective": 663.9999999334491,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 4,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 60.14615607261658,
+        "objective": 663.9999999334999,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 4,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 60.18452048301697,
+        "objective": 664.0,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 4,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 2.488145351409912,
+        "objective": 664.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 5,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 30.619412660598755,
+        "objective": 680.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 5,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 60.2096529006958,
+        "objective": 679.9999999318875,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 5,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 60.1775586605072,
+        "objective": 680.0,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 5,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 3.9295644760131836,
+        "objective": 680.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 6,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 21.846125841140747,
+        "objective": 739.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 6,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 60.172258377075195,
+        "objective": 738.9999999259999,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 6,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 60.250165939331055,
+        "objective": "ABORTED",
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+    },
+    {
+        "scheduling_data": 6,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 4.530869007110596,
+        "objective": 739.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 7,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 60.23792862892151,
+        "objective": 699.9999999298999,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 7,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 60.159581422805786,
+        "objective": 700.0,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 7,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 60.16281867027283,
+        "objective": "ABORTED",
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+    },
+    {
+        "scheduling_data": 7,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 21.03205919265747,
+        "objective": 700.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 8,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 60.24462151527405,
+        "objective": 772.0,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 8,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 60.2349054813385,
+        "objective": 771.9999979370335,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 8,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 60.203115701675415,
+        "objective": "ABORTED",
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+    },
+    {
+        "scheduling_data": 8,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 4.666266202926636,
+        "objective": 772.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 9,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 60.30404353141785,
+        "objective": 852.9999999145999,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 9,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 60.2839138507843,
+        "objective": "ABORTED",
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+    },
+    {
+        "scheduling_data": 9,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 60.21101951599121,
+        "objective": "ABORTED",
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+    },
+    {
+        "scheduling_data": 9,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 2.1571269035339355,
+        "objective": 853.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 10,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 60.27236795425415,
+        "objective": 928.9999998139956,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 10,
+        "model_name": "General Precedence GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 60.29625844955444,
+        "objective": 928.9999997185606,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 10,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.bigm",
+        "time_sec": 60.34697198867798,
+        "objective": "ABORTED",
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+    },
+    {
+        "scheduling_data": 10,
+        "model_name": "Time Slots GDP",
+        "transformation": "gdp.hull",
+        "time_sec": 18.032602787017822,
+        "objective": 929.0,
+        "termination": "optimal"
+    }
+]
+'''
+
+# Load the JSON data
+data = json.loads(json_data)
+
+# Create a DataFrame
+df = pd.DataFrame(data)
+
+# Create a new column to combine model_name and transformation (formulation)
+df['formulation'] = df['model_name'] + " (" + df['transformation'] + ")"
+
+# Plotting
+plt.figure(figsize=(10, 6))
+for formulation, group in df.groupby('formulation'):
+    plt.scatter(group['scheduling_data'], group['time_sec'], label=formulation)
+
+plt.xlabel('Scheduling Data (Relative Problem Size)')
+plt.ylabel('Time (sec)')
+plt.title('Benchmark Results: Time vs. Scheduling Data')
+plt.legend(title='Formulation', bbox_to_anchor=(1.05, 1), loc='upper left')
+plt.tight_layout()
+plt.show()
