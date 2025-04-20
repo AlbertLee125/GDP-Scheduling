@@ -48,9 +48,9 @@ pivot_df.sort_index(inplace=True)
 # Create a grouped bar chart with an increased figure size for wider bars
 fig, ax = plt.subplots(figsize=(14, 8))
 pivot_df.plot(kind='bar', ax=ax, width=0.8)
-ax.set_xlabel("Scheduling Data", fontsize=16)
-ax.set_ylabel("Time (sec)", fontsize=16)
-ax.set_title("Benchmark Results for Single Unit Sequencing Problem", fontsize=16)
+ax.set_xlabel("Scheduling Data", fontsize=20)
+ax.set_ylabel("Time (sec)", fontsize=20)
+ax.set_title("Benchmark Results for Single Unit Sequencing Problem", fontsize=20)
 
 # Set the y-axis to a logarithmic scale
 ax.set_yscale('log')
@@ -62,9 +62,9 @@ j_mapping = {1: 15, 2: 15, 3: 20, 4: 20, 5: 20, 6: 25, 7: 25, 8: 25, 9: 30, 10: 
 ax.set_xticklabels([f"Ex. {x}\n $|I| = {j_mapping.get(x, '?')}$" for x in pivot_df.index])
 
 # Place the legend below the plot, remove the box, and organize it in 3 columns
-legend = ax.legend(title="Method", loc='upper center', bbox_to_anchor=(0.5, -0.12), ncol=7, frameon=True, fontsize=12, title_fontsize=14)
-plt.xticks(rotation=0, fontsize=12)
-plt.yticks(rotation=0, fontsize=12)
+legend = ax.legend(title="Method", loc='upper center', bbox_to_anchor=(0.5, -0.22), ncol=7, frameon=True, fontsize=12, title_fontsize=14)
+plt.xticks(rotation=0, fontsize=16)
+plt.yticks(rotation=0, fontsize=16)
 plt.tight_layout(rect=[0, 0.05, 1, 1])  # leave space at the bottom for the legend
 
 # Display the plot
