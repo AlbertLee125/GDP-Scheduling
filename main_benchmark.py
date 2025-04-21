@@ -19,7 +19,8 @@ from model.single_unit_sequencing_ts import (
 def benchmark_models():
     # Create a solver instance and set a time limit.
     solver = pyo.SolverFactory("gurobi")
-    solver.options["time_limit"] = 3600  # set time limit for each solve
+    solver.options["time_limit"] = 900  # set time limit for each solve
+    solver.options["Threads"] = 1 # force single-threaded
 
     # Define scheduling data IDs (for example, 1 to 10)
     scheduling_data_list = list(range(1, 11))
@@ -113,7 +114,7 @@ def benchmark_models():
     os.makedirs(results_dir, exist_ok=True)
 
     # Write the summary to a text file.
-    txt_file = os.path.join(results_dir, "benchmark_results_gp_3600.txt")
+    txt_file = os.path.join(results_dir, "benchmark_results_gp_900.txt")
     with open(txt_file, "w") as f:
         f.write("{:<9} | {:<30} | {:<12} | {:>10} | {:>10} | {:<}\n".format(*header))
         f.write("-" * 90 + "\n")
@@ -122,7 +123,7 @@ def benchmark_models():
     print(f"\nBenchmark summary written to {txt_file}")
 
     # Write the summary to a JSON file.
-    json_file = os.path.join(results_dir, "benchmark_results_gp_3600.json")
+    json_file = os.path.join(results_dir, "benchmark_results_gp_900.json")
     json_results = []
     for s, mname, ttype, t, obj, term in results:
         json_results.append({

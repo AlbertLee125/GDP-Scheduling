@@ -1,0 +1,32 @@
+SchedData | Model Name                     | Trans/Type   | Time (sec) |  Objective | Termination
+------------------------------------------------------------------------------------------
+1         | General Precedence Hull Reagg  | MINLP        |      26.32 |      430.0 | optimal
+2         | General Precedence Hull Reagg  | MINLP        |       3.48 |      438.0 | optimal
+3         | General Precedence Hull Reagg  | MINLP        |       0.19 | 558.9999999439999 | optimal
+4         | General Precedence Hull Reagg  | MINLP        |     424.05 |      664.0 | optimal
+5         | General Precedence Hull Reagg  | MINLP        |      49.71 |      680.0 | optimal
+6         | General Precedence Hull Reagg  | MINLP        |      34.37 |      739.0 | optimal
+7         | General Precedence Hull Reagg  | MINLP        |     900.37 | 699.9999999298998 | maxTimeLimit
+8         | General Precedence Hull Reagg  | MINLP        |     900.72 | 771.999999922664 | maxTimeLimit
+9         | General Precedence Hull Reagg  | MINLP        |     901.26 | 852.9999999145725 | maxTimeLimit
+10        | General Precedence Hull Reagg  | MINLP        |     901.61 | 928.9998998604949 | maxTimeLimit
+1         | General Precedence GDP         | gdp.bigm     |      24.38 |      430.0 | optimal
+1         | General Precedence GDP         | gdp.hull     |      89.91 |      430.0 | optimal
+2         | General Precedence GDP         | gdp.bigm     |       6.19 |      438.0 | optimal
+2         | General Precedence GDP         | gdp.hull     |      24.69 |      438.0 | optimal
+3         | General Precedence GDP         | gdp.bigm     |       0.21 |      559.0 | optimal
+3         | General Precedence GDP         | gdp.hull     |       0.42 | 558.9999999999999 | optimal
+4         | General Precedence GDP         | gdp.bigm     |     341.66 |      664.0 | optimal
+4         | General Precedence GDP         | gdp.hull     |     900.37 | 663.9999999334996 | maxTimeLimit
+5         | General Precedence GDP         | gdp.bigm     |      48.13 |      680.0 | optimal
+5         | General Precedence GDP         | gdp.hull     |     267.93 |      680.0 | optimal
+6         | General Precedence GDP         | gdp.bigm     |      25.91 |      739.0 | optimal
+6         | General Precedence GDP         | gdp.hull     |     185.09 |      739.0 | optimal
+7         | General Precedence GDP         | gdp.bigm     |     900.32 | 699.9999998597297 | maxTimeLimit
+7         | General Precedence GDP         | gdp.hull     |     900.46 | 699.9998999999964 | maxTimeLimit
+8         | General Precedence GDP         | gdp.bigm     |     901.62 | 771.9999997679906 | maxTimeLimit
+8         | General Precedence GDP         | gdp.hull     |     900.66 | 771.9999997680958 | maxTimeLimit
+9         | General Precedence GDP         | gdp.bigm     |     900.89 | 852.9999997666162 | maxTimeLimit
+9         | General Precedence GDP         | gdp.hull     |     900.71 | 852.9999998291903 | maxTimeLimit
+10        | General Precedence GDP         | gdp.bigm     |     901.62 | 928.9999787408295 | maxTimeLimit
+10        | General Precedence GDP         | gdp.hull     |     900.80 | 928.9999999069998 | maxTimeLimit
