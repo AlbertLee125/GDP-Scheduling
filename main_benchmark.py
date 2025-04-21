@@ -5,6 +5,7 @@ import json
 import os
 
 from model.single_unit_sequencing_gp import build_single_unit_sequencing_gp
+from model.single_unit_sequencing_gp_reagg import build_single_unit_sequencing_gp_reagg
 from model.single_unit_sequencing_ip import (
     build_single_unit_sequencing_Immediate_Precedence_BigM,
     build_single_unit_sequencing_Immediate_Precedence_HR,
@@ -18,22 +19,23 @@ from model.single_unit_sequencing_ts import (
 def benchmark_models():
     # Create a solver instance and set a time limit.
     solver = pyo.SolverFactory("gurobi")
-    solver.options["time_limit"] = 900  # set time limit for each solve
+    solver.options["time_limit"] = 3600  # set time limit for each solve
 
     # Define scheduling data IDs (for example, 1 to 10)
     scheduling_data_list = list(range(1, 11))
 
     # MINLP models (manually reformulated into MINLP)
     minlp_models = {
-        "Immediate Precedence BigM": build_single_unit_sequencing_Immediate_Precedence_BigM,
-        "Immediate Precedence HR": build_single_unit_sequencing_Immediate_Precedence_HR,
-        "Time Slots Hull": build_single_unit_sequencing_time_slots_hull,
+        # "Immediate Precedence BigM": build_single_unit_sequencing_Immediate_Precedence_BigM,
+        # "Immediate Precedence HR": build_single_unit_sequencing_Immediate_Precedence_HR,
+        # "Time Slots Hull": build_single_unit_sequencing_time_slots_hull,
+        "General Precedence Hull Reagg": build_single_unit_sequencing_gp_reagg,
     }
 
     # GDP models (still in GDP form and require transformation)
     gdp_models = {
         "General Precedence GDP": build_single_unit_sequencing_gp,
-        "Time Slots GDP": build_single_unit_sequencing_time_slots,
+        # "Time Slots GDP": build_single_unit_sequencing_time_slots,
     }
 
     # Container for benchmark results
@@ -111,7 +113,7 @@ def benchmark_models():
     os.makedirs(results_dir, exist_ok=True)
 
     # Write the summary to a text file.
-    txt_file = os.path.join(results_dir, "benchmark_results_900.txt")
+    txt_file = os.path.join(results_dir, "benchmark_results_gp_3600.txt")
     with open(txt_file, "w") as f:
         f.write("{:<9} | {:<30} | {:<12} | {:>10} | {:>10} | {:<}\n".format(*header))
         f.write("-" * 90 + "\n")
@@ -120,7 +122,7 @@ def benchmark_models():
     print(f"\nBenchmark summary written to {txt_file}")
 
     # Write the summary to a JSON file.
-    json_file = os.path.join(results_dir, "benchmark_results_900.json")
+    json_file = os.path.join(results_dir, "benchmark_results_gp_3600.json")
     json_results = []
     for s, mname, ttype, t, obj, term in results:
         json_results.append({
