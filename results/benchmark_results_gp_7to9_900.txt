@@ -1,0 +1,14 @@
+SchedData | Model Name                     | Trans/Type   | Time (sec) |  Objective | Termination
+------------------------------------------------------------------------------------------
+7         | General Precedence Hull Reagg  | MINLP        |    1154.62 |      700.0 | optimal
+8         | General Precedence Hull Reagg  | MINLP        |    2023.19 |      772.0 | optimal
+9         | General Precedence Hull Reagg  | MINLP        |    3600.76 | 852.999998848808 | maxTimeLimit
+10        | General Precedence Hull Reagg  | MINLP        |    3603.94 | 928.9999995350094 | maxTimeLimit
+7         | General Precedence GDP         | gdp.bigm     |     918.03 |      700.0 | optimal
+7         | General Precedence GDP         | gdp.hull     |    3600.74 | 699.9999998597992 | maxTimeLimit
+8         | General Precedence GDP         | gdp.bigm     |    1586.66 |      772.0 | optimal
+8         | General Precedence GDP         | gdp.hull     |    3600.99 | 771.9999994586246 | maxTimeLimit
+9         | General Precedence GDP         | gdp.bigm     |    3606.88 | 852.9996640861793 | maxTimeLimit
+9         | General Precedence GDP         | gdp.hull     |    3601.27 | 852.9999983561058 | maxTimeLimit
+10        | General Precedence GDP         | gdp.bigm     |    3605.48 | 928.9999995349847 | maxTimeLimit
+10        | General Precedence GDP         | gdp.hull     |    3601.14 | 928.9999999069997 | maxTimeLimit
