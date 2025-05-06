@@ -1,0 +1,82 @@
+SchedData | Model Name                     | Trans/Type   | Time (sec) |  Objective | Termination
+------------------------------------------------------------------------------------------
+1         | Immediate Precedence BigM      | MINLP        |     900.20 | 429.9998231532044 | maxTimeLimit
+1         | Immediate Precedence HR        | MINLP        |       0.63 |      430.0 | optimal
+1         | Time Slots Hull                | MINLP        |       0.12 |      430.0 | optimal
+1         | General Precedence Hull Reagg  | MINLP        |      30.61 |      430.0 | optimal
+2         | Immediate Precedence BigM      | MINLP        |     900.28 | 437.9993712912139 | maxTimeLimit
+2         | Immediate Precedence HR        | MINLP        |       0.61 | 437.9999493502264 | optimal
+2         | Time Slots Hull                | MINLP        |       0.11 |      438.0 | optimal
+2         | General Precedence Hull Reagg  | MINLP        |       3.84 |      438.0 | optimal
+3         | Immediate Precedence BigM      | MINLP        |      19.63 | 558.9991345452715 | optimal
+3         | Immediate Precedence HR        | MINLP        |      49.62 |      559.0 | optimal
+3         | Time Slots Hull                | MINLP        |       0.72 |      559.0 | optimal
+3         | General Precedence Hull Reagg  | MINLP        |       0.21 | 558.9999999439963 | optimal
+4         | Immediate Precedence BigM      | MINLP        |     900.21 | 663.999996907637 | maxTimeLimit
+4         | Immediate Precedence HR        | MINLP        |      25.54 | 663.9999999334997 | optimal
+4         | Time Slots Hull                | MINLP        |       0.37 |      664.0 | optimal
+4         | General Precedence Hull Reagg  | MINLP        |     459.09 |      664.0 | optimal
+5         | Immediate Precedence BigM      | MINLP        |     900.61 | 679.998928249986 | maxTimeLimit
+5         | Immediate Precedence HR        | MINLP        |      28.60 | 679.9980133047884 | optimal
+5         | Time Slots Hull                | MINLP        |       0.22 |      680.0 | optimal
+5         | General Precedence Hull Reagg  | MINLP        |      56.59 |      680.0 | optimal
+6         | Immediate Precedence BigM      | MINLP        |     900.35 | 738.9999999259999 | maxTimeLimit
+6         | Immediate Precedence HR        | MINLP        |      28.67 |      739.0 | optimal
+6         | Time Slots Hull                | MINLP        |       0.58 |      739.0 | optimal
+6         | General Precedence Hull Reagg  | MINLP        |      26.31 |      739.0 | optimal
+7         | Immediate Precedence BigM      | MINLP        |     900.67 |    ABORTED | exception: Cannot load a SolverResults object with bad status: aborted
+7         | Immediate Precedence HR        | MINLP        |     900.20 |    ABORTED | exception: Cannot load a SolverResults object with bad status: aborted
+7         | Time Slots Hull                | MINLP        |       1.54 |      700.0 | optimal
+7         | General Precedence Hull Reagg  | MINLP        |     900.55 | 699.9999999298988 | maxTimeLimit
+8         | Immediate Precedence BigM      | MINLP        |     900.38 |    ABORTED | exception: Cannot load a SolverResults object with bad status: aborted
+8         | Immediate Precedence HR        | MINLP        |      24.47 |      772.0 | optimal
+8         | Time Slots Hull                | MINLP        |       0.50 |      772.0 | optimal
+8         | General Precedence Hull Reagg  | MINLP        |     900.66 | 771.9999996908062 | maxTimeLimit
+9         | Immediate Precedence BigM      | MINLP        |     900.58 |    ABORTED | exception: Cannot load a SolverResults object with bad status: aborted
+9         | Immediate Precedence HR        | MINLP        |      24.12 |      853.0 | optimal
+9         | Time Slots Hull                | MINLP        |       0.43 |      853.0 | optimal
+9         | General Precedence Hull Reagg  | MINLP        |     900.24 | 852.9999999145988 | maxTimeLimit
+10        | Immediate Precedence BigM      | MINLP        |     900.55 |    ABORTED | exception: Cannot load a SolverResults object with bad status: aborted
+10        | Immediate Precedence HR        | MINLP        |     449.05 |      929.0 | optimal
+10        | Time Slots Hull                | MINLP        |       0.53 |      929.0 | optimal
+10        | General Precedence Hull Reagg  | MINLP        |     901.09 | 928.9999995350094 | maxTimeLimit
+1         | General Precedence GDP         | gdp.bigm     |      25.89 |      430.0 | optimal
+1         | General Precedence GDP         | gdp.hull     |     144.63 |      430.0 | optimal
+1         | Time Slots GDP                 | gdp.bigm     |      19.76 |      430.0 | optimal
+1         | Time Slots GDP                 | gdp.hull     |       0.37 |      430.0 | optimal
+2         | General Precedence GDP         | gdp.bigm     |       6.54 |      438.0 | optimal
+2         | General Precedence GDP         | gdp.hull     |      39.97 |      438.0 | optimal
+2         | Time Slots GDP                 | gdp.bigm     |     813.60 |      438.0 | optimal
+2         | Time Slots GDP                 | gdp.hull     |       0.81 |      438.0 | optimal
+3         | General Precedence GDP         | gdp.bigm     |       0.24 |      559.0 | optimal
+3         | General Precedence GDP         | gdp.hull     |       0.58 |      559.0 | optimal
+3         | Time Slots GDP                 | gdp.bigm     |      94.30 |      559.0 | optimal
+3         | Time Slots GDP                 | gdp.hull     |       6.75 |      559.0 | optimal
+4         | General Precedence GDP         | gdp.bigm     |     385.59 |      664.0 | optimal
+4         | General Precedence GDP         | gdp.hull     |     900.41 | 663.9999825853592 | maxTimeLimit
+4         | Time Slots GDP                 | gdp.bigm     |     900.61 |      664.0 | maxTimeLimit
+4         | Time Slots GDP                 | gdp.hull     |       1.58 |      664.0 | optimal
+5         | General Precedence GDP         | gdp.bigm     |      54.96 |      680.0 | optimal
+5         | General Precedence GDP         | gdp.hull     |     219.75 |      680.0 | optimal
+5         | Time Slots GDP                 | gdp.bigm     |     900.36 |      680.0 | maxTimeLimit
+5         | Time Slots GDP                 | gdp.hull     |       1.82 |      680.0 | optimal
+6         | General Precedence GDP         | gdp.bigm     |      25.30 |      739.0 | optimal
+6         | General Precedence GDP         | gdp.hull     |     175.28 |      739.0 | optimal
+6         | Time Slots GDP                 | gdp.bigm     |     900.38 |      768.0 | maxTimeLimit
+6         | Time Slots GDP                 | gdp.hull     |       2.40 |      739.0 | optimal
+7         | General Precedence GDP         | gdp.bigm     |     866.15 |      700.0 | optimal
+7         | General Precedence GDP         | gdp.hull     |     900.43 | 699.9999998597992 | maxTimeLimit
+7         | Time Slots GDP                 | gdp.bigm     |     900.98 |    ABORTED | exception: Cannot load a SolverResults object with bad status: aborted
+7         | Time Slots GDP                 | gdp.hull     |       2.10 |      700.0 | optimal
+8         | General Precedence GDP         | gdp.bigm     |     901.41 | 771.9999996907943 | maxTimeLimit
+8         | General Precedence GDP         | gdp.hull     |     900.52 | 771.9999997679696 | maxTimeLimit
+8         | Time Slots GDP                 | gdp.bigm     |     900.45 |    ABORTED | exception: Cannot load a SolverResults object with bad status: aborted
+8         | Time Slots GDP                 | gdp.hull     |       3.36 |      772.0 | optimal
+9         | General Precedence GDP         | gdp.bigm     |     901.56 | 852.9999999145999 | maxTimeLimit
+9         | General Precedence GDP         | gdp.hull     |     900.57 | 852.9999999145994 | maxTimeLimit
+9         | Time Slots GDP                 | gdp.bigm     |     900.76 |    ABORTED | exception: Cannot load a SolverResults object with bad status: aborted
+9         | Time Slots GDP                 | gdp.hull     |       2.57 |      853.0 | optimal
+10        | General Precedence GDP         | gdp.bigm     |     901.45 | 928.9999999069998 | maxTimeLimit
+10        | General Precedence GDP         | gdp.hull     |     900.62 | 928.9999999069997 | maxTimeLimit
+10        | Time Slots GDP                 | gdp.bigm     |     900.62 |    ABORTED | exception: Cannot load a SolverResults object with bad status: aborted
+10        | Time Slots GDP                 | gdp.hull     |       7.81 |      929.0 | optimal
