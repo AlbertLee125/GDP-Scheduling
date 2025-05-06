@@ -8,7 +8,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Construct the path to the JSON file, Modify the path number for different scheduling data
 json_file_path = os.path.join(
-    script_dir, f"results/benchmark_results_gp_900.json"
+    script_dir, f"results/benchmark_results_overall_1to10_900.json"
 )
 
 # load data from json file
@@ -28,6 +28,7 @@ df_filtered['method'] = df_filtered['model_name'] + " " + df_filtered['transform
 method_mapping = {
     "General Precedence GDP gdp.bigm": "GP_BM",
     "General Precedence GDP gdp.hull": "GP_HR",
+    "General Precedence Hull Reagg MINLP": "GP_HR_C",
     "Immediate Precedence BigM MINLP": "IP_BM",
     "Immediate Precedence HR MINLP": "IP_HR",
     "Time Slots GDP gdp.bigm": "TS_BM",
@@ -71,6 +72,6 @@ plt.tight_layout(rect=[0, 0.05, 1, 1])  # leave space at the bottom for the lege
 plt.show()
 
 # Save the plot as an PDF file
-plt.savefig('benchmark_results_gp_900.pdf', bbox_inches='tight')
+plt.savefig('benchmark_results_overall_1to10_900.pdf', bbox_inches='tight')
 # Save the plot as an PNG file
-plt.savefig('benchmark_results_gp_900.png', bbox_inches='tight')
+plt.savefig('benchmark_results_overall_1to10_900.png', bbox_inches='tight')
