@@ -1,0 +1,55 @@
+{
+  "strip_width": 14,
+  "rectangles": [
+    {
+      "index": 0,
+      "width": 12,
+      "length": 17
+    },
+    {
+      "index": 1,
+      "width": 4,
+      "length": 11
+    },
+    {
+      "index": 2,
+      "width": 2,
+      "length": 8
+    },
+    {
+      "index": 3,
+      "width": 4,
+      "length": 15
+    },
+    {
+      "index": 4,
+      "width": 12,
+      "length": 18
+    },
+    {
+      "index": 5,
+      "width": 6,
+      "length": 1
+    },
+    {
+      "index": 6,
+      "width": 11,
+      "length": 8
+    },
+    {
+      "index": 7,
+      "width": 8,
+      "length": 16
+    },
+    {
+      "index": 8,
+      "width": 10,
+      "length": 12
+    },
+    {
+      "index": 9,
+      "width": 4,
+      "length": 10
+    }
+  ]
+}
