@@ -3,13 +3,15 @@ from pyomo.gdp import Disjunction, Disjunct
 import json
 import os
 
-def build_rect_strip_packing_model_modified():
+# Build the strip packing model containing the bounds of the width and length of the rectangles
+def build_rect_strip_packing_model_altered():
     # Get the absolute path of the current directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
-     # Construct the path to the JSON file, Modify the path number for different scheduling data
+
+    # Construct the path to the JSON file, Modify the path number for different scheduling data
     json_file_path = os.path.abspath(
-        os.path.join(script_dir, "..", "packing_data", "strip_packing_rectangle_4.json")
+        os.path.join(script_dir, "..", "packing_data", "strip_packing_rectangle_16.json")
     )
 
     with open(json_file_path, "r", encoding="utf-8") as f:
@@ -36,14 +38,18 @@ def build_rect_strip_packing_model_modified():
     )
 
     # x (length) and y (width) coordinates of each of the rectangles
+    def x_bounds(m, i):
+    # allow x[i] as far as max_length - its own length
+        return (0, m.max_length)
+
     m.x = pyo.Var(
         m.rectangles,
-        bounds=(0, m.max_length),
+        bounds=x_bounds,
         doc="rectangle corner x-position (position down length)",
     )
     
     def w_bounds(m, i):
-        return (0, m.strip_width - m.rect_width[i])
+        return (m.rect_width[i], m.strip_width)
 
     m.y = pyo.Var(
         m.rectangles,
@@ -76,24 +82,32 @@ def build_rect_strip_packing_model_modified():
         m = disjunct.model()
         disjunct.cons = pyo.ConstraintList()
         disjunct.cons.add(m.x[i] + m.rect_length[i] <= m.x[j])
+        disjunct.cons.add(m.y[i] - m.y[j] <= m.strip_width - m.rect_width[j])
+        disjunct.cons.add(m.rect_width[i] - m.strip_width <= m.y[i] - m.y[j])
     m.i_before_j = Disjunct(m.overlap_pairs, rule=i_before_j_rule)
 
     def j_before_i_rule(disjunct, i, j):
         m = disjunct.model()
         disjunct.cons = pyo.ConstraintList()
         disjunct.cons.add(m.x[j] + m.rect_length[j] <= m.x[i])
+        disjunct.cons.add(m.y[i] - m.y[j] <= m.strip_width - m.rect_width[j])
+        disjunct.cons.add(m.rect_width[i] - m.strip_width <= m.y[i] - m.y[j])
     m.j_before_i = Disjunct(m.overlap_pairs, rule=j_before_i_rule)
 
     def i_above_j_rule(disjunct, i, j):
         m = disjunct.model()
         disjunct.cons = pyo.ConstraintList()
-        disjunct.cons.add(m.y[i] + m.rect_width[i] <= m.y[j])
+        disjunct.cons.add(m.y[i] - m.rect_width[i] >= m.y[j])
+        disjunct.cons.add(m.x[j] + m.max_length >= m.x[i])
+        disjunct.cons.add(m.x[i] + m.max_length >= m.x[j])
     m.i_above_j = Disjunct(m.overlap_pairs, rule=i_above_j_rule)
 
     def j_above_i_rule(disjunct, i, j):
         m = disjunct.model()
         disjunct.cons = pyo.ConstraintList()
-        disjunct.cons.add(m.y[j] + m.rect_width[j] <= m.y[i])
+        disjunct.cons.add(m.y[j] - m.rect_width[j] >= m.y[i])
+        disjunct.cons.add(m.x[j] + m.max_length >= m.x[i])
+        disjunct.cons.add(m.x[i] + m.max_length >= m.x[j])
     m.j_above_i = Disjunct(m.overlap_pairs, rule=j_above_i_rule)
 
     # Disjunction across all four disjuncts
@@ -109,8 +123,12 @@ def build_rect_strip_packing_model_modified():
 
     return m
 
+
+
+# m = build_rect_strip_packing_model_altered()
+
 if __name__ == "__main__":
-    model = build_rect_strip_packing_model_modified()
+    model = build_rect_strip_packing_model_altered()
     # Transform the model to a mixed-integer programming (MIP) model
     pyo.TransformationFactory('gdp.hull').apply_to(model)
 
