@@ -15,6 +15,8 @@ def generate_rectangles(num, strip_width, max_length):
         })
     return rects
 
+
+#  python strip_packing_generator.py -n 16 -w 14 -l 30 strip_packing_rectangle_16.json
 def main():
     parser = argparse.ArgumentParser(
         description="Generate a strip‐packing JSON instance with random rectangles"
