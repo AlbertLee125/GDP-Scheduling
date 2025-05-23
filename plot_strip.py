@@ -41,6 +41,7 @@ for i, model in enumerate(models):
 # 6. Formatting
 ax.set_xlabel('Instance')
 ax.set_ylabel('Time (sec)')
+ax.set_yscale('log')     
 ax.set_title('Benchmark Run Times by Model & Reformulation')
 ax.set_xticks(x + width*(n_mod-1)/2)
 ax.set_xticklabels(instances)
