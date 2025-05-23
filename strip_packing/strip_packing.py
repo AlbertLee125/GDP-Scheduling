@@ -3,13 +3,17 @@ from pyomo.gdp import Disjunction, Disjunct
 import json
 import os
 
-def build_rect_strip_packing_model():
+def build_rect_strip_packing_model(instance_id: str):
+    """
+    instance_id: e.g. "4_1"  (will load strip_packing_rectangle_4_1.json)
+    """
     # Get the absolute path of the current directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
-     # Construct the path to the JSON file, Modify the path number for different scheduling data
+    # Construct the path to the JSON file, Modify the path number for different scheduling data
+    filename = f"strip_packing_rectangle_{instance_id}.json"
     json_file_path = os.path.abspath(
-        os.path.join(script_dir, "..", "packing_data", "strip_packing_rectangle_4.json")
+        os.path.join(script_dir, "..", "packing_data", filename)
     )
 
     with open(json_file_path, "r", encoding="utf-8") as f:
@@ -87,7 +91,7 @@ def build_rect_strip_packing_model():
     return m
 
 if __name__ == "__main__":
-    model = build_rect_strip_packing_model()
+    model = build_rect_strip_packing_model("5_1")
     # Transform the model to a mixed-integer programming (MIP) model
     pyo.TransformationFactory('gdp.hull').apply_to(model)
 
