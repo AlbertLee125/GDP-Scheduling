@@ -64,24 +64,24 @@ instance_ids = [
     "5_1",
     "5_2",
     "5_3",
-    # "8_1",
-    # "8_2",
-    # "8_3",
-    # "10_1",
-    # "10_2",
-    # "10_3",
-    # "12_1",
-    # "12_2",
-    # "12_3",
-    # "15_1",
-    # "15_2",
-    # "15_3",
+    "8_1",
+    "8_2",
+    "8_3",
+    "10_1",
+    "10_2",
+    "10_3",
+    "12_1",
+    "12_2",
+    "12_3",
+    "15_1",
+    "15_2",
+    "15_3",
 ]
 
 time_limit = 900
 solver_name = "gurobi"
 results_dir = "results_strip"
-output_file = os.path.join(results_dir, "benchmark_results.json")
+output_file = os.path.join(results_dir, "benchmark_results_datnzig.json")
 
 # each entry: (label, builder_fn, is_gdp)
 models_to_test = [
@@ -108,6 +108,7 @@ for inst in instance_ids:
                 mip = pyo.TransformationFactory(reform).create_using(model)
                 solver = pyo.SolverFactory(solver_name)
                 solver.options["TimeLimit"] = time_limit
+                solver.options["Threads"]   = 1
 
                 start = time.time()
                 res = solver.solve(mip, tee=True)
@@ -128,6 +129,7 @@ for inst in instance_ids:
             # directly a MIP
             solver = pyo.SolverFactory(solver_name)
             solver.options["TimeLimit"] = time_limit
+            solver.options["Threads"]   = 1
 
             start = time.time()
             res = solver.solve(model, tee=True)
