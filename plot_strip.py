@@ -17,6 +17,9 @@ print(f"Loading data from: {file_path}")
 with open(file_path, 'r') as f:
     data = json.load(f)
 
+# 2.1. Exclude any 'traditional' formulation entries
+data = [d for d in data if d['formulation'] != 'traditional']
+
 # 3. Prepare unique instances and models
 instances = sorted({d['instance'] for d in data})
 models    = sorted({f"{d['formulation']}_{d['reform']}" for d in data})
