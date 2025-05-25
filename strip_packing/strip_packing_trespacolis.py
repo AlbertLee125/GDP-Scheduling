@@ -133,8 +133,9 @@ def build_rect_strip_packing_model_reagg_Tres(instance_id: str):
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     # Construct the path to the JSON file, Modify the path number for different scheduling data
+    filename = f"strip_packing_rectangle_{instance_id}.json"
     json_file_path = os.path.abspath(
-        os.path.join(script_dir, "..", "packing_data", "strip_packing_rectangle_4.json")
+        os.path.join(script_dir, "..", "packing_data", filename)
     )
 
     with open(json_file_path, "r", encoding="utf-8") as f:

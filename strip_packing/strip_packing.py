@@ -47,7 +47,7 @@ def build_rect_strip_packing_model(instance_id: str):
     )
     
     def w_bounds(m, i):
-        return (0, m.strip_width - m.rect_width[i])
+        return (m.rect_width[i], m.strip_width)
 
     m.y = pyo.Var(
         m.rectangles,
