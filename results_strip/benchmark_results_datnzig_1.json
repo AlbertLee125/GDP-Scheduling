@@ -1,0 +1,962 @@
+[
+  {
+    "instance": "5_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.25,
+    "objective": 26.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.12,
+    "objective": 26.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_1",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.1,
+    "objective": 28.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_1",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.13,
+    "objective": 28.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_1",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.09,
+    "objective": 28.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_1",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.11,
+    "objective": 28.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_1",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.08,
+    "objective": 28.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_1",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.1,
+    "objective": 28.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.09,
+    "objective": 21.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.09,
+    "objective": 21.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_2",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.12,
+    "objective": 30.999999996799932,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_2",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.13,
+    "objective": 30.999999996799684,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_2",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.1,
+    "objective": 30.999999996799932,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_2",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.13,
+    "objective": 30.999999996799684,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_2",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.1,
+    "objective": 31.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_2",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.09,
+    "objective": 31.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.09,
+    "objective": 25.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.09,
+    "objective": 24.999999997399986,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_3",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.1,
+    "objective": 35.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_3",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.14,
+    "objective": 35.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_3",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.1,
+    "objective": 35.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_3",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.14,
+    "objective": 35.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_3",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.08,
+    "objective": 35.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_3",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.1,
+    "objective": 35.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 18.999999997999907,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.49,
+    "objective": 19.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_1",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.2,
+    "objective": 23.999999997499998,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_1",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.41,
+    "objective": 24.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_1",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.2,
+    "objective": 23.999999997499998,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_1",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.41,
+    "objective": 24.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_1",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.18,
+    "objective": 24.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_1",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.2,
+    "objective": 23.99999999749974,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 13.999999998499998,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.27,
+    "objective": 13.999999998499735,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_2",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.22,
+    "objective": 20.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_2",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.54,
+    "objective": 19.99999999789965,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_2",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.22,
+    "objective": 20.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_2",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.54,
+    "objective": 19.99999999789965,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_2",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.2,
+    "objective": 19.999995002094494,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_2",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.26,
+    "objective": 19.99999499999442,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.15,
+    "objective": 39.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.19,
+    "objective": 38.99999999599904,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_3",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 42.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_3",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.45,
+    "objective": 41.999999995699994,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_3",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.18,
+    "objective": 42.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_3",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.46,
+    "objective": 41.999999995699994,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_3",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.19,
+    "objective": 42.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_3",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.2,
+    "objective": 42.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.13,
+    "objective": 33.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.38,
+    "objective": 33.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_1",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.18,
+    "objective": 48.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_1",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.87,
+    "objective": 48.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_1",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.16,
+    "objective": 48.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_1",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.85,
+    "objective": 48.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_1",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.23,
+    "objective": 48.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_1",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.27,
+    "objective": 48.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.12,
+    "objective": 22.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.32,
+    "objective": 22.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_2",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.98,
+    "objective": 30.999999996799612,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_2",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1.66,
+    "objective": 30.999999996799996,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_2",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.99,
+    "objective": 30.999999996799612,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_2",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1.67,
+    "objective": 30.999999996799996,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_2",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.7,
+    "objective": 30.999992003192624,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_2",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.86,
+    "objective": 30.99999999679998,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.19,
+    "objective": 71.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.3,
+    "objective": 71.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_3",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1.0,
+    "objective": 76.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_3",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 5.88,
+    "objective": 75.99999999229999,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_3",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1.0,
+    "objective": 76.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_3",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 5.8,
+    "objective": 75.99999999229999,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_3",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.8,
+    "objective": 75.99999999229999,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_3",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1.04,
+    "objective": 75.99999999229996,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 1.1,
+    "objective": 24.99999999739999,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 4.93,
+    "objective": 24.999999997399996,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_1",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 3.35,
+    "objective": 31.999999996699998,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_1",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 28.28,
+    "objective": 31.99999999669998,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_1",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 3.33,
+    "objective": 31.999999996699998,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_1",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 28.05,
+    "objective": 31.99999999669998,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_1",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 5.58,
+    "objective": 31.999999996699955,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_1",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 4.64,
+    "objective": 31.999999996699945,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.21,
+    "objective": 41.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.84,
+    "objective": 40.999999995799996,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_2",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1.77,
+    "objective": 57.999999988200145,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_2",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 13.24,
+    "objective": 57.99996700595765,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_2",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1.77,
+    "objective": 57.999999988200145,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_2",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 13.26,
+    "objective": 57.99996700595765,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_2",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1.35,
+    "objective": 57.999999994099916,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_2",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1.29,
+    "objective": 57.999999994099724,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 4.58,
+    "objective": 33.999999996499994,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 98.55,
+    "objective": 33.99991003132047,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_3",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 9.86,
+    "objective": 43.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_3",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 99.01,
+    "objective": 43.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_3",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 9.89,
+    "objective": 43.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_3",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 98.29,
+    "objective": 43.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_3",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 21.44,
+    "objective": 43.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_3",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 8.94,
+    "objective": 43.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.39,
+    "objective": 43.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 7.44,
+    "objective": 43.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_1",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 165.3,
+    "objective": 55.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_1",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 758.99,
+    "objective": 55.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_1",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 164.3,
+    "objective": 55.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_1",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 760.27,
+    "objective": 55.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_1",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 247.42,
+    "objective": 55.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_1",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 85.08,
+    "objective": 55.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 1.1,
+    "objective": 103.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 156.51,
+    "objective": 103.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_2",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 529.39,
+    "objective": 115.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_2",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 900.57,
+    "objective": 114.99999997679834,
+    "status": "maxTimeLimit"
+  },
+  {
+    "instance": "15_2",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 531.17,
+    "objective": 115.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_2",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 900.58,
+    "objective": 114.99999997679834,
+    "status": "maxTimeLimit"
+  },
+  {
+    "instance": "15_2",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 900.13,
+    "objective": 115.0,
+    "status": "maxTimeLimit"
+  },
+  {
+    "instance": "15_2",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 538.41,
+    "objective": 115.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.41,
+    "objective": 74.99999999239995,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 4.21,
+    "objective": 74.99999997719958,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_3",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 448.91,
+    "objective": 86.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_3",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 900.34,
+    "objective": 85.99999998259969,
+    "status": "maxTimeLimit"
+  },
+  {
+    "instance": "15_3",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 448.57,
+    "objective": 86.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_3",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 900.33,
+    "objective": 85.99999998259969,
+    "status": "maxTimeLimit"
+  },
+  {
+    "instance": "15_3",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 279.08,
+    "objective": 86.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_3",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 159.16,
+    "objective": 86.0,
+    "status": "optimal"
+  }
+]
