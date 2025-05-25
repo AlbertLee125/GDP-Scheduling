@@ -85,8 +85,8 @@ def build_rect_strip_packing_model(instance_id: str):
         return [
             m.x[i] + m.rect_length[i] <= m.x[j],  # i before j
             m.x[j] + m.rect_length[j] <= m.x[i],  # j before i
-            m.y[i] + m.rect_width[i] <= m.y[j],   # i above j
-            m.y[j] + m.rect_width[j] <= m.y[i],   # j above i
+            m.y[i] - m.rect_width[i] >= m.y[j],   # i above j
+            m.y[j] - m.rect_width[j] >= m.y[i],   # j above i
         ]
     return m
 
