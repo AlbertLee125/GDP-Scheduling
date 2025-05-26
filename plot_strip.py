@@ -24,11 +24,26 @@ data = [d for d in data if d['formulation'] != 'traditional']
 instances = sorted({d['instance'] for d in data})
 models    = sorted({f"{d['formulation']}_{d['reform']}" for d in data})
 
-# 4. Map each (instance, model) to its runtime
+# 3.1. re-sort so that '5_1','5_2','5_3','8_1',…,'15_3' appear in increasing numeric order
+instances = sorted(instances, key=lambda s: (int(s.split('_')[0]), int(s.split('_')[1])))
+
+# 4. Map each (instance, model) to its runtime, with a little rename‐map
+rename_map = {
+    'reagg_MIP':      'altered_reagg',
+    'reagg_tres_MIP': 'tres_reagg',
+}
+
+# rebuild time_map using the renamed labels
 time_map = {
-    (d['instance'], f"{d['formulation']}_{d['reform']}"): d['time_sec']
+    (d['instance'],
+     rename_map.get(f"{d['formulation']}_{d['reform']}",
+                    f"{d['formulation']}_{d['reform']}")): d['time_sec']
     for d in data
 }
+
+# rebuild & sort your model list from the (possibly renamed) keys
+models = sorted({m for (_, m) in time_map},
+                key=lambda s: (s.split('_')[0], s.split('_')[1]))
 
 # 5. Plotting setup
 n_inst = len(instances)
@@ -36,7 +51,7 @@ n_mod  = len(models)
 x      = np.arange(n_inst)
 width  = 0.8 / n_mod
 
-fig, ax = plt.subplots(figsize=(8, 5))
+fig, ax = plt.subplots(figsize=(12, 6))
 for i, model in enumerate(models):
     times = [time_map.get((inst, model), np.nan) for inst in instances]
     ax.bar(x + i*width, times, width, label=model)
@@ -49,6 +64,7 @@ ax.set_title('Benchmark Run Times by Model & Reformulation')
 ax.set_xticks(x + width*(n_mod-1)/2)
 ax.set_xticklabels(instances)
 ax.legend(title='model_reform', bbox_to_anchor=(1.05,1), loc='upper left')
+# ax.grid(True)
 plt.tight_layout()
 
 # 7. Save to PNG and PDF

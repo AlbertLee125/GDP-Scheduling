@@ -81,15 +81,15 @@ instance_ids = [
 time_limit = 900
 solver_name = "gurobi"
 results_dir = "results_strip"
-output_file = os.path.join(results_dir, "benchmark_results_datnzig.json")
+output_file = os.path.join(results_dir, "benchmark_results_datnzig_traditional.json")
 
 # each entry: (label, builder_fn, is_gdp)
 models_to_test = [
     ("traditional", build_rect_strip_packing_model, True),
-    ("altered",     build_rect_strip_packing_model_altered, True),
-    ("tres",        build_rect_strip_packing_model_altered_Tres, True),
-    ("reagg",       build_rect_strip_packing_model_reagg, False),
-    ("reagg_tres",  build_rect_strip_packing_model_reagg_Tres, False),
+    # ("altered",     build_rect_strip_packing_model_altered, True),
+    # ("tres",        build_rect_strip_packing_model_altered_Tres, True),
+    # ("reagg",       build_rect_strip_packing_model_reagg, False),
+    # ("reagg_tres",  build_rect_strip_packing_model_reagg_Tres, False),
 ]
 
 # make sure results directory exists

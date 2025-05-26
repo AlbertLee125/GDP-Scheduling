@@ -1,0 +1,242 @@
+[
+  {
+    "instance": "5_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.27,
+    "objective": 28.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.11,
+    "objective": 28.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.09,
+    "objective": 30.999999996799932,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.12,
+    "objective": 31.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.09,
+    "objective": 35.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "5_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.11,
+    "objective": 35.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.2,
+    "objective": 23.999999997499998,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.61,
+    "objective": 23.999999997499998,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.21,
+    "objective": 20.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.38,
+    "objective": 20.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 42.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "8_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.39,
+    "objective": 42.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.15,
+    "objective": 48.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.75,
+    "objective": 48.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.68,
+    "objective": 31.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 3.07,
+    "objective": 31.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 1.0,
+    "objective": 76.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "10_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 6.71,
+    "objective": 75.99999999229999,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 3.35,
+    "objective": 31.999999996699998,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 24.98,
+    "objective": 31.999999996699998,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 1.94,
+    "objective": 58.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 28.48,
+    "objective": 58.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 9.96,
+    "objective": 43.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "12_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 69.7,
+    "objective": 43.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 159.21,
+    "objective": 55.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 303.29,
+    "objective": 55.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 522.97,
+    "objective": 115.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 900.63,
+    "objective": 114.99999997679957,
+    "status": "maxTimeLimit"
+  },
+  {
+    "instance": "15_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 456.9,
+    "objective": 86.0,
+    "status": "optimal"
+  },
+  {
+    "instance": "15_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 900.33,
+    "objective": 85.99999999129999,
+    "status": "maxTimeLimit"
+  }
+]
