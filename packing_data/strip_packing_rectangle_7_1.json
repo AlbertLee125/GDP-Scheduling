@@ -1,0 +1,40 @@
+{
+  "strip_width": 12,
+  "rectangles": [
+    {
+      "index": 0,
+      "width": 5,
+      "length": 15
+    },
+    {
+      "index": 1,
+      "width": 4,
+      "length": 7
+    },
+    {
+      "index": 2,
+      "width": 9,
+      "length": 7
+    },
+    {
+      "index": 3,
+      "width": 7,
+      "length": 7
+    },
+    {
+      "index": 4,
+      "width": 2,
+      "length": 9
+    },
+    {
+      "index": 5,
+      "width": 3,
+      "length": 3
+    },
+    {
+      "index": 6,
+      "width": 8,
+      "length": 10
+    }
+  ]
+}
