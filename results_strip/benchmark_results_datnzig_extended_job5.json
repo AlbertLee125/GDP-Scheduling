@@ -1,0 +1,272 @@
+[
+  {
+    "instance": "18_1",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1800.36,
+    "objective": 53.999999994499646,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_1",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.5,
+    "objective": 54.99999998879987,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_1",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1800.37,
+    "objective": 53.999999994499646,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_1",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.49,
+    "objective": 54.99999998879987,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_1",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1800.43,
+    "objective": 53.999999994499994,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_1",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1800.19,
+    "objective": 53.99999999449992,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_2",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1800.3,
+    "objective": 77.99999999209997,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_2",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.49,
+    "objective": 77.99999999209973,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_2",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1800.3,
+    "objective": 77.99999999209997,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_2",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.49,
+    "objective": 77.99999999209973,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_2",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1800.18,
+    "objective": 77.99999999209999,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_2",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1434.64,
+    "objective": 78.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_3",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1800.36,
+    "objective": 76.99999972793417,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_3",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.7,
+    "objective": 76.99999999219999,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_3",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1800.37,
+    "objective": 76.99999972793417,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_3",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.7,
+    "objective": 76.99999999219999,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_3",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1800.29,
+    "objective": 76.9999984843998,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_3",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1800.27,
+    "objective": 76.9999980325625,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_4",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 44.88,
+    "objective": 78.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_4",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 366.2,
+    "objective": 78.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_4",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 45.25,
+    "objective": 78.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_4",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 366.1,
+    "objective": 78.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_4",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 38.57,
+    "objective": 77.99999999209759,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_4",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 95.74,
+    "objective": 78.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_5",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 278.88,
+    "objective": 83.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_5",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.42,
+    "objective": 82.99999998319983,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_5",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 278.49,
+    "objective": 83.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_5",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.43,
+    "objective": 82.99999998319983,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_5",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 153.14,
+    "objective": 83.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_5",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 311.48,
+    "objective": 83.0,
+    "status": "optimal",
+    "lower_bound": null
+  }
+]
