@@ -1,0 +1,32 @@
+{
+  "generated_at": "2025-07-01 12:29:01",
+  "seed": null,
+  "strip_width": 14,
+  "rectangles": [
+    {
+      "index": 0,
+      "width": 4,
+      "length": 7
+    },
+    {
+      "index": 1,
+      "width": 13,
+      "length": 8
+    },
+    {
+      "index": 2,
+      "width": 14,
+      "length": 5
+    },
+    {
+      "index": 3,
+      "width": 14,
+      "length": 2
+    },
+    {
+      "index": 4,
+      "width": 2,
+      "length": 9
+    }
+  ]
+}
