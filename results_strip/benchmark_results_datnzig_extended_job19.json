@@ -1,0 +1,272 @@
+[
+  {
+    "instance": "17_6",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1800.43,
+    "objective": 102.99999998959989,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_6",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.77,
+    "objective": 102.99999997919933,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_6",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1800.64,
+    "objective": 102.99999998959989,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_6",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.74,
+    "objective": 102.99999997919933,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_6",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1800.46,
+    "objective": 102.99999986520086,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_6",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1399.86,
+    "objective": 103.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_7",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1800.52,
+    "objective": 84.99999999139993,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_7",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.73,
+    "objective": 84.99999999139993,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_7",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1800.43,
+    "objective": 84.99999999139993,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_7",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.67,
+    "objective": 84.99999999139993,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_7",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1800.59,
+    "objective": 85.0,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_7",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1800.25,
+    "objective": 84.99999999139997,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_8",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 437.54,
+    "objective": 92.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_8",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.7,
+    "objective": 91.99999999069996,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_8",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 452.76,
+    "objective": 92.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_8",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.63,
+    "objective": 91.99999999069996,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_8",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 603.66,
+    "objective": 92.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_8",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 459.82,
+    "objective": 92.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_9",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1801.5,
+    "objective": 130.99999921319943,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_9",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1801.53,
+    "objective": 130.99990900066118,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_9",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1801.35,
+    "objective": 130.99999921319943,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_9",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1801.3,
+    "objective": 130.99990900066118,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_9",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1801.55,
+    "objective": 130.9999990322542,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_9",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1801.1,
+    "objective": 130.99999998679993,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_10",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1800.67,
+    "objective": 98.99999907142757,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_10",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1801.04,
+    "objective": 98.99999998999995,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_10",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1800.61,
+    "objective": 98.99999907142757,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_10",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1801.21,
+    "objective": 98.99999998999995,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_10",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1800.57,
+    "objective": 98.99999998999996,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "17_10",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1800.62,
+    "objective": 98.99999941212245,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "instance": "18_6",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1800.76,
+    "objective": 103.99999744202904,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_6",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.9,
+    "objective": 103.99999998949998,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_6",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1800.58,
+    "objective": 103.99999744202904,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_6",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.86,
+    "objective": 103.99999998949998,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_6",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1800.64,
+    "objective": 103.99999904029302,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_6",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1800.5,
+    "objective": 103.99999845280834,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_7",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1800.87,
+    "objective": 136.99999995859883,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_7",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.97,
+    "objective": 136.99999998619995,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_7",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1800.64,
+    "objective": 136.99999995859883,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_7",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1801.07,
+    "objective": 136.99999998619995,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_7",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1800.53,
+    "objective": 136.99999998619998,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_7",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1800.95,
+    "objective": 136.99999980825012,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_8",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 538.27,
+    "objective": 91.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_8",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.9,
+    "objective": 90.99999999079995,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_8",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 512.21,
+    "objective": 91.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_8",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.71,
+    "objective": 90.99999999079995,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_8",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 543.65,
+    "objective": 91.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_8",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 738.59,
+    "objective": 91.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_9",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1801.12,
+    "objective": 74.99999999239998,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_9",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.5,
+    "objective": 75.0,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_9",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1801.36,
+    "objective": 74.99999999239998,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_9",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.71,
+    "objective": 75.0,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_9",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1800.41,
+    "objective": 74.99999964406722,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_9",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1673.57,
+    "objective": 75.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_10",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1800.96,
+    "objective": 114.99999717148634,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_10",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1801.08,
+    "objective": 114.99999998839999,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_10",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1800.64,
+    "objective": 114.99999717148634,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_10",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.96,
+    "objective": 114.99999998839999,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_10",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1800.8,
+    "objective": 114.9999991688719,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "18_10",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1800.72,
+    "objective": 114.99999966473888,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  }
+]

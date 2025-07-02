@@ -1,0 +1,272 @@
+[
+  {
+    "instance": "19_6",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 634.62,
+    "objective": 105.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_6",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1801.01,
+    "objective": 104.99999997879912,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_6",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 611.4,
+    "objective": 105.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_6",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1801.1,
+    "objective": 104.99999997879912,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_6",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 437.6,
+    "objective": 105.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_6",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 552.01,
+    "objective": 105.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_7",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1800.7,
+    "objective": 117.99999997619969,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_7",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1801.06,
+    "objective": 117.99999994050731,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_7",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1800.75,
+    "objective": 117.99999997619969,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_7",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.9,
+    "objective": 117.99999994050731,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_7",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1800.63,
+    "objective": 118.0,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_7",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1800.68,
+    "objective": 117.9999999880997,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_8",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1801.56,
+    "objective": 75.99999999229998,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_8",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.84,
+    "objective": 75.99999999229999,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_8",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1801.5,
+    "objective": 75.99999999229998,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_8",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1801.28,
+    "objective": 75.99999999229999,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_8",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1801.32,
+    "objective": 75.99999999229993,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_8",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1800.91,
+    "objective": 75.99999998459985,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_9",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1801.65,
+    "objective": 95.99999999029978,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_9",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.77,
+    "objective": 95.99999998059988,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_9",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1801.34,
+    "objective": 95.99999999029978,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_9",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.78,
+    "objective": 95.99999998059988,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_9",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1800.4,
+    "objective": 95.99999999029978,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_9",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1801.24,
+    "objective": 96.0,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_10",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1800.59,
+    "objective": 107.99999854792459,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_10",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.89,
+    "objective": 107.99999997819877,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_10",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1800.48,
+    "objective": 107.99999854792459,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_10",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.69,
+    "objective": 107.99999997819877,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_10",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1800.34,
+    "objective": 107.99999939251381,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  },
+  {
+    "instance": "19_10",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1800.37,
+    "objective": 107.99999972651074,
+    "status": "maxTimeLimit",
+    "lower_bound": null
+  }
+]
