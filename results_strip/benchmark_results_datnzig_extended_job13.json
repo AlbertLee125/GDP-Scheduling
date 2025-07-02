@@ -1,0 +1,1352 @@
+[
+  {
+    "instance": "5_6",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.13,
+    "objective": 24.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_6",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.12,
+    "objective": 23.999999997499735,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_6",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.11,
+    "objective": 24.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_6",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.12,
+    "objective": 23.999999997499735,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_6",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.09,
+    "objective": 24.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_6",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.1,
+    "objective": 24.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_7",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.07,
+    "objective": 40.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_7",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.23,
+    "objective": 40.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_7",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 40.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_7",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.25,
+    "objective": 40.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_7",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.17,
+    "objective": 40.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_7",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.14,
+    "objective": 40.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_8",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 29.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_8",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.21,
+    "objective": 29.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_8",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 29.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_8",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.15,
+    "objective": 29.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_8",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.07,
+    "objective": 29.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_8",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.07,
+    "objective": 29.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_9",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.08,
+    "objective": 38.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_9",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.12,
+    "objective": 38.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_9",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.07,
+    "objective": 38.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_9",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.13,
+    "objective": 38.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_9",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.09,
+    "objective": 38.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_9",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.08,
+    "objective": 38.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_10",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.24,
+    "objective": 40.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_10",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.22,
+    "objective": 40.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_10",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.14,
+    "objective": 40.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_10",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.18,
+    "objective": 40.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_10",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.12,
+    "objective": 40.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "5_10",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.16,
+    "objective": 40.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_6",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.21,
+    "objective": 77.99999999209997,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_6",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.27,
+    "objective": 78.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_6",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.19,
+    "objective": 77.99999999209997,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_6",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.26,
+    "objective": 78.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_6",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.19,
+    "objective": 78.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_6",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.13,
+    "objective": 78.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_7",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 36.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_7",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.18,
+    "objective": 36.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_7",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.09,
+    "objective": 36.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_7",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.2,
+    "objective": 36.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_7",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.1,
+    "objective": 36.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_7",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.11,
+    "objective": 36.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_8",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.1,
+    "objective": 26.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_8",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.13,
+    "objective": 26.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_8",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.11,
+    "objective": 26.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_8",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.12,
+    "objective": 26.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_8",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.09,
+    "objective": 26.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_8",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.09,
+    "objective": 26.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_9",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.08,
+    "objective": 44.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_9",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.17,
+    "objective": 44.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_9",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.2,
+    "objective": 44.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_9",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.28,
+    "objective": 44.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_9",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.16,
+    "objective": 44.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_9",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.24,
+    "objective": 44.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_10",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.2,
+    "objective": 58.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_10",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.18,
+    "objective": 58.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_10",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.1,
+    "objective": 58.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_10",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.19,
+    "objective": 58.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_10",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.11,
+    "objective": 58.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "6_10",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.12,
+    "objective": 58.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_6",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.09,
+    "objective": 49.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_6",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.2,
+    "objective": 49.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_6",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.1,
+    "objective": 49.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_6",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.2,
+    "objective": 49.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_6",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.16,
+    "objective": 48.99999534690441,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_6",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.11,
+    "objective": 49.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_7",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.07,
+    "objective": 28.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_7",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.29,
+    "objective": 28.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_7",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.2,
+    "objective": 28.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_7",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.24,
+    "objective": 28.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_7",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.18,
+    "objective": 28.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_7",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.14,
+    "objective": 28.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_8",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.13,
+    "objective": 37.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_8",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.35,
+    "objective": 37.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_8",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.24,
+    "objective": 37.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_8",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.34,
+    "objective": 37.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_8",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.18,
+    "objective": 37.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_8",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.14,
+    "objective": 37.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_9",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.16,
+    "objective": 47.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_9",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.6,
+    "objective": 47.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_9",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.29,
+    "objective": 47.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_9",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.7,
+    "objective": 47.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_9",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.32,
+    "objective": 46.99999999519999,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_9",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.26,
+    "objective": 47.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_10",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.32,
+    "objective": 44.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_10",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.44,
+    "objective": 44.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_10",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.21,
+    "objective": 44.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_10",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.44,
+    "objective": 44.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_10",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.12,
+    "objective": 44.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "7_10",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.11,
+    "objective": 44.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_6",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.13,
+    "objective": 45.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_6",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.24,
+    "objective": 44.999999995399996,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_6",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.13,
+    "objective": 45.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_6",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.25,
+    "objective": 44.999999995399996,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_6",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.12,
+    "objective": 45.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_6",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.12,
+    "objective": 45.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_7",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.15,
+    "objective": 60.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_7",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.35,
+    "objective": 60.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_7",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.16,
+    "objective": 60.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_7",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.32,
+    "objective": 60.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_7",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.15,
+    "objective": 60.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_7",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.16,
+    "objective": 60.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_8",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.14,
+    "objective": 71.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_8",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.25,
+    "objective": 71.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_8",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.27,
+    "objective": 71.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_8",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.41,
+    "objective": 71.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_8",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.19,
+    "objective": 71.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_8",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.27,
+    "objective": 71.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_9",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.28,
+    "objective": 57.999999994099994,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_9",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.44,
+    "objective": 57.999999994099994,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_9",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.2,
+    "objective": 57.999999994099994,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_9",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.52,
+    "objective": 57.999999994099994,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_9",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.27,
+    "objective": 58.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_9",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.18,
+    "objective": 58.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_10",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.41,
+    "objective": 71.99999999269998,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_10",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.75,
+    "objective": 71.99999999269815,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_10",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.33,
+    "objective": 71.99999999269998,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_10",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.73,
+    "objective": 71.99999999269815,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_10",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.23,
+    "objective": 71.99999999269906,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "8_10",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.3,
+    "objective": 72.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_6",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.48,
+    "objective": 68.99999999299885,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_6",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1.15,
+    "objective": 68.99999999299918,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_6",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.54,
+    "objective": 68.99999999299885,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_6",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1.02,
+    "objective": 68.99999999299918,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_6",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.32,
+    "objective": 69.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_6",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.54,
+    "objective": 68.99999999299997,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_7",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1.22,
+    "objective": 75.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_7",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 7.9,
+    "objective": 74.99999999239989,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_7",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1.06,
+    "objective": 75.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_7",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 8.5,
+    "objective": 74.99999999239989,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_7",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1.65,
+    "objective": 74.99999999239999,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_7",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1.18,
+    "objective": 74.99999999239999,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_8",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.39,
+    "objective": 48.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_8",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.97,
+    "objective": 48.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_8",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.41,
+    "objective": 48.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_8",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.97,
+    "objective": 48.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_8",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.42,
+    "objective": 47.99999999509999,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_8",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.44,
+    "objective": 48.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_9",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.22,
+    "objective": 55.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_9",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.63,
+    "objective": 54.999999994399985,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_9",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.22,
+    "objective": 55.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_9",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.45,
+    "objective": 54.999999994399985,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_9",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.14,
+    "objective": 55.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_9",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.14,
+    "objective": 55.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_10",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.19,
+    "objective": 43.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_10",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.48,
+    "objective": 43.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_10",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.27,
+    "objective": 43.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_10",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.66,
+    "objective": 43.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_10",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.29,
+    "objective": 43.0,
+    "status": "optimal",
+    "lower_bound": null
+  },
+  {
+    "instance": "9_10",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.32,
+    "objective": 43.0,
+    "status": "optimal",
+    "lower_bound": null
+  }
+]
