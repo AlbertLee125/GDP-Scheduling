@@ -2436,7 +2436,7 @@
     "time_sec": 1800.95,
     "objective": 53.999999994499994,
     "status": "maxTimeLimit",
-    "gap": 0
+    "gap": 3.7037
   },
   {
     "instance": "14_1",
@@ -2445,7 +2445,7 @@
     "time_sec": 1800.45,
     "objective": 53.999999994499994,
     "status": "maxTimeLimit",
-    "gap": 0
+    "gap": 5.5556
   },
   {
     "instance": "14_1",
@@ -2454,7 +2454,7 @@
     "time_sec": 1800.74,
     "objective": 53.999999994499994,
     "status": "maxTimeLimit",
-    "gap": 0
+    "gap": 3.7037
   },
   {
     "instance": "14_1",
@@ -2463,7 +2463,7 @@
     "time_sec": 1800.55,
     "objective": 53.999999994499994,
     "status": "maxTimeLimit",
-    "gap": 0
+    "gap": 5.5556
   },
   {
     "instance": "14_1",
@@ -2472,7 +2472,7 @@
     "time_sec": 1800.43,
     "objective": 53.999999994499994,
     "status": "maxTimeLimit",
-    "gap": 0
+    "gap": 3.7037
   },
   {
     "instance": "14_1",
@@ -2499,7 +2499,7 @@
     "time_sec": 1800.36,
     "objective": 60.99999565274388,
     "status": "maxTimeLimit",
-    "gap": 0
+    "gap": 1.6393
   },
   {
     "instance": "14_2",
@@ -2517,7 +2517,7 @@
     "time_sec": 1800.44,
     "objective": 60.99999565274388,
     "status": "maxTimeLimit",
-    "gap": 0
+    "gap": 1.6393
   },
   {
     "instance": "14_2",
