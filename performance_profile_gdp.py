@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # ── 1) Load JSON ────────────────────────────────────────────────────────────────
-file_path = 'results_strip/benchmark_results_datnzig_extended_overall.json'
+file_path = 'results_strip/benchmark_results_datnzig_extended_extended.json'
 if not os.path.isfile(file_path):
     raise FileNotFoundError(f"Cannot find JSON file at {file_path}")
 with open(file_path, 'r') as f:
@@ -39,12 +39,15 @@ solvers = [rename_map.get(r, r) for r in raw_labels]
 # ── 3) Build time & objective maps ─────────────────────────────────────────────
 time_map = {}
 obj_map  = {}
+gap_map  = {}
+# Populate maps with data from JSON
 for d in data:
     inst = d['instance']
     raw  = f"{d['formulation']}_{d['reform']}"
     sol  = rename_map.get(raw, raw)
     time_map[(inst, sol)] = d['time_sec']
-    obj_map [(inst, sol)] = d.get('obj', np.nan)
+    obj_map [(inst, sol)] = d.get('objective', np.nan)
+    gap_map [(inst, sol)] = d.get('gap',       np.nan)
 
 # Check if we have any non‐NaN objectives
 has_obj = not np.all([np.isnan(v) for v in obj_map.values()])
@@ -60,58 +63,92 @@ if has_obj:
 times = np.array([[ time_map[(inst, s)] for inst in instances ] for s in solvers])
 
 if has_obj:
-    gaps = np.array([[ 
-        (obj_map[(inst, s)] - best_obj[inst]) / abs(best_obj[inst])
-        for inst in instances ] for s in solvers])
+    # directly use the JSON‐provided gap values
+    gaps = np.array([[ gap_map[(inst, s)] for inst in instances ] 
+                     for s in solvers])
 
 # ── 5) Compute performance profiles ────────────────────────────────────────────
 max_time = np.nanmax(times)
 time_x   = np.linspace(0, max_time, 300)
+n_inst   = len(instances)
+
+# runtime profile: number of instances solved by time τ
 perf_time = {
-    solvers[i]: np.mean(times[i, None, :] <= time_x[:, None], axis=1)
+    solvers[i]: np.mean(times[i, None, :] <= time_x[:, None], axis=1) * n_inst
     for i in range(len(solvers))
 }
 
 if has_obj:
     max_gap = np.nanmax(gaps)
     gap_x   = np.linspace(0, max_gap, 300)
+    # gap profile: number of instances within gap δ
     perf_gap = {
-        solvers[i]: np.mean(gaps[i, None, :] <= gap_x[:, None], axis=1)
+        solvers[i]: np.mean(gaps[i, None, :] <= gap_x[:, None], axis=1) * n_inst
         for i in range(len(solvers))
     }
 
-# ── 6) Plot ────────────────────────────────────────────────────────────────────
+# ── 6) Plot with a broken, log-scaled runtime axis ─────────────────────────────
 if has_obj:
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 6), sharey=True)
-else:
-    fig, ax1 = plt.subplots(1, 1, figsize=(6, 3.5))
+    fig, (ax1, ax2) = plt.subplots(
+        1, 2,
+        figsize=(12, 6),
+        sharey=True,
+        gridspec_kw={'width_ratios': [3, 1], 'wspace': 0}
+    )
 
-# Plot runtime profile
-for s in solvers:
-    ax1.plot(time_x, perf_time[s], label=s)
-ax1.set_xlabel('Runtime (s)')
-ax1.set_xlim(0, max_time)
-ax1.set_ylabel('Fraction of Instances')
-ax1.set_title('Runtime Profile')
-ax1.grid(True)
+    # 1) log-scale left panel
+    ax1.set_xscale('log')
 
-if has_obj:
-    # Plot gap profile
+    # 2) hide the “inner” spines so top/bottom borders look continuous
+    ax1.spines['right'].set_visible(False)
+    ax2.spines['left'] .set_visible(False)
+
+    # 3) draw the diagonal “break” markers at x=1 (ax1) and x=0 (ax2)
+    d = .02  # size of the diagonal slashes
+    # bottom slash on left
+    ax1.plot((1, 1), (-d, d), transform=ax1.transAxes, color='k', clip_on=False)
+    # top slash on left
+    ax1.plot((1, 1), (1 - d, 1 + d), transform=ax1.transAxes, color='k', clip_on=False)
+    # bottom slash on right
+    ax2.plot((0, 0), (-d, d), transform=ax2.transAxes, color='k', clip_on=False)
+    # top slash on right
+    ax2.plot((0, 0), (1 - d, 1 + d), transform=ax2.transAxes, color='k', clip_on=False)
+
+    # 4) plot the two profiles
     for s in solvers:
-        ax2.plot(gap_x, perf_gap[s], label=s)
-    ax2.set_xlabel('Optimality Gap')
-    ax2.set_xlim(0, max_gap)
-    ax2.set_title('Gap Profile')
-    ax2.grid(True)
-    ax1.legend(loc='lower right', fontsize='small')
-    plt.suptitle('Performance Profiles of Six GDP Reformulations', y=1.02)
-    plt.tight_layout()
-else:
-    ax1.legend(loc='lower right', fontsize='small')
-    plt.title('Performance Profile (Runtime Only)')
-    plt.tight_layout()
+        ax1.step(time_x, perf_time[s], where='post', label=s)
+        ax2.step(gap_x,  perf_gap [s], where='post')
 
-plt.savefig('performance_profile.png', dpi=150)
-plt.savefig('performance_profile.pdf', dpi=150)
-print("Saved plots to:\n  performance_profile.png\n  performance_profile.pdf")
+    # axis labels & title
+    ax1.set_xlabel('Runtime [s]', fontsize=14)
+    ax2.set_xlabel('Gap (%)',      fontsize=14)
+    ax1.set_ylabel('Number of Instances', fontsize=14)
+    fig.suptitle('Absolute Performance Profile', fontsize=16)
+
+    # axis limits
+    ax1.set_xlim(time_x[1], max_time)  # avoid zero on log axis
+    ax2.set_xlim(0,        max_gap)
+
+    # legend & grid
+    ax1.legend(loc='lower right', fontsize='small')
+    ax1.grid(True, alpha=0.3)
+    ax2.grid(True, alpha=0.3)
+
+else:
+    fig, ax1 = plt.subplots(figsize=(8, 5))
+    ax1.set_xscale('log')
+    for s in solvers:
+        ax1.step(time_x, perf_time[s], where='post', label=s)
+    ax1.set_xlabel('Runtime [s]')
+    ax1.set_ylabel('Number of Instances')
+    ax1.set_title('Performance Profile (Runtime Only)')
+    ax1.set_xlim(time_x[1], max_time)
+    ax1.grid(True, alpha=0.3)
+    ax1.legend(loc='lower right', fontsize='small')
+
+plt.tight_layout()
+plt.savefig('performance_profile_150.png', dpi=150)
+plt.savefig('performance_profile_150.pdf', dpi=150)
 plt.show()
+
+
