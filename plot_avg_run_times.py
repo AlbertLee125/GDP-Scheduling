@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # 1. Specify your folder and the exact JSON filename:
 folder    = 'results_strip'
-json_file = 'benchmark_results_datnzig_extended_overall.json'  # ← paste your JSON name here
+json_file = 'benchmark_results_datnzig_extended_extended.json'  # ← paste your JSON name here
 file_path = os.path.join(folder, json_file)
 
 if not os.path.isfile(file_path):
@@ -62,26 +62,40 @@ x     = np.arange(len(sizes))
 width = 0.8 / len(models)
 
 fig, ax = plt.subplots(figsize=(12, 6))
+
 for i, model in enumerate(models):
+    # bar centers
+    xs = x + i*width
+
+    # mean & std
     y = [means[(size, model)] for size in sizes]
-    e = [stds[(size, model)]  for size in sizes]
-    ax.bar(x + i*width, y, width,
-           yerr=e, capsize=4,
-           label=model)
+    e = [stds [(size, model)] for size in sizes]
+
+    # draw bars
+    ax.bar(xs, y, width, label=model)
+
+    # draw ±1σ errorbars in data coords
+    cap = width * 0.4
+    for x0, yi, ei in zip(xs, y, e):
+        y_lo, y_hi = yi - ei, yi + ei
+        ax.vlines(x0, y_lo, y_hi, color='black')
+        ax.hlines([y_lo, y_hi], x0-cap, x0+cap, color='black')
+
+# set log scale once
+ax.set_yscale('log')
 
 # 10. Final formatting
 ax.set_xticks(x + width*(len(models)-1)/2)
 ax.set_xticklabels(sizes)
 ax.set_xlabel('Instance Size')
 ax.set_ylabel('Average Time (sec)')
-ax.set_yscale('log')
 ax.set_title('Average Solve Time by Size & Reformulation\n(5 Cases Averaged, ±1 std)')
 ax.legend(title='Model_Reform', bbox_to_anchor=(1.02,1), loc='upper left')
 plt.tight_layout()
 
 # 11. Save & Show
-out_png = os.path.join(folder, 'avg_run_times_by_size.png')
-out_pdf = os.path.join(folder, 'avg_run_times_by_size.pdf')
+out_png = os.path.join(folder, 'avg_run_times_by_size_modified.png')
+out_pdf = os.path.join(folder, 'avg_run_times_by_size_modified.pdf')
 plt.savefig(out_pdf, dpi=150)
 print(f"Saved plots to:\n  {out_png}\n  {out_pdf}")
 plt.show()
