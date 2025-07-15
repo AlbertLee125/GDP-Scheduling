@@ -5,7 +5,8 @@
         "transformation": "MINLP",
         "time_sec": 900.1961948871613,
         "objective": 429.9998231532044,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 6.0465
     },
     {
         "scheduling_data": 1,
@@ -13,7 +14,8 @@
         "transformation": "MINLP",
         "time_sec": 0.6296377182006836,
         "objective": 430.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 1,
@@ -21,7 +23,8 @@
         "transformation": "MINLP",
         "time_sec": 0.12426185607910156,
         "objective": 430.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 1,
@@ -29,7 +32,8 @@
         "transformation": "MINLP",
         "time_sec": 30.609524250030518,
         "objective": 430.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 2,
@@ -37,7 +41,8 @@
         "transformation": "MINLP",
         "time_sec": 900.2789781093597,
         "objective": 437.9993712912139,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 47.2602
     },
     {
         "scheduling_data": 2,
@@ -45,7 +50,8 @@
         "transformation": "MINLP",
         "time_sec": 0.6117410659790039,
         "objective": 437.9999493502264,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 2,
@@ -53,7 +59,8 @@
         "transformation": "MINLP",
         "time_sec": 0.11426520347595215,
         "objective": 438.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 2,
@@ -61,7 +68,8 @@
         "transformation": "MINLP",
         "time_sec": 3.844133138656616,
         "objective": 438.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 3,
@@ -69,7 +77,8 @@
         "transformation": "MINLP",
         "time_sec": 19.627485513687134,
         "objective": 558.9991345452715,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 3,
@@ -77,7 +86,8 @@
         "transformation": "MINLP",
         "time_sec": 49.622310638427734,
         "objective": 559.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 3,
@@ -85,7 +95,8 @@
         "transformation": "MINLP",
         "time_sec": 0.7155137062072754,
         "objective": 559.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 3,
@@ -93,7 +104,8 @@
         "transformation": "MINLP",
         "time_sec": 0.20579218864440918,
         "objective": 558.9999999439963,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 4,
@@ -101,7 +113,8 @@
         "transformation": "MINLP",
         "time_sec": 900.2068448066711,
         "objective": 663.999996907637,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 37.5000
     },
     {
         "scheduling_data": 4,
@@ -109,7 +122,8 @@
         "transformation": "MINLP",
         "time_sec": 25.544089794158936,
         "objective": 663.9999999334997,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 4,
@@ -117,7 +131,8 @@
         "transformation": "MINLP",
         "time_sec": 0.3708810806274414,
         "objective": 664.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 4,
@@ -125,7 +140,8 @@
         "transformation": "MINLP",
         "time_sec": 459.0875463485718,
         "objective": 664.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 5,
@@ -133,7 +149,8 @@
         "transformation": "MINLP",
         "time_sec": 900.6063678264618,
         "objective": 679.998928249986,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 25.2940
     },
     {
         "scheduling_data": 5,
@@ -141,7 +158,8 @@
         "transformation": "MINLP",
         "time_sec": 28.6038019657135,
         "objective": 679.9980133047884,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 5,
@@ -149,7 +167,8 @@
         "transformation": "MINLP",
         "time_sec": 0.22405505180358887,
         "objective": 680.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 5,
@@ -157,7 +176,8 @@
         "transformation": "MINLP",
         "time_sec": 56.58941841125488,
         "objective": 680.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 6,
@@ -165,7 +185,8 @@
         "transformation": "MINLP",
         "time_sec": 900.3450658321381,
         "objective": 738.9999999259999,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 21.2449
     },
     {
         "scheduling_data": 6,
@@ -173,7 +194,8 @@
         "transformation": "MINLP",
         "time_sec": 28.671895027160645,
         "objective": 739.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 6,
@@ -181,7 +203,8 @@
         "transformation": "MINLP",
         "time_sec": 0.5791268348693848,
         "objective": 739.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 6,
@@ -189,7 +212,8 @@
         "transformation": "MINLP",
         "time_sec": 26.308725833892822,
         "objective": 739.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 7,
@@ -197,7 +221,8 @@
         "transformation": "MINLP",
         "time_sec": 900.6680908203125,
         "objective": "ABORTED",
-        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted",
+        "gap": 0.0
     },
     {
         "scheduling_data": 7,
@@ -205,7 +230,8 @@
         "transformation": "MINLP",
         "time_sec": 900.2015089988708,
         "objective": "ABORTED",
-        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted",
+        "gap": 0.0
     },
     {
         "scheduling_data": 7,
@@ -213,7 +239,8 @@
         "transformation": "MINLP",
         "time_sec": 1.5433320999145508,
         "objective": 700.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 7,
@@ -221,7 +248,8 @@
         "transformation": "MINLP",
         "time_sec": 900.5504071712494,
         "objective": 699.9999999298988,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 0.7143
     },
     {
         "scheduling_data": 8,
@@ -229,7 +257,8 @@
         "transformation": "MINLP",
         "time_sec": 900.3755719661713,
         "objective": "ABORTED",
-        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted",
+        "gap": 0.0
     },
     {
         "scheduling_data": 8,
@@ -237,7 +266,8 @@
         "transformation": "MINLP",
         "time_sec": 24.47413420677185,
         "objective": 772.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 8,
@@ -245,7 +275,8 @@
         "transformation": "MINLP",
         "time_sec": 0.5034201145172119,
         "objective": 772.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 8,
@@ -253,7 +284,8 @@
         "transformation": "MINLP",
         "time_sec": 900.659428358078,
         "objective": 771.9999996908062,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 3.4974
     },
     {
         "scheduling_data": 9,
@@ -261,7 +293,8 @@
         "transformation": "MINLP",
         "time_sec": 900.5843679904938,
         "objective": "ABORTED",
-        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted",
+        "gap": 0.0
     },
     {
         "scheduling_data": 9,
@@ -269,7 +302,8 @@
         "transformation": "MINLP",
         "time_sec": 24.120525598526,
         "objective": 853.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 9,
@@ -277,7 +311,8 @@
         "transformation": "MINLP",
         "time_sec": 0.42911219596862793,
         "objective": 853.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 9,
@@ -285,7 +320,8 @@
         "transformation": "MINLP",
         "time_sec": 900.242517709732,
         "objective": 852.9999999145988,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 33.2786
     },
     {
         "scheduling_data": 10,
@@ -293,7 +329,8 @@
         "transformation": "MINLP",
         "time_sec": 900.5495550632477,
         "objective": "ABORTED",
-        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted",
+        "gap": 0.0
     },
     {
         "scheduling_data": 10,
@@ -301,7 +338,8 @@
         "transformation": "MINLP",
         "time_sec": 449.05456161499023,
         "objective": 929.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 10,
@@ -309,7 +347,8 @@
         "transformation": "MINLP",
         "time_sec": 0.5291893482208252,
         "objective": 929.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 10,
@@ -317,7 +356,8 @@
         "transformation": "MINLP",
         "time_sec": 901.089212179184,
         "objective": 928.9999995350094,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 20.4521
     },
     {
         "scheduling_data": 1,
@@ -325,7 +365,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 25.891621589660645,
         "objective": 430.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 1,
@@ -333,7 +374,8 @@
         "transformation": "gdp.hull",
         "time_sec": 144.62938475608826,
         "objective": 430.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 1,
@@ -341,7 +383,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 19.762124061584473,
         "objective": 430.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 1,
@@ -349,7 +392,8 @@
         "transformation": "gdp.hull",
         "time_sec": 0.37190866470336914,
         "objective": 430.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 2,
@@ -357,7 +401,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 6.5369696617126465,
         "objective": 438.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 2,
@@ -365,7 +410,8 @@
         "transformation": "gdp.hull",
         "time_sec": 39.96856617927551,
         "objective": 438.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 2,
@@ -373,7 +419,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 813.5993456840515,
         "objective": 438.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 2,
@@ -381,7 +428,8 @@
         "transformation": "gdp.hull",
         "time_sec": 0.8103678226470947,
         "objective": 438.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 3,
@@ -389,7 +437,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 0.2369556427001953,
         "objective": 559.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 3,
@@ -397,7 +446,8 @@
         "transformation": "gdp.hull",
         "time_sec": 0.5848038196563721,
         "objective": 559.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 3,
@@ -405,7 +455,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 94.29926538467407,
         "objective": 559.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 3,
@@ -413,7 +464,8 @@
         "transformation": "gdp.hull",
         "time_sec": 6.746336460113525,
         "objective": 559.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 4,
@@ -421,7 +473,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 385.5893692970276,
         "objective": 664.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 4,
@@ -429,7 +482,8 @@
         "transformation": "gdp.hull",
         "time_sec": 900.4114406108856,
         "objective": 663.9999825853592,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 5.8735
     },
     {
         "scheduling_data": 4,
@@ -437,7 +491,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 900.610063791275,
         "objective": 664.0,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 54.9699
     },
     {
         "scheduling_data": 4,
@@ -445,7 +500,8 @@
         "transformation": "gdp.hull",
         "time_sec": 1.5826618671417236,
         "objective": 664.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 5,
@@ -453,7 +509,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 54.962905406951904,
         "objective": 680.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 5,
@@ -461,7 +518,8 @@
         "transformation": "gdp.hull",
         "time_sec": 219.75335836410522,
         "objective": 680.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 5,
@@ -469,7 +527,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 900.3632779121399,
         "objective": 680.0,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 54.5588
     },
     {
         "scheduling_data": 5,
@@ -477,7 +536,8 @@
         "transformation": "gdp.hull",
         "time_sec": 1.8155372142791748,
         "objective": 680.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 6,
@@ -485,7 +545,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 25.303513288497925,
         "objective": 739.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 6,
@@ -493,7 +554,8 @@
         "transformation": "gdp.hull",
         "time_sec": 175.2771339416504,
         "objective": 739.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 6,
@@ -501,7 +563,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 900.3801047801971,
         "objective": 768.0,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 59.6354
     },
     {
         "scheduling_data": 6,
@@ -509,7 +572,8 @@
         "transformation": "gdp.hull",
         "time_sec": 2.3974757194519043,
         "objective": 739.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 7,
@@ -517,7 +581,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 866.1517024040222,
         "objective": 700.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 7,
@@ -525,7 +590,8 @@
         "transformation": "gdp.hull",
         "time_sec": 900.4337453842163,
         "objective": 699.9999998597992,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 5.8571
     },
     {
         "scheduling_data": 7,
@@ -533,7 +599,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 900.9763305187225,
         "objective": "ABORTED",
-        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted",
+        "gap": 0.0
     },
     {
         "scheduling_data": 7,
@@ -541,7 +608,8 @@
         "transformation": "gdp.hull",
         "time_sec": 2.095627784729004,
         "objective": 700.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 8,
@@ -549,7 +617,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 901.4126720428467,
         "objective": 771.9999996907943,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 3.8860
     },
     {
         "scheduling_data": 8,
@@ -557,7 +626,8 @@
         "transformation": "gdp.hull",
         "time_sec": 900.5242412090302,
         "objective": 771.9999997679696,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 5.4404
     },
     {
         "scheduling_data": 8,
@@ -565,7 +635,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 900.4454874992371,
         "objective": "ABORTED",
-        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted",
+        "gap": 0.0
     },
     {
         "scheduling_data": 8,
@@ -573,7 +644,8 @@
         "transformation": "gdp.hull",
         "time_sec": 3.361539363861084,
         "objective": 772.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 9,
@@ -581,7 +653,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 901.5621650218964,
         "objective": 852.9999999145999,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 25.5569
     },
     {
         "scheduling_data": 9,
@@ -589,7 +662,8 @@
         "transformation": "gdp.hull",
         "time_sec": 900.5726566314697,
         "objective": 852.9999999145994,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 30.4807
     },
     {
         "scheduling_data": 9,
@@ -597,7 +671,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 900.7623775005341,
         "objective": "ABORTED",
-        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted",
+        "gap": 0.0
     },
     {
         "scheduling_data": 9,
@@ -605,7 +680,8 @@
         "transformation": "gdp.hull",
         "time_sec": 2.569995880126953,
         "objective": 853.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     },
     {
         "scheduling_data": 10,
@@ -613,7 +689,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 901.445351600647,
         "objective": 928.9999999069998,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 19.1604
     },
     {
         "scheduling_data": 10,
@@ -621,7 +698,8 @@
         "transformation": "gdp.hull",
         "time_sec": 900.6203050613403,
         "objective": 928.9999999069997,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 25.1884
     },
     {
         "scheduling_data": 10,
@@ -629,7 +707,8 @@
         "transformation": "gdp.bigm",
         "time_sec": 900.6212546825409,
         "objective": "ABORTED",
-        "termination": "exception: Cannot load a SolverResults object with bad status: aborted"
+        "termination": "exception: Cannot load a SolverResults object with bad status: aborted",
+        "gap": 0.0
     },
     {
         "scheduling_data": 10,
@@ -637,6 +716,7 @@
         "transformation": "gdp.hull",
         "time_sec": 7.810450077056885,
         "objective": 929.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0.0
     }
 ]
