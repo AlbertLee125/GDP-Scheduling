@@ -51,7 +51,7 @@ fig, ax = plt.subplots(figsize=(14, 8))
 pivot_df.plot(kind='bar', ax=ax, width=0.8)
 ax.set_xlabel("Scheduling Data", fontsize=20)
 ax.set_ylabel("Time (sec)", fontsize=20)
-ax.set_title("Benchmark Results for Single Unit Sequencing Problem", fontsize=20)
+ax.set_title("Benchmark Results for Single-Unit Sequencing Problem", fontsize=20)
 
 # Set the y-axis to a logarithmic scale
 ax.set_yscale('log')
