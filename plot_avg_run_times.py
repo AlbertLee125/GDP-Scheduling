@@ -85,7 +85,7 @@ ax.set_xticklabels(sizes, fontsize=14)
 ax.set_xlabel('Instance Size', fontsize=14)
 ax.set_ylabel('Average Time (sec)', fontsize=14)
 ax.tick_params(axis='y', labelsize=14)
-ax.set_title('Average Solve Time by Size & Reformulation\n(5 Cases Averaged, ±1σ in log‐space)', fontsize=14)
+ax.set_title('Average Solve Time by Size & Reformulation\n(10 Cases Averaged, ±1σ in log‐space)', fontsize=14)
 
 # remap legend labels
 label_map = {
