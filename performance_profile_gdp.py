@@ -27,20 +27,29 @@ print("Detected raw solver labels:", raw_labels)
 
 # Map to your six clean names
 rename_map = {
-    'bigM_altered':    'altered_bigm',
-    'hull_altered':    'altered_hull',
-    'reagg_MIP':       'altered_reagg',
-    'bigM_tres':       'tres_bigm',
-    'hull_tres':       'tres_hull',
-    'reagg_tres_MIP':  'tres_reagg',
+    'altered_bigm':    'Original Big-M',
+    'altered_hull':    'Original Hull',
+    'reagg_MIP':       'Original Reaggregated-Hull',
+    'reagg_tres_MIP':  'Trespalacios Reaggregated-Hull',
+    'tres_bigm':       'Trespalacios Big-M',
+    'tres_hull':       'Trespalacios Hull',
 }
-solvers = [rename_map.get(r, r) for r in raw_labels]
+
+solvers = [
+    'Original Big-M',
+    'Original Hull',
+    'Original Reaggregated-Hull',
+    'Trespalacios Big-M',
+    'Trespalacios Hull',
+    'Trespalacios Reaggregated-Hull',
+]
+
 
 # ── 3) Build time & objective maps ─────────────────────────────────────────────
 time_map = {}
 obj_map  = {}
 gap_map  = {}
-# Populate maps with data from JSON
+
 for d in data:
     inst = d['instance']
     raw  = f"{d['formulation']}_{d['reform']}"
@@ -49,11 +58,11 @@ for d in data:
     obj_map [(inst, sol)] = d.get('objective', np.nan)
     gap_map [(inst, sol)] = d.get('gap',       np.nan)
 
-# Check if we have any non‐NaN objectives
+# Do we have any finite objectives?
 has_obj = not np.all([np.isnan(v) for v in obj_map.values()])
 
-# If we do, compute best objective per instance
 if has_obj:
+    # best objective per instance (if needed for recomputing gaps)
     best_obj = {
         inst: min(obj_map[(inst, s)] for s in solvers)
         for inst in instances
@@ -63,25 +72,25 @@ if has_obj:
 times = np.array([[ time_map[(inst, s)] for inst in instances ] for s in solvers])
 
 if has_obj:
-    # directly use the JSON‐provided gap values
-    gaps = np.array([[ gap_map[(inst, s)] for inst in instances ] 
+    # directly use JSON‐provided gaps
+    gaps = np.array([[ gap_map[(inst, s)] for inst in instances ]
                      for s in solvers])
 
 # ── 5) Compute performance profiles ────────────────────────────────────────────
-max_time = np.nanmax(times)
-time_x   = np.linspace(0, max_time, 300)
-n_inst   = len(instances)
 
-# runtime profile: number of instances solved by time τ
+n_inst = len(instances)
+
+# — replace linspace with actual unique solve times for crisp steps —
+all_times = np.unique(times[np.isfinite(times)])
+time_x   = np.concatenate(([0.0], all_times))
 perf_time = {
     solvers[i]: np.mean(times[i, None, :] <= time_x[:, None], axis=1) * n_inst
     for i in range(len(solvers))
 }
 
 if has_obj:
-    max_gap = np.nanmax(gaps)
-    gap_x   = np.linspace(0, max_gap, 300)
-    # gap profile: number of instances within gap δ
+    all_gaps = np.unique(gaps[np.isfinite(gaps)])
+    gap_x    = np.concatenate(([0.0], all_gaps))
     perf_gap = {
         solvers[i]: np.mean(gaps[i, None, :] <= gap_x[:, None], axis=1) * n_inst
         for i in range(len(solvers))
@@ -91,46 +100,49 @@ if has_obj:
 if has_obj:
     fig, (ax1, ax2) = plt.subplots(
         1, 2,
-        figsize=(12, 6),
+        figsize=(11, 11),
         sharey=True,
         gridspec_kw={'width_ratios': [3, 1], 'wspace': 0}
     )
 
-    # 1) log-scale left panel
+    # left panel log-scale
     ax1.set_xscale('log')
-
-    # 2) hide the “inner” spines so top/bottom borders look continuous
     ax1.spines['right'].set_visible(False)
     ax2.spines['left'] .set_visible(False)
 
-    # 3) draw the diagonal “break” markers at x=1 (ax1) and x=0 (ax2)
-    d = .02  # size of the diagonal slashes
-    # bottom slash on left
+    # diagonal “break” markers
+    d = .02
     ax1.plot((1, 1), (-d, d), transform=ax1.transAxes, color='k', clip_on=False)
-    # top slash on left
     ax1.plot((1, 1), (1 - d, 1 + d), transform=ax1.transAxes, color='k', clip_on=False)
-    # bottom slash on right
     ax2.plot((0, 0), (-d, d), transform=ax2.transAxes, color='k', clip_on=False)
-    # top slash on right
     ax2.plot((0, 0), (1 - d, 1 + d), transform=ax2.transAxes, color='k', clip_on=False)
 
-    # 4) plot the two profiles
-    for s in solvers:
-        ax1.step(time_x, perf_time[s], where='post', label=s)
-        ax2.step(gap_x,  perf_gap [s], where='post')
+    # plot the profiles
+    for name in solvers:
+        ax1.step(time_x[1:], perf_time[name][1:], where='post', label=name)
+        ax2.step(gap_x[1:],  perf_gap [name][1:], where='post')
 
-    # axis labels & title
-    ax1.set_xlabel('Runtime [s]', fontsize=14)
-    ax2.set_xlabel('Gap (%)',      fontsize=14)
-    ax1.set_ylabel('Number of Instances', fontsize=14)
-    fig.suptitle('Absolute Performance Profile', fontsize=16)
+    # increase x- and y-tick label size
+    ax1.tick_params(axis='both', which='major', labelsize=18)
+    ax2.tick_params(axis='both', which='major', labelsize=18)
+
+    # force y-axis exactly 0 → 150
+    pad = 0.02 * n_inst
+    ax1.set_ylim(-pad, n_inst + pad)
+    ax1.set_yticks([0, 30, 60, 90, 120, n_inst])
+
+
+    # labels & title
+    ax1.set_xlabel('Runtime [s]', fontsize=18)
+    ax2.set_xlabel('Gap (%)',      fontsize=18)
+    ax1.set_ylabel('Number of Instances', fontsize=18)
+    fig.suptitle('Absolute Performance Profile of Strip Packing Problem', fontsize=18)
 
     # axis limits
-    ax1.set_xlim(time_x[1], max_time)  # avoid zero on log axis
-    ax2.set_xlim(0,        max_gap)
+    ax1.set_xlim(time_x[1], time_x[-1])
+    ax2.set_xlim(0,       gap_x[-1])
 
-    # legend & grid
-    ax1.legend(loc='lower right', fontsize='small')
+    ax1.legend(loc='lower right', fontsize='small', title='Model & Reformulation', prop={'size': 14}, title_fontsize=14)
     ax1.grid(True, alpha=0.3)
     ax2.grid(True, alpha=0.3)
 
@@ -138,11 +150,11 @@ else:
     fig, ax1 = plt.subplots(figsize=(8, 5))
     ax1.set_xscale('log')
     for s in solvers:
-        ax1.step(time_x, perf_time[s], where='post', label=s)
+        ax1.step(time_x[1:], perf_time[s][1:], where='post', label=s)
     ax1.set_xlabel('Runtime [s]')
     ax1.set_ylabel('Number of Instances')
     ax1.set_title('Performance Profile (Runtime Only)')
-    ax1.set_xlim(time_x[1], max_time)
+    ax1.set_xlim(time_x[1], time_x[-1])
     ax1.grid(True, alpha=0.3)
     ax1.legend(loc='lower right', fontsize='small')
 
@@ -150,5 +162,3 @@ plt.tight_layout()
 plt.savefig('performance_profile_150.png', dpi=150)
 plt.savefig('performance_profile_150.pdf', dpi=150)
 plt.show()
-
-
