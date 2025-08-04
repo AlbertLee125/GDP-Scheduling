@@ -3,7 +3,7 @@ from pyomo.gdp import Disjunction, Disjunct
 import json
 import os
 
-def build_single_unit_sequencing_gp(j):
+def build_single_unit_sequencing_gp_altered(j):
     # Get the absolute path of the current directory
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
