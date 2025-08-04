@@ -85,16 +85,18 @@ ax.set_xticklabels(sizes, fontsize=14)
 ax.set_xlabel('Instance Size', fontsize=14)
 ax.set_ylabel('Average Time (sec)', fontsize=14)
 ax.tick_params(axis='y', labelsize=14)
-ax.set_title('Average Solve Time by Size & Reformulation\n(10 Cases Averaged, ±1σ in log‐space)', fontsize=14)
+ax.set_title('Average Solve Time by Size & Reformulation\n(10 Cases Averaged; ±1 Standard Deviation, Log Scale)', fontsize=14)
+
+# σ
 
 # remap legend labels
 label_map = {
-    'altered_bigm':  'Original Big-M',
-    'altered_hull':  'Original Hull',
-    'altered_reagg': 'Original Reaggregated-Hull',
-    'tres_bigm':     'Trespalacios Big-M',
-    'tres_hull':     'Trespalacios Hull',
-    'tres_reagg':    'Trespalacios Reaggregated-Hull',
+    'altered_bigm':  'S0 Big-M',
+    'altered_hull':  'S0 HR',
+    'altered_reagg': 'S0 Reaggregated-Hull',
+    'tres_bigm':     'S1 Big-M',
+    'tres_hull':     'S1 HR',
+    'tres_reagg':    'S1 Reaggregated-Hull',
 }
 handles, labels = ax.get_legend_handles_labels()
 labels = [label_map.get(l,l) for l in labels]

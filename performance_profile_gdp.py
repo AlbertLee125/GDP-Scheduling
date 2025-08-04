@@ -44,6 +44,14 @@ solvers = [
     'Trespalacios Reaggregated-Hull',
 ]
 
+label_map = {
+    'Original Big-M':              'S0 Big-M',
+    'Original Hull':               'S0 HR',
+    'Original Reaggregated-Hull':  'S0 Reaggregated-Hull',
+    'Trespalacios Big-M':          'S1 Big-M',
+    'Trespalacios Hull':           'S1 HR',
+    'Trespalacios Reaggregated-Hull': 'S1 Reaggregated-Hull',
+}
 
 # ── 3) Build time & objective maps ─────────────────────────────────────────────
 time_map = {}
@@ -142,7 +150,14 @@ if has_obj:
     ax1.set_xlim(time_x[1], time_x[-1])
     ax2.set_xlim(0,       gap_x[-1])
 
-    ax1.legend(loc='lower right', fontsize='small', title='Model & Reformulation', prop={'size': 14}, title_fontsize=14)
+    handles, labels = ax1.get_legend_handles_labels()
+    mapped_labels = [label_map.get(lbl, lbl) for lbl in labels]
+    ax1.legend(handles, mapped_labels,
+            loc='lower right',
+            fontsize='small',
+            title='Model & Reformulation',
+            prop={'size': 14},
+            title_fontsize=14)
     ax1.grid(True, alpha=0.3)
     ax2.grid(True, alpha=0.3)
 
