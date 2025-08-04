@@ -43,7 +43,7 @@ def build_rect_strip_packing_model_altered(instance_id: str):
     # x (length) and y (width) coordinates of each of the rectangles
     def x_bounds(m, i):
     # allow x[i] as far as max_length - its own length
-        return (0, m.max_length)
+        return (0, m.max_length - m.rect_length[i])
 
     m.x = pyo.Var(
         m.rectangles,
@@ -87,6 +87,7 @@ def build_rect_strip_packing_model_altered(instance_id: str):
         disjunct.cons.add(m.x[i] + m.rect_length[i] <= m.x[j])
         disjunct.cons.add(m.y[i] - m.y[j] <= m.strip_width - m.rect_width[j])
         disjunct.cons.add(m.rect_width[i] - m.strip_width <= m.y[i] - m.y[j])
+        disjunct.cons.add(m.x[i] + m.max_length >= m.x[j] + m.rect_length[j]) # This line set the hard bound on the x coordinate
     m.i_before_j = Disjunct(m.overlap_pairs, rule=i_before_j_rule)
 
     def j_before_i_rule(disjunct, i, j):
@@ -95,22 +96,25 @@ def build_rect_strip_packing_model_altered(instance_id: str):
         disjunct.cons.add(m.x[j] + m.rect_length[j] <= m.x[i])
         disjunct.cons.add(m.y[i] - m.y[j] <= m.strip_width - m.rect_width[j])
         disjunct.cons.add(m.rect_width[i] - m.strip_width <= m.y[i] - m.y[j])
+        disjunct.cons.add(m.x[i] - m.x[j] <= m.max_length - m.rect_length[i]) # This line set the hard bound on the x coordinate
     m.j_before_i = Disjunct(m.overlap_pairs, rule=j_before_i_rule)
 
     def i_above_j_rule(disjunct, i, j):
         m = disjunct.model()
         disjunct.cons = pyo.ConstraintList()
         disjunct.cons.add(m.y[i] - m.rect_width[i] >= m.y[j])
-        disjunct.cons.add(m.x[j] + m.max_length >= m.x[i])
-        disjunct.cons.add(m.x[i] + m.max_length >= m.x[j])
+        disjunct.cons.add(m.y[i] - m.y[j] <= m.strip_width - m.rect_width[j]) # This line set the hard bound on the y coordinate
+        disjunct.cons.add(m.x[j] + m.max_length - m.rect_length[i] >= m.x[i])
+        disjunct.cons.add(m.x[i] + m.max_length - m.rect_length[j] >= m.x[j])
     m.i_above_j = Disjunct(m.overlap_pairs, rule=i_above_j_rule)
 
     def j_above_i_rule(disjunct, i, j):
         m = disjunct.model()
         disjunct.cons = pyo.ConstraintList()
         disjunct.cons.add(m.y[j] - m.rect_width[j] >= m.y[i])
-        disjunct.cons.add(m.x[j] + m.max_length >= m.x[i])
-        disjunct.cons.add(m.x[i] + m.max_length >= m.x[j])
+        disjunct.cons.add(m.y[i] - m.y[j] >= - m.strip_width + m.rect_width[i]) # This line set the hard bound on the y coordinate
+        disjunct.cons.add(m.x[j] + m.max_length - m.rect_length[i] >= m.x[i])
+        disjunct.cons.add(m.x[i] + m.max_length - m.rect_length[j] >= m.x[j])
     m.j_above_i = Disjunct(m.overlap_pairs, rule=j_above_i_rule)
 
     # Disjunction across all four disjuncts
@@ -234,9 +238,9 @@ def build_rect_strip_packing_model_reagg(instance_id: str):
 
 if __name__ == "__main__":
     model = build_rect_strip_packing_model_altered("5_1")
-    # model = build_rect_strip_packing_model_reagg("5_1")
+    model = build_rect_strip_packing_model_reagg("5_1")
     # Transform the model to a mixed-integer programming (MIP) model
-    pyo.TransformationFactory('gdp.hull').apply_to(model)
+    # pyo.TransformationFactory('gdp.hull').apply_to(model)
 
     # Solve the model
     solver = pyo.SolverFactory("gurobi")
