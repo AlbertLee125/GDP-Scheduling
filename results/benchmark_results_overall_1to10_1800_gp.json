@@ -1,0 +1,242 @@
+[
+    {
+        "scheduling_data": 1,
+        "model_name": "General Precedence Hull Reagg",
+        "transformation": "MINLP",
+        "time_sec": 27.87660312652588,
+        "objective": 430.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 2,
+        "model_name": "General Precedence Hull Reagg",
+        "transformation": "MINLP",
+        "time_sec": 3.57936429977417,
+        "objective": 438.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 3,
+        "model_name": "General Precedence Hull Reagg",
+        "transformation": "MINLP",
+        "time_sec": 0.17328500747680664,
+        "objective": 558.9999999439963,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 4,
+        "model_name": "General Precedence Hull Reagg",
+        "transformation": "MINLP",
+        "time_sec": 417.0641882419586,
+        "objective": 664.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 5,
+        "model_name": "General Precedence Hull Reagg",
+        "transformation": "MINLP",
+        "time_sec": 51.27651333808899,
+        "objective": 680.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 6,
+        "model_name": "General Precedence Hull Reagg",
+        "transformation": "MINLP",
+        "time_sec": 24.23462700843811,
+        "objective": 739.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 7,
+        "model_name": "General Precedence Hull Reagg",
+        "transformation": "MINLP",
+        "time_sec": 900.3911859989166,
+        "objective": 699.9999999298988,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 8,
+        "model_name": "General Precedence Hull Reagg",
+        "transformation": "MINLP",
+        "time_sec": 900.5946321487427,
+        "objective": 771.9999996908062,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 9,
+        "model_name": "General Precedence Hull Reagg",
+        "transformation": "MINLP",
+        "time_sec": 900.2298662662506,
+        "objective": 852.9999999145988,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 10,
+        "model_name": "General Precedence Hull Reagg",
+        "transformation": "MINLP",
+        "time_sec": 901.09969830513,
+        "objective": 928.9999995350094,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 1,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.bigm",
+        "time_sec": 23.761680841445923,
+        "objective": 430.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 1,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.hull",
+        "time_sec": 151.62094449996948,
+        "objective": 430.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 2,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.bigm",
+        "time_sec": 4.2200798988342285,
+        "objective": 438.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 2,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.hull",
+        "time_sec": 32.783705949783325,
+        "objective": 438.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 3,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.bigm",
+        "time_sec": 0.24777746200561523,
+        "objective": 559.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 3,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.hull",
+        "time_sec": 0.5835139751434326,
+        "objective": 559.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 4,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.bigm",
+        "time_sec": 405.14915108680725,
+        "objective": 664.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 4,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.hull",
+        "time_sec": 900.3734016418457,
+        "objective": 663.9998000682211,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 5,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.bigm",
+        "time_sec": 49.56925344467163,
+        "objective": 680.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 5,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.hull",
+        "time_sec": 324.2913200855255,
+        "objective": 680.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 6,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.bigm",
+        "time_sec": 20.878138065338135,
+        "objective": 739.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 6,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.hull",
+        "time_sec": 316.467387676239,
+        "objective": 739.0,
+        "termination": "optimal"
+    },
+    {
+        "scheduling_data": 7,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.bigm",
+        "time_sec": 900.2777967453003,
+        "objective": 699.9999988948564,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 7,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.hull",
+        "time_sec": 900.443311214447,
+        "objective": 699.9998999999885,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 8,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.bigm",
+        "time_sec": 900.8271641731262,
+        "objective": 771.9999998453288,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 8,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.hull",
+        "time_sec": 900.5235710144043,
+        "objective": 771.9996490802704,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 9,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.bigm",
+        "time_sec": 901.565920829773,
+        "objective": 852.9999998291946,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 9,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.hull",
+        "time_sec": 900.5786650180817,
+        "objective": 852.999900000414,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 10,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.bigm",
+        "time_sec": 901.3537766933441,
+        "objective": 928.9999993912322,
+        "termination": "maxTimeLimit"
+    },
+    {
+        "scheduling_data": 10,
+        "model_name": "General Precedence GDP Altered",
+        "transformation": "gdp.hull",
+        "time_sec": 900.6068878173828,
+        "objective": 928.999699908771,
+        "termination": "maxTimeLimit"
+    }
+]
