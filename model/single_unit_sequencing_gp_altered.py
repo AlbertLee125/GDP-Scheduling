@@ -100,7 +100,7 @@ def build_single_unit_sequencing_gp_altered(j):
     return m
 
 if __name__ == "__main__":
-    m = build_single_unit_sequencing_gp(1)
+    m = build_single_unit_sequencing_gp_altered(1)
     
     # Apply Big-M Reformulation (or alternatively, use the convex hull reformulation)
     # pyo.TransformationFactory("gdp.bigm").apply_to(m)
