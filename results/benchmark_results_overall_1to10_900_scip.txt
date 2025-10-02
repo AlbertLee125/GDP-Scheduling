@@ -1,0 +1,82 @@
+SchedData | Model Name                     | Trans/Type   | Time (sec) |  Objective | Termination
+------------------------------------------------------------------------------------------
+1         | Immediate Precedence BigM      | MINLP        |    1800.95 |      430.0 | maxTimeLimit
+1         | Immediate Precedence HR        | MINLP        |     139.43 |      430.0 | optimal
+1         | Time Slots Hull                | MINLP        |       0.50 | 429.99999999999994 | optimal
+1         | General Precedence Hull Reagg  | MINLP        |     248.88 | 429.9999999966551 | optimal
+2         | Immediate Precedence BigM      | MINLP        |    1801.18 | 437.9999999999998 | maxTimeLimit
+2         | Immediate Precedence HR        | MINLP        |      86.34 |      438.0 | optimal
+2         | Time Slots Hull                | MINLP        |       0.69 | 437.99999999999994 | optimal
+2         | General Precedence Hull Reagg  | MINLP        |      98.60 | 437.9999999999873 | optimal
+3         | Immediate Precedence BigM      | MINLP        |     216.44 |      559.0 | optimal
+3         | Immediate Precedence HR        | MINLP        |    1800.23 | 558.9999999999995 | maxTimeLimit
+3         | Time Slots Hull                | MINLP        |       5.10 |      559.0 | optimal
+3         | General Precedence Hull Reagg  | MINLP        |       6.29 |      559.0 | optimal
+4         | Immediate Precedence BigM      | MINLP        |    1800.85 |      ERROR | maxTimeLimit
+4         | Immediate Precedence HR        | MINLP        |    1651.33 | 664.0000000000001 | optimal
+4         | Time Slots Hull                | MINLP        |       2.50 | 663.9999999999998 | optimal
+4         | General Precedence Hull Reagg  | MINLP        |    1800.88 |      664.0 | maxTimeLimit
+5         | Immediate Precedence BigM      | MINLP        |    1801.17 |      680.0 | maxTimeLimit
+5         | Immediate Precedence HR        | MINLP        |    1437.65 |      680.0 | optimal
+5         | Time Slots Hull                | MINLP        |       2.82 | 679.9999999999999 | optimal
+5         | General Precedence Hull Reagg  | MINLP        |     425.23 | 679.9999999999931 | optimal
+6         | Immediate Precedence BigM      | MINLP        |    1801.05 |      ERROR | maxTimeLimit
+6         | Immediate Precedence HR        | MINLP        |    1800.21 |      781.0 | maxTimeLimit
+6         | Time Slots Hull                | MINLP        |       4.44 |      739.0 | optimal
+6         | General Precedence Hull Reagg  | MINLP        |     892.75 |      739.0 | optimal
+7         | Immediate Precedence BigM      | MINLP        |    1800.74 |      ERROR | maxTimeLimit
+7         | Immediate Precedence HR        | MINLP        |    1800.12 |      ERROR | maxTimeLimit
+7         | Time Slots Hull                | MINLP        |       3.21 |      700.0 | optimal
+7         | General Precedence Hull Reagg  | MINLP        |    1800.82 | 699.9999999998892 | maxTimeLimit
+8         | Immediate Precedence BigM      | MINLP        |    1801.08 |      ERROR | maxTimeLimit
+8         | Immediate Precedence HR        | MINLP        |     352.96 |      772.0 | optimal
+8         | Time Slots Hull                | MINLP        |       4.14 |      772.0 | optimal
+8         | General Precedence Hull Reagg  | MINLP        |    1800.42 | 771.9999999999961 | maxTimeLimit
+9         | Immediate Precedence BigM      | MINLP        |    1801.15 |      ERROR | maxTimeLimit
+9         | Immediate Precedence HR        | MINLP        |     789.59 | 852.9999999999999 | optimal
+9         | Time Slots Hull                | MINLP        |       2.31 |      853.0 | optimal
+9         | General Precedence Hull Reagg  | MINLP        |    1800.63 | 852.9999999999906 | maxTimeLimit
+10        | Immediate Precedence BigM      | MINLP        |    1800.20 |      ERROR | maxTimeLimit
+10        | Immediate Precedence HR        | MINLP        |    1800.16 |      ERROR | maxTimeLimit
+10        | Time Slots Hull                | MINLP        |       9.43 |      929.0 | optimal
+10        | General Precedence Hull Reagg  | MINLP        |    1801.07 |      929.0 | maxTimeLimit
+1         | General Precedence GDP         | gdp.bigm     |     284.25 | 429.99999999999716 | optimal
+1         | General Precedence GDP         | gdp.hull     |     122.51 | 429.9999999999996 | optimal
+1         | Time Slots GDP                 | gdp.bigm     |    1800.70 | 429.9999999999992 | maxTimeLimit
+1         | Time Slots GDP                 | gdp.hull     |       1.27 | 430.00000000000006 | optimal
+2         | General Precedence GDP         | gdp.bigm     |      47.84 | 437.99999999999545 | optimal
+2         | General Precedence GDP         | gdp.hull     |      22.07 |      438.0 | optimal
+2         | Time Slots GDP                 | gdp.bigm     |    1222.45 | 437.99999933019114 | optimal
+2         | Time Slots GDP                 | gdp.hull     |       3.17 |      438.0 | optimal
+3         | General Precedence GDP         | gdp.bigm     |       4.14 |      559.0 | optimal
+3         | General Precedence GDP         | gdp.hull     |       8.41 |      559.0 | optimal
+3         | Time Slots GDP                 | gdp.bigm     |    1800.62 |      578.0 | maxTimeLimit
+3         | Time Slots GDP                 | gdp.hull     |     400.63 |      559.0 | optimal
+4         | General Precedence GDP         | gdp.bigm     |    1801.00 | 663.9999999999999 | maxTimeLimit
+4         | General Precedence GDP         | gdp.hull     |    1800.52 | 663.9999999999993 | maxTimeLimit
+4         | Time Slots GDP                 | gdp.bigm     |    1800.20 |      ERROR | maxTimeLimit
+4         | Time Slots GDP                 | gdp.hull     |      95.32 |      664.0 | optimal
+5         | General Precedence GDP         | gdp.bigm     |     491.12 | 679.9999999999968 | optimal
+5         | General Precedence GDP         | gdp.hull     |    1203.85 | 679.9999999524637 | optimal
+5         | Time Slots GDP                 | gdp.bigm     |    1801.14 |      680.0 | maxTimeLimit
+5         | Time Slots GDP                 | gdp.hull     |     282.87 | 679.9999999999998 | optimal
+6         | General Precedence GDP         | gdp.bigm     |     481.97 |      739.0 | optimal
+6         | General Precedence GDP         | gdp.hull     |     525.25 |      739.0 | optimal
+6         | Time Slots GDP                 | gdp.bigm     |    1800.19 |      ERROR | maxTimeLimit
+6         | Time Slots GDP                 | gdp.hull     |     127.59 | 739.0000000000002 | optimal
+7         | General Precedence GDP         | gdp.bigm     |    1800.76 | 699.9999999992885 | maxTimeLimit
+7         | General Precedence GDP         | gdp.hull     |    1800.69 | 699.999999999998 | maxTimeLimit
+7         | Time Slots GDP                 | gdp.bigm     |    1800.21 |      ERROR | maxTimeLimit
+7         | Time Slots GDP                 | gdp.hull     |     110.13 |      700.0 | optimal
+8         | General Precedence GDP         | gdp.bigm     |    1800.45 | 771.9999999999999 | maxTimeLimit
+8         | General Precedence GDP         | gdp.hull     |    1800.92 | 771.9999999999999 | maxTimeLimit
+8         | Time Slots GDP                 | gdp.bigm     |    1800.20 |      ERROR | maxTimeLimit
+8         | Time Slots GDP                 | gdp.hull     |     268.71 |      772.0 | optimal
+9         | General Precedence GDP         | gdp.bigm     |    1800.91 | 852.9999999999998 | maxTimeLimit
+9         | General Precedence GDP         | gdp.hull     |    1800.77 |      855.0 | maxTimeLimit
+9         | Time Slots GDP                 | gdp.bigm     |    1800.24 |      ERROR | maxTimeLimit
+9         | Time Slots GDP                 | gdp.hull     |     412.01 |      853.0 | optimal
+10        | General Precedence GDP         | gdp.bigm     |    1801.04 | 928.999999999995 | maxTimeLimit
+10        | General Precedence GDP         | gdp.hull     |    1800.96 | 928.999999997851 | maxTimeLimit
+10        | Time Slots GDP                 | gdp.bigm     |    1800.27 |      ERROR | maxTimeLimit
+10        | Time Slots GDP                 | gdp.hull     |    1800.53 |      931.0 | maxTimeLimit

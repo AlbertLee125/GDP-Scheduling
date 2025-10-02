@@ -1,0 +1,8102 @@
+[
+  {
+    "instance": "5_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 27.999999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.13,
+    "objective": 28.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_1",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.13,
+    "objective": 27.999999999999993,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_1",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.44,
+    "objective": 28.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_1",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.06,
+    "objective": 28.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_1",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.2,
+    "objective": 28.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_1",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 28.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_1",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.82,
+    "objective": 28.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_1",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.06,
+    "objective": 27.999999999999993,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_1",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.07,
+    "objective": 28.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.24,
+    "objective": 30.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.9,
+    "objective": 31.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_2",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.09,
+    "objective": 31.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_2",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.64,
+    "objective": 30.999999999999993,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_2",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.38,
+    "objective": 30.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_2",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.47,
+    "objective": 31.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_2",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.34,
+    "objective": 30.999999999999993,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_2",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.12,
+    "objective": 31.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_2",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.09,
+    "objective": 31.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_2",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.08,
+    "objective": 31.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 34.999999999999964,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.89,
+    "objective": 35.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_3",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.23,
+    "objective": 34.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_3",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 2.39,
+    "objective": 35.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_3",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.21,
+    "objective": 34.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_3",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.34,
+    "objective": 35.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_3",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 34.99999999999998,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_3",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1.75,
+    "objective": 34.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_3",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.2,
+    "objective": 34.99999999999998,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_3",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.27,
+    "objective": 34.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_4",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.09,
+    "objective": 42.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_4",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.1,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_4",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 42.99999999999998,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_4",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.88,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_4",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.21,
+    "objective": 42.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_4",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.22,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_4",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.13,
+    "objective": 42.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_4",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.14,
+    "objective": 42.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_4",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.12,
+    "objective": 42.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_4",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.08,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_5",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.2,
+    "objective": 44.99999999999998,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_5",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1.83,
+    "objective": 45.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_5",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.27,
+    "objective": 44.99999999999998,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_5",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.22,
+    "objective": 44.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_5",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.1,
+    "objective": 44.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_5",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.42,
+    "objective": 45.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_5",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.1,
+    "objective": 44.999999999999936,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_5",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.64,
+    "objective": 44.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_5",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.09,
+    "objective": 45.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_5",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.14,
+    "objective": 44.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_6",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.2,
+    "objective": 23.999999999999993,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_6",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1.7,
+    "objective": 24.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_6",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.09,
+    "objective": 23.999999999999993,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_6",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1.94,
+    "objective": 24.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_6",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.08,
+    "objective": 24.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_6",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.83,
+    "objective": 24.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_6",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.24,
+    "objective": 23.999999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_6",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.89,
+    "objective": 24.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_6",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.17,
+    "objective": 23.999999999999993,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_6",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.15,
+    "objective": 23.999999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_7",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.14,
+    "objective": 40.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_7",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.9,
+    "objective": 40.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_7",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.2,
+    "objective": 39.99999999999998,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_7",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.24,
+    "objective": 39.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_7",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.15,
+    "objective": 40.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_7",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.47,
+    "objective": 40.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_7",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.07,
+    "objective": 40.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_7",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.28,
+    "objective": 39.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_7",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.16,
+    "objective": 40.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_7",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.19,
+    "objective": 39.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_8",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.12,
+    "objective": 28.999999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_8",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.43,
+    "objective": 28.999999999999993,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_8",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.1,
+    "objective": 28.999999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_8",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.44,
+    "objective": 29.000000000000004,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_8",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.27,
+    "objective": 31.999999999999993,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_8",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.37,
+    "objective": 32.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_8",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.13,
+    "objective": 29.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_8",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.22,
+    "objective": 29.000000000000004,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_8",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.1,
+    "objective": 29.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_8",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.13,
+    "objective": 29.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_9",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.12,
+    "objective": 38.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_9",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.13,
+    "objective": 38.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_9",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 37.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_9",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.19,
+    "objective": 38.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_9",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.3,
+    "objective": 37.99999999999855,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_9",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.49,
+    "objective": 38.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_9",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.12,
+    "objective": 37.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_9",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.29,
+    "objective": 37.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_9",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.16,
+    "objective": 37.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_9",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.23,
+    "objective": 37.99999999999998,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_10",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.1,
+    "objective": 39.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_10",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1.23,
+    "objective": 40.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_10",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.16,
+    "objective": 39.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_10",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.63,
+    "objective": 40.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_10",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.18,
+    "objective": 40.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_10",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.46,
+    "objective": 40.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_10",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.08,
+    "objective": 40.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_10",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.16,
+    "objective": 40.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_10",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.25,
+    "objective": 39.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "5_10",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.12,
+    "objective": 39.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.22,
+    "objective": 24.999999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.32,
+    "objective": 25.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_1",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.22,
+    "objective": 24.999999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_1",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.93,
+    "objective": 24.999999999999982,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_1",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.31,
+    "objective": 26.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_1",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.51,
+    "objective": 26.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_1",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.15,
+    "objective": 25.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_1",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.48,
+    "objective": 25.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_1",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.14,
+    "objective": 25.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_1",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.16,
+    "objective": 25.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.2,
+    "objective": 32.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 2.0,
+    "objective": 33.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_2",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.33,
+    "objective": 32.999999999999865,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_2",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.5,
+    "objective": 33.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_2",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 32.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_2",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.55,
+    "objective": 33.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_2",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.28,
+    "objective": 32.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_2",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.67,
+    "objective": 33.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_2",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.08,
+    "objective": 33.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_2",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.11,
+    "objective": 33.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.08,
+    "objective": 34.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1.65,
+    "objective": 34.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_3",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.18,
+    "objective": 34.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_3",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.73,
+    "objective": 34.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_3",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.13,
+    "objective": 34.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_3",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.77,
+    "objective": 34.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_3",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.08,
+    "objective": 34.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_3",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.71,
+    "objective": 34.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_3",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.38,
+    "objective": 33.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_3",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.12,
+    "objective": 34.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_4",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.22,
+    "objective": 37.99999999999861,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_4",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.53,
+    "objective": 37.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_4",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.27,
+    "objective": 37.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_4",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.47,
+    "objective": 38.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_4",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.31,
+    "objective": 38.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_4",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.4,
+    "objective": 38.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_4",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.43,
+    "objective": 37.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_4",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.43,
+    "objective": 37.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_4",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.28,
+    "objective": 37.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_4",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.29,
+    "objective": 38.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_5",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.56,
+    "objective": 35.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_5",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 2.1,
+    "objective": 36.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_5",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.15,
+    "objective": 36.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_5",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.34,
+    "objective": 36.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_5",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.27,
+    "objective": 35.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_5",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.58,
+    "objective": 36.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_5",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 1.59,
+    "objective": 35.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_5",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.22,
+    "objective": 36.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_5",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.12,
+    "objective": 36.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_5",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.14,
+    "objective": 35.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_6",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.4,
+    "objective": 77.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_6",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.9,
+    "objective": 78.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_6",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.14,
+    "objective": 78.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_6",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.93,
+    "objective": 77.99999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_6",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.39,
+    "objective": 77.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_6",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.9,
+    "objective": 78.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_6",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.24,
+    "objective": 77.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_6",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1.1,
+    "objective": 78.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_6",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.14,
+    "objective": 78.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_6",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.65,
+    "objective": 77.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_7",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 36.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_7",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1.94,
+    "objective": 36.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_7",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.31,
+    "objective": 35.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_7",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.67,
+    "objective": 36.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_7",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.19,
+    "objective": 36.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_7",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.86,
+    "objective": 36.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_7",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.32,
+    "objective": 35.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_7",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1.54,
+    "objective": 35.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_7",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.38,
+    "objective": 36.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_7",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.16,
+    "objective": 36.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_8",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.3,
+    "objective": 25.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_8",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.26,
+    "objective": 26.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_8",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.21,
+    "objective": 25.999999999999748,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_8",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1.45,
+    "objective": 26.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_8",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.5,
+    "objective": 25.99999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_8",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.41,
+    "objective": 26.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_8",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.14,
+    "objective": 25.999999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_8",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.68,
+    "objective": 26.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_8",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.18,
+    "objective": 25.999999999999964,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_8",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.3,
+    "objective": 26.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_9",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 43.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_9",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.47,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_9",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.28,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_9",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.34,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_9",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.23,
+    "objective": 46.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_9",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.63,
+    "objective": 46.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_9",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.15,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_9",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.62,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_9",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.16,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_9",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.11,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_10",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.72,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_10",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.61,
+    "objective": 57.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_10",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.21,
+    "objective": 57.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_10",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1.74,
+    "objective": 57.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_10",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.92,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_10",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1.42,
+    "objective": 57.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_10",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.4,
+    "objective": 57.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_10",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.84,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_10",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.13,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "6_10",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.16,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.14,
+    "objective": 32.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.76,
+    "objective": 32.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_1",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.12,
+    "objective": 32.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_1",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 2.58,
+    "objective": 32.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_1",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.2,
+    "objective": 32.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_1",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1.03,
+    "objective": 32.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_1",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.15,
+    "objective": 32.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_1",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.64,
+    "objective": 32.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_1",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.2,
+    "objective": 32.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_1",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.15,
+    "objective": 32.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.45,
+    "objective": 53.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 2.73,
+    "objective": 53.99999999999993,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_2",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.2,
+    "objective": 54.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_2",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1.46,
+    "objective": 54.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_2",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.32,
+    "objective": 53.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_2",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 2.64,
+    "objective": 53.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_2",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.93,
+    "objective": 54.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_2",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 3.52,
+    "objective": 54.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_2",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.16,
+    "objective": 54.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_2",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.21,
+    "objective": 53.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.61,
+    "objective": 53.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 4.25,
+    "objective": 54.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_3",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.6,
+    "objective": 53.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_3",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 5.25,
+    "objective": 54.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_3",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.27,
+    "objective": 54.00000000000004,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_3",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1.74,
+    "objective": 54.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_3",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.67,
+    "objective": 53.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_3",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 4.52,
+    "objective": 53.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_3",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.43,
+    "objective": 53.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_3",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.71,
+    "objective": 53.99999999999998,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_4",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.13,
+    "objective": 16.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_4",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.92,
+    "objective": 16.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_4",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.11,
+    "objective": 16.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_4",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.84,
+    "objective": 16.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_4",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.28,
+    "objective": 17.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_4",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 0.7,
+    "objective": 17.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_4",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.12,
+    "objective": 16.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_4",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.22,
+    "objective": 16.000000000000004,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_4",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.11,
+    "objective": 16.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_4",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.15,
+    "objective": 16.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_5",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.31,
+    "objective": 58.999999999943924,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_5",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1.09,
+    "objective": 59.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_5",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.4,
+    "objective": 58.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_5",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1.76,
+    "objective": 59.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_5",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1.48,
+    "objective": 59.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_5",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1.87,
+    "objective": 58.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_5",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.28,
+    "objective": 58.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_5",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1.11,
+    "objective": 59.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_5",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.25,
+    "objective": 59.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_5",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1.17,
+    "objective": 58.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_6",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.12,
+    "objective": 48.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_6",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 0.48,
+    "objective": 49.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_6",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.31,
+    "objective": 48.999999999999964,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_6",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 3.14,
+    "objective": 48.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_6",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.22,
+    "objective": 49.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_6",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 2.33,
+    "objective": 49.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_6",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.12,
+    "objective": 48.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_6",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.63,
+    "objective": 49.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_6",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.2,
+    "objective": 48.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_6",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.2,
+    "objective": 49.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_7",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.09,
+    "objective": 28.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_7",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1.5,
+    "objective": 28.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_7",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.16,
+    "objective": 28.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_7",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.74,
+    "objective": 28.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_7",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 28.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_7",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1.05,
+    "objective": 28.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_7",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.11,
+    "objective": 28.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_7",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 0.62,
+    "objective": 28.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_7",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.17,
+    "objective": 28.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_7",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.15,
+    "objective": 28.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_8",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.38,
+    "objective": 36.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_8",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1.53,
+    "objective": 37.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_8",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.23,
+    "objective": 36.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_8",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 0.87,
+    "objective": 37.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_8",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.4,
+    "objective": 37.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_8",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 2.01,
+    "objective": 37.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_8",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.39,
+    "objective": 37.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_8",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1.12,
+    "objective": 37.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_8",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.29,
+    "objective": 37.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_8",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.12,
+    "objective": 37.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_9",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.16,
+    "objective": 47.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_9",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1.74,
+    "objective": 47.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_9",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.26,
+    "objective": 47.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_9",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 2.63,
+    "objective": 47.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_9",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.28,
+    "objective": 47.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_9",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 3.03,
+    "objective": 47.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_9",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.2,
+    "objective": 46.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_9",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 4.07,
+    "objective": 47.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_9",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.25,
+    "objective": 47.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_9",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.62,
+    "objective": 47.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_10",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.2,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_10",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1.38,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_10",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.26,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_10",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1.86,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_10",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.22,
+    "objective": 43.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_10",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 2.19,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_10",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 43.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_10",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1.66,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_10",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.2,
+    "objective": 43.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "7_10",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.47,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.22,
+    "objective": 24.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 3.04,
+    "objective": 24.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_1",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.24,
+    "objective": 24.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_1",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 3.6,
+    "objective": 24.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_1",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.35,
+    "objective": 24.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_1",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 2.52,
+    "objective": 24.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_1",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.19,
+    "objective": 24.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_1",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1.83,
+    "objective": 24.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_1",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.25,
+    "objective": 24.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_1",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.36,
+    "objective": 24.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.38,
+    "objective": 20.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 4.64,
+    "objective": 20.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_2",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.53,
+    "objective": 19.999999999999993,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_2",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 7.56,
+    "objective": 20.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_2",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.23,
+    "objective": 22.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_2",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 2.62,
+    "objective": 22.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_2",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.5,
+    "objective": 19.999999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_2",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 6.02,
+    "objective": 20.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_2",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.62,
+    "objective": 19.999999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_2",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.44,
+    "objective": 20.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 1.02,
+    "objective": 41.99999999999988,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 7.04,
+    "objective": 42.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_3",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1.19,
+    "objective": 41.99999999999994,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_3",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 6.54,
+    "objective": 42.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_3",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 6.85,
+    "objective": 41.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_3",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 12.92,
+    "objective": 42.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_3",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.74,
+    "objective": 41.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_3",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 2.55,
+    "objective": 42.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_3",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1.83,
+    "objective": 41.99999999999869,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_3",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1.39,
+    "objective": 41.999999999999474,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_4",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 1.5,
+    "objective": 63.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_4",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 5.14,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_4",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.62,
+    "objective": 63.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_4",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 9.13,
+    "objective": 63.99999999999998,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_4",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.45,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_4",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 8.81,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_4",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.34,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_4",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 7.09,
+    "objective": 63.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_4",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.54,
+    "objective": 63.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_4",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.44,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_5",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.76,
+    "objective": 22.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_5",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1.09,
+    "objective": 22.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_5",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.43,
+    "objective": 22.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_5",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1.71,
+    "objective": 22.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_5",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.32,
+    "objective": 22.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_5",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1.89,
+    "objective": 22.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_5",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.28,
+    "objective": 21.999999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_5",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1.38,
+    "objective": 22.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_5",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.24,
+    "objective": 22.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_5",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.32,
+    "objective": 21.999999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_6",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.17,
+    "objective": 44.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_6",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1.06,
+    "objective": 45.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_6",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.19,
+    "objective": 45.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_6",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1.37,
+    "objective": 45.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_6",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.26,
+    "objective": 45.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_6",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1.8,
+    "objective": 45.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_6",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.25,
+    "objective": 45.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_6",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1.19,
+    "objective": 45.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_6",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.17,
+    "objective": 45.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_6",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.16,
+    "objective": 45.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_7",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.42,
+    "objective": 59.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_7",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 8.81,
+    "objective": 59.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_7",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1.05,
+    "objective": 59.99999999999984,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_7",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 11.95,
+    "objective": 60.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_7",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1.41,
+    "objective": 59.99999999999987,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_7",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 6.33,
+    "objective": 60.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_7",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.45,
+    "objective": 59.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_7",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 5.18,
+    "objective": 60.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_7",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1.52,
+    "objective": 59.99999999999983,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_7",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.74,
+    "objective": 59.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_8",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.55,
+    "objective": 71.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_8",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 4.33,
+    "objective": 71.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_8",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1.07,
+    "objective": 71.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_8",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 15.49,
+    "objective": 71.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_8",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1.21,
+    "objective": 72.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_8",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 8.46,
+    "objective": 72.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_8",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.66,
+    "objective": 71.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_8",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 3.38,
+    "objective": 71.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_8",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1.25,
+    "objective": 71.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_8",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.46,
+    "objective": 71.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_9",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.29,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_9",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 3.86,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_9",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.2,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_9",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 7.37,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_9",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.29,
+    "objective": 65.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_9",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 6.38,
+    "objective": 65.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_9",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 3.9,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_9",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 4.29,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_9",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.32,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_9",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.29,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_10",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 1.5,
+    "objective": 71.9999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_10",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 10.2,
+    "objective": 71.99999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_10",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1.53,
+    "objective": 71.99999999999989,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_10",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 10.21,
+    "objective": 72.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_10",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 4.91,
+    "objective": 71.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_10",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 12.73,
+    "objective": 72.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_10",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.84,
+    "objective": 71.99999999999989,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_10",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 5.55,
+    "objective": 71.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_10",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1.22,
+    "objective": 71.99999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "8_10",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 6.03,
+    "objective": 71.99999999999991,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.3,
+    "objective": 26.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 3.68,
+    "objective": 26.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_1",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.29,
+    "objective": 26.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_1",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 6.85,
+    "objective": 26.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_1",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.34,
+    "objective": 26.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_1",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 7.11,
+    "objective": 26.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_1",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.59,
+    "objective": 26.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_1",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 5.96,
+    "objective": 26.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_1",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.43,
+    "objective": 26.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_1",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.74,
+    "objective": 26.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.4,
+    "objective": 29.99999999999995,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 6.85,
+    "objective": 30.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_2",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.96,
+    "objective": 29.99999999999979,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_2",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 24.23,
+    "objective": 29.999999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_2",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1.58,
+    "objective": 29.999999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_2",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 21.02,
+    "objective": 30.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_2",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.73,
+    "objective": 29.999999999999982,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_2",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 8.05,
+    "objective": 30.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_2",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.95,
+    "objective": 29.99999999999978,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_2",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.61,
+    "objective": 29.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 32.93,
+    "objective": 76.99999999999389,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 55.61,
+    "objective": 76.99999999999983,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_3",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 34.09,
+    "objective": 76.99999999999753,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_3",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 84.37,
+    "objective": 76.99999999999926,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_3",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 35.33,
+    "objective": 76.99999999999828,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_3",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 135.7,
+    "objective": 76.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_3",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 30.44,
+    "objective": 76.99999999999902,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_3",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 57.05,
+    "objective": 76.99999999999991,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_3",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 35.55,
+    "objective": 76.99999999999771,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_3",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 36.9,
+    "objective": 76.99999999999982,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_4",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 5.0,
+    "objective": 67.99999999999879,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_4",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 16.88,
+    "objective": 67.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_4",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 8.51,
+    "objective": 67.99999999999932,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_4",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 13.69,
+    "objective": 67.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_4",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 18.81,
+    "objective": 67.99999999999991,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_4",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 17.49,
+    "objective": 68.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_4",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 4.2,
+    "objective": 67.99999999999966,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_4",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 20.15,
+    "objective": 67.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_4",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 6.12,
+    "objective": 67.99999999999866,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_4",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 8.24,
+    "objective": 67.99999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_5",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 5.39,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_5",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 6.2,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_5",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.68,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_5",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 16.24,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_5",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1.0,
+    "objective": 59.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_5",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 13.6,
+    "objective": 59.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_5",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 1.08,
+    "objective": 57.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_5",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 7.82,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_5",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.61,
+    "objective": 57.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_5",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 2.47,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_6",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 2.13,
+    "objective": 68.99999999999909,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_6",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 6.62,
+    "objective": 69.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_6",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1.53,
+    "objective": 69.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_6",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 12.6,
+    "objective": 69.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_6",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 7.22,
+    "objective": 68.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_6",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 11.34,
+    "objective": 69.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_6",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 1.2,
+    "objective": 68.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_6",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 13.65,
+    "objective": 69.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_6",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1.3,
+    "objective": 68.99999999999962,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_6",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 2.67,
+    "objective": 68.99999999999993,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_7",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 6.86,
+    "objective": 74.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_7",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 48.41,
+    "objective": 75.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_7",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 6.42,
+    "objective": 75.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_7",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 602.18,
+    "objective": 74.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_7",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 5.02,
+    "objective": 75.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_7",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 53.29,
+    "objective": 74.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_7",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 8.93,
+    "objective": 75.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_7",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 304.68,
+    "objective": 74.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_7",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 6.97,
+    "objective": 75.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_7",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 13.72,
+    "objective": 74.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_8",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.35,
+    "objective": 48.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_8",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 6.93,
+    "objective": 48.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_8",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.31,
+    "objective": 48.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_8",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 7.5,
+    "objective": 47.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_8",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.55,
+    "objective": 48.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_8",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 10.14,
+    "objective": 48.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_8",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.57,
+    "objective": 48.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_8",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 7.76,
+    "objective": 48.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_8",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.29,
+    "objective": 47.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_8",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.38,
+    "objective": 48.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_9",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.35,
+    "objective": 55.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_9",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 2.17,
+    "objective": 55.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_9",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.57,
+    "objective": 54.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_9",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 13.29,
+    "objective": 55.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_9",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 3.36,
+    "objective": 54.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_9",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 10.33,
+    "objective": 54.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_9",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.64,
+    "objective": 54.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_9",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 10.59,
+    "objective": 55.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_9",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.39,
+    "objective": 55.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_9",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 2.63,
+    "objective": 55.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_10",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.43,
+    "objective": 42.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_10",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 3.49,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_10",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.51,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_10",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 5.3,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_10",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 2.58,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_10",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 8.47,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_10",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.61,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_10",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 3.71,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_10",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.62,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "9_10",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1.95,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 1.23,
+    "objective": 48.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 16.04,
+    "objective": 48.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_1",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.54,
+    "objective": 48.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_1",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 22.75,
+    "objective": 48.000000000000014,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_1",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 0.83,
+    "objective": 49.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_1",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 32.58,
+    "objective": 49.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_1",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.72,
+    "objective": 48.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_1",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 10.45,
+    "objective": 48.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_1",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.61,
+    "objective": 48.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_1",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 0.57,
+    "objective": 48.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 2.74,
+    "objective": 31.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 33.92,
+    "objective": 31.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_2",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1.26,
+    "objective": 31.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_2",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 23.39,
+    "objective": 30.999999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_2",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 2.79,
+    "objective": 31.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_2",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 25.96,
+    "objective": 31.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_2",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.86,
+    "objective": 31.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_2",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 21.99,
+    "objective": 31.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_2",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.86,
+    "objective": 31.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_2",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 3.27,
+    "objective": 31.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 5.56,
+    "objective": 76.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 136.93,
+    "objective": 75.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_3",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 6.91,
+    "objective": 76.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_3",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1801.02,
+    "objective": 75.99999999999997,
+    "status": "maxTimeLimit",
+    "gap": 20.63
+  },
+  {
+    "instance": "10_3",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 5.66,
+    "objective": 80.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_3",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1485.39,
+    "objective": 80.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_3",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 5.22,
+    "objective": 75.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_3",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1800.62,
+    "objective": 75.99999999999993,
+    "status": "maxTimeLimit",
+    "gap": 8.57
+  },
+  {
+    "instance": "10_3",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 8.15,
+    "objective": 76.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_3",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 22.35,
+    "objective": 76.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_4",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 7.07,
+    "objective": 63.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_4",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 26.25,
+    "objective": 63.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_4",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 8.2,
+    "objective": 62.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_4",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 570.57,
+    "objective": 63.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_4",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 9.01,
+    "objective": 62.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_4",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 27.63,
+    "objective": 63.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_4",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 4.01,
+    "objective": 63.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_4",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 32.22,
+    "objective": 63.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_4",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 7.29,
+    "objective": 63.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_4",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 14.84,
+    "objective": 63.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_5",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 3.1,
+    "objective": 46.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_5",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 13.74,
+    "objective": 47.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_5",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 6.9,
+    "objective": 46.999999999999915,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_5",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.66,
+    "objective": 46.99999999999996,
+    "status": "maxTimeLimit",
+    "gap": 14.63
+  },
+  {
+    "instance": "10_5",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 4.47,
+    "objective": 47.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_5",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 25.25,
+    "objective": 47.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_5",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 4.37,
+    "objective": 46.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_5",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 11.55,
+    "objective": 47.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_5",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 3.95,
+    "objective": 47.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_5",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 2.96,
+    "objective": 47.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_6",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 10.49,
+    "objective": 83.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_6",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 34.51,
+    "objective": 83.99999999999993,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_6",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 4.44,
+    "objective": 84.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_6",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 59.16,
+    "objective": 83.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_6",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 3.98,
+    "objective": 83.99999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_6",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 59.63,
+    "objective": 83.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_6",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 5.49,
+    "objective": 83.99999999999989,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_6",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 38.01,
+    "objective": 83.99999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_6",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 6.79,
+    "objective": 84.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_6",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 5.31,
+    "objective": 84.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_7",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 280.42,
+    "objective": 89.99999999995164,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_7",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 424.07,
+    "objective": 89.99999999963629,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_7",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 275.27,
+    "objective": 89.99999999998593,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_7",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 609.47,
+    "objective": 89.99999999999189,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_7",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 303.17,
+    "objective": 89.9999999992454,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_7",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 854.47,
+    "objective": 89.9999999999693,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_7",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 302.54,
+    "objective": 89.99999999998609,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_7",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 426.45,
+    "objective": 89.9999999990095,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_7",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 258.9,
+    "objective": 89.9999999998478,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_7",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 247.2,
+    "objective": 89.99999999998978,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_8",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.73,
+    "objective": 59.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_8",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 21.6,
+    "objective": 59.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_8",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.77,
+    "objective": 59.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_8",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 30.14,
+    "objective": 58.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_8",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 3.94,
+    "objective": 59.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_8",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 76.48,
+    "objective": 59.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_8",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.91,
+    "objective": 59.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_8",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 16.32,
+    "objective": 59.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_8",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 0.62,
+    "objective": 59.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_8",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 2.65,
+    "objective": 59.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_9",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 2.0,
+    "objective": 71.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_9",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 13.23,
+    "objective": 71.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_9",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 4.08,
+    "objective": 71.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_9",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 30.25,
+    "objective": 71.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_9",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 2.25,
+    "objective": 71.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_9",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 31.89,
+    "objective": 71.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_9",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 4.15,
+    "objective": 71.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_9",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 6.79,
+    "objective": 71.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_9",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1.09,
+    "objective": 70.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_9",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 4.44,
+    "objective": 71.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_10",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 8.0,
+    "objective": 99.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_10",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 29.85,
+    "objective": 99.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_10",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 11.66,
+    "objective": 99.99999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_10",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 62.88,
+    "objective": 100.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_10",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 10.44,
+    "objective": 99.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_10",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 27.18,
+    "objective": 100.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_10",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 14.78,
+    "objective": 100.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_10",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 24.95,
+    "objective": 100.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_10",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 6.97,
+    "objective": 99.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "10_10",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 28.47,
+    "objective": 100.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 4.68,
+    "objective": 51.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 66.89,
+    "objective": 51.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_1",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 7.55,
+    "objective": 51.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_1",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 219.33,
+    "objective": 51.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_1",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 6.35,
+    "objective": 51.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_1",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 127.93,
+    "objective": 50.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_1",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 5.99,
+    "objective": 50.999999999999865,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_1",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 64.94,
+    "objective": 51.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_1",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 4.56,
+    "objective": 51.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_1",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 15.32,
+    "objective": 51.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 7.02,
+    "objective": 53.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 64.7,
+    "objective": 52.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_2",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 3.99,
+    "objective": 53.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_2",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 139.05,
+    "objective": 53.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_2",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 7.72,
+    "objective": 55.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_2",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 146.24,
+    "objective": 55.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_2",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 4.62,
+    "objective": 53.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_2",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 77.68,
+    "objective": 52.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_2",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 4.55,
+    "objective": 53.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_2",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 8.8,
+    "objective": 53.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 11.93,
+    "objective": 42.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 301.81,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_3",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 11.04,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_3",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 666.02,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_3",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 3.96,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_3",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 182.48,
+    "objective": 44.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_3",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 12.14,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_3",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 523.48,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_3",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 12.96,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_3",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 23.83,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_4",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 35.42,
+    "objective": 48.9999999999994,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_4",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 112.03,
+    "objective": 48.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_4",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 36.23,
+    "objective": 48.9999999999998,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_4",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 215.13,
+    "objective": 48.999999999999744,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_4",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 70.49,
+    "objective": 48.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_4",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 377.82,
+    "objective": 48.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_4",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 34.28,
+    "objective": 48.99999999999861,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_4",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 264.59,
+    "objective": 48.99999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_4",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 37.37,
+    "objective": 48.999999999999886,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_4",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 111.67,
+    "objective": 48.99999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_5",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 2.82,
+    "objective": 41.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_5",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 14.36,
+    "objective": 42.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_5",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 11.6,
+    "objective": 41.999999999999744,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_5",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 60.29,
+    "objective": 42.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_5",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 7.84,
+    "objective": 41.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_5",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 95.12,
+    "objective": 42.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_5",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 4.22,
+    "objective": 41.99999999999998,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_5",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 21.62,
+    "objective": 42.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_5",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 12.53,
+    "objective": 42.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_5",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 11.97,
+    "objective": 42.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_6",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 327.89,
+    "objective": 58.99999999989729,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_6",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 469.91,
+    "objective": 58.99999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_6",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 305.66,
+    "objective": 58.99999999998239,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_6",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1422.64,
+    "objective": 58.99999999999983,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_6",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 359.73,
+    "objective": 58.99999999993124,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_6",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 923.72,
+    "objective": 58.99999999999987,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_6",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 308.9,
+    "objective": 58.99999999997112,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_6",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 732.64,
+    "objective": 58.99999999999961,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_6",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 331.56,
+    "objective": 58.99999999982139,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_6",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 670.61,
+    "objective": 58.99999999998868,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_7",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 4.28,
+    "objective": 86.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_7",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 40.93,
+    "objective": 86.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_7",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 5.49,
+    "objective": 86.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_7",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 68.31,
+    "objective": 85.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_7",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 17.93,
+    "objective": 86.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_7",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 88.2,
+    "objective": 85.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_7",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 11.73,
+    "objective": 86.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_7",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 38.2,
+    "objective": 85.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_7",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 6.32,
+    "objective": 86.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_7",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 10.79,
+    "objective": 86.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_8",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.64,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_8",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 23.15,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_8",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 0.59,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_8",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 41.76,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_8",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1.71,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_8",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 27.02,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_8",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 1.08,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_8",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 22.37,
+    "objective": 63.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_8",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1.82,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_8",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 13.05,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_9",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 6.86,
+    "objective": 60.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_9",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1800.67,
+    "objective": 59.99999999999998,
+    "status": "maxTimeLimit",
+    "gap": 3.45
+  },
+  {
+    "instance": "11_9",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 7.09,
+    "objective": 60.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_9",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.42,
+    "objective": 60.0,
+    "status": "maxTimeLimit",
+    "gap": 3.45
+  },
+  {
+    "instance": "11_9",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 5.96,
+    "objective": 61.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_9",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 367.27,
+    "objective": 61.00000000000002,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_9",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 7.63,
+    "objective": 60.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_9",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1800.46,
+    "objective": 60.0,
+    "status": "maxTimeLimit",
+    "gap": 3.45
+  },
+  {
+    "instance": "11_9",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 6.86,
+    "objective": 60.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_9",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 76.98,
+    "objective": 60.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_10",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 0.88,
+    "objective": 56.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_10",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 219.44,
+    "objective": 56.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_10",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1.01,
+    "objective": 56.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_10",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 203.85,
+    "objective": 56.000000000000014,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_10",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1.48,
+    "objective": 59.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_10",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 411.06,
+    "objective": 59.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_10",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 0.9,
+    "objective": 56.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_10",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 169.55,
+    "objective": 56.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_10",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1.32,
+    "objective": 56.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "11_10",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 4.2,
+    "objective": 56.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 16.71,
+    "objective": 32.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1702.42,
+    "objective": 32.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_1",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 15.91,
+    "objective": 32.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_1",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.68,
+    "objective": 32.0,
+    "status": "maxTimeLimit",
+    "gap": 39.13
+  },
+  {
+    "instance": "12_1",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 13.53,
+    "objective": 33.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_1",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 514.31,
+    "objective": 33.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_1",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 15.04,
+    "objective": 32.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_1",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1800.78,
+    "objective": 32.00000000000001,
+    "status": "maxTimeLimit",
+    "gap": 39.13
+  },
+  {
+    "instance": "12_1",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 11.16,
+    "objective": 32.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_1",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 83.56,
+    "objective": 32.000000000000014,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 7.87,
+    "objective": 58.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1800.91,
+    "objective": 57.999999999999986,
+    "status": "maxTimeLimit",
+    "gap": 20.71
+  },
+  {
+    "instance": "12_2",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 9.89,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_2",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.94,
+    "objective": 58.0,
+    "status": "maxTimeLimit",
+    "gap": 22.88
+  },
+  {
+    "instance": "12_2",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 9.81,
+    "objective": 57.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_2",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.92,
+    "objective": 57.999999999999936,
+    "status": "maxTimeLimit",
+    "gap": 40.89
+  },
+  {
+    "instance": "12_2",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 10.66,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_2",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 353.78,
+    "objective": 57.99999999999995,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_2",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 9.39,
+    "objective": 57.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_2",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 107.65,
+    "objective": 58.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 67.01,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1800.76,
+    "objective": 43.0,
+    "status": "maxTimeLimit",
+    "gap": 22.86
+  },
+  {
+    "instance": "12_3",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 69.27,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_3",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.69,
+    "objective": 43.0,
+    "status": "maxTimeLimit",
+    "gap": 43.33
+  },
+  {
+    "instance": "12_3",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 4.62,
+    "objective": 43.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_3",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 393.95,
+    "objective": 43.000000000000064,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_3",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 71.87,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_3",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1800.75,
+    "objective": 43.0,
+    "status": "maxTimeLimit",
+    "gap": 30.30
+  },
+  {
+    "instance": "12_3",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 73.88,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_3",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 259.83,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_4",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 1008.69,
+    "objective": 62.99999999999207,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_4",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1800.41,
+    "objective": 62.99999999999986,
+    "status": "maxTimeLimit",
+    "gap": 29.22
+  },
+  {
+    "instance": "12_4",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 438.13,
+    "objective": 62.99999999999522,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_4",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1725.05,
+    "objective": 62.99999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_4",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 517.81,
+    "objective": 62.99999999999194,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_4",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.45,
+    "objective": 62.999999999999986,
+    "status": "maxTimeLimit",
+    "gap": 34.62
+  },
+  {
+    "instance": "12_4",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 472.2,
+    "objective": 62.9999999999633,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_4",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 637.69,
+    "objective": 62.99999999999994,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_4",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 352.79,
+    "objective": 62.99999999999106,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_4",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1800.56,
+    "objective": 62.99999999998805,
+    "status": "maxTimeLimit",
+    "gap": 43.18
+  },
+  {
+    "instance": "12_5",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 353.05,
+    "objective": 90.99999999999446,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_5",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 754.82,
+    "objective": 90.99999999999972,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_5",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 362.99,
+    "objective": 90.99999999940114,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_5",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.61,
+    "objective": 90.99999999999979,
+    "status": "maxTimeLimit",
+    "gap": 37.14
+  },
+  {
+    "instance": "12_5",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 403.06,
+    "objective": 90.99999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_5",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1075.82,
+    "objective": 90.99999999999832,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_5",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 365.29,
+    "objective": 90.9999999998862,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_5",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 841.88,
+    "objective": 90.99999999999858,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_5",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 365.19,
+    "objective": 90.9999999999981,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_5",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1800.41,
+    "objective": 90.99999999997301,
+    "status": "maxTimeLimit",
+    "gap": 41.46
+  },
+  {
+    "instance": "12_6",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 5.26,
+    "objective": 92.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_6",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 94.85,
+    "objective": 93.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_6",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 7.95,
+    "objective": 93.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_6",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 187.42,
+    "objective": 93.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_6",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 9.08,
+    "objective": 93.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_6",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 428.42,
+    "objective": 92.99999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_6",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 15.24,
+    "objective": 93.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_6",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 77.88,
+    "objective": 93.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_6",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 9.6,
+    "objective": 93.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_6",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 46.51,
+    "objective": 93.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_7",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 7.84,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_7",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 167.04,
+    "objective": 63.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_7",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 9.8,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_7",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.67,
+    "objective": 63.99999999999695,
+    "status": "maxTimeLimit",
+    "gap": 22.89
+  },
+  {
+    "instance": "12_7",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 12.44,
+    "objective": 65.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_7",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1618.92,
+    "objective": 64.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_7",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 8.72,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_7",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 980.62,
+    "objective": 63.99999999999993,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_7",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 10.0,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_7",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 80.78,
+    "objective": 64.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_8",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 40.71,
+    "objective": 106.9999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_8",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 171.9,
+    "objective": 106.99999999999983,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_8",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 36.03,
+    "objective": 106.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_8",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 267.95,
+    "objective": 106.99999999999615,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_8",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 50.25,
+    "objective": 106.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_8",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.49,
+    "objective": 106.99999999995882,
+    "status": "maxTimeLimit",
+    "gap": 48.61
+  },
+  {
+    "instance": "12_8",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 43.05,
+    "objective": 106.9999999999998,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_8",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 130.92,
+    "objective": 106.99999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_8",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 35.63,
+    "objective": 106.99999999999949,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_8",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 68.29,
+    "objective": 106.99999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_9",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 34.81,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_9",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1800.55,
+    "objective": 43.0,
+    "status": "maxTimeLimit",
+    "gap": 13.16
+  },
+  {
+    "instance": "12_9",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 54.65,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_9",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.35,
+    "objective": 43.0,
+    "status": "maxTimeLimit",
+    "gap": 13.16
+  },
+  {
+    "instance": "12_9",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 4.23,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_9",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 193.01,
+    "objective": 44.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_9",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 34.93,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_9",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1800.56,
+    "objective": 43.000000000000014,
+    "status": "maxTimeLimit",
+    "gap": 19.44
+  },
+  {
+    "instance": "12_9",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 40.39,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_9",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 274.78,
+    "objective": 43.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_10",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 16.19,
+    "objective": 63.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_10",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1008.99,
+    "objective": 63.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_10",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 11.59,
+    "objective": 63.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_10",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.74,
+    "objective": 63.0,
+    "status": "maxTimeLimit",
+    "gap": 32.91
+  },
+  {
+    "instance": "12_10",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 10.51,
+    "objective": 66.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_10",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 132.91,
+    "objective": 65.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_10",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 13.22,
+    "objective": 63.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_10",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1008.74,
+    "objective": 63.00000000000001,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_10",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 12.84,
+    "objective": 63.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "12_10",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 95.07,
+    "objective": 63.000000000000036,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_1",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 460.44,
+    "objective": 80.99999999999926,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_1",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 693.41,
+    "objective": 81.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_1",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 498.46,
+    "objective": 80.99999999999993,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_1",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.79,
+    "objective": 80.9999999999999,
+    "status": "maxTimeLimit",
+    "gap": 71.71
+  },
+  {
+    "instance": "13_1",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1126.37,
+    "objective": 80.99999999999993,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_1",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.77,
+    "objective": 80.99999999999997,
+    "status": "maxTimeLimit",
+    "gap": 68.75
+  },
+  {
+    "instance": "13_1",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 383.6,
+    "objective": 80.99999999999983,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_1",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1496.09,
+    "objective": 80.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_1",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 387.23,
+    "objective": 80.99999999999989,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_1",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1800.68,
+    "objective": 80.99999999999994,
+    "status": "maxTimeLimit",
+    "gap": 58.76
+  },
+  {
+    "instance": "13_2",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 41.18,
+    "objective": 54.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_2",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 917.25,
+    "objective": 54.999999999999964,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_2",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 49.34,
+    "objective": 54.99999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_2",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 291.81,
+    "objective": 55.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_2",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 264.01,
+    "objective": 54.99999999999992,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_2",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 523.7,
+    "objective": 55.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_2",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 48.19,
+    "objective": 55.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_2",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 998.28,
+    "objective": 54.999999999999815,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_2",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 47.33,
+    "objective": 54.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_2",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 108.03,
+    "objective": 54.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_3",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 40.54,
+    "objective": 76.99999999999994,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_3",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 931.85,
+    "objective": 76.99999999999994,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_3",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 52.47,
+    "objective": 76.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_3",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1136.03,
+    "objective": 77.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_3",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 81.16,
+    "objective": 76.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_3",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.46,
+    "objective": 76.99999999999997,
+    "status": "maxTimeLimit",
+    "gap": 37.50
+  },
+  {
+    "instance": "13_3",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 44.14,
+    "objective": 76.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_3",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1304.06,
+    "objective": 76.99999999999987,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_3",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 49.37,
+    "objective": 77.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_3",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 141.83,
+    "objective": 76.99999999999999,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_4",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 186.27,
+    "objective": 54.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_4",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1800.85,
+    "objective": 53.99999999999984,
+    "status": "maxTimeLimit",
+    "gap": 45.34
+  },
+  {
+    "instance": "13_4",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 335.03,
+    "objective": 53.999999999999986,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_4",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.76,
+    "objective": 54.0,
+    "status": "maxTimeLimit",
+    "gap": 56.73
+  },
+  {
+    "instance": "13_4",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1800.33,
+    "objective": 54.999999999999105,
+    "status": "maxTimeLimit",
+    "gap": 41.30
+  },
+  {
+    "instance": "13_4",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.78,
+    "objective": 54.99999999999996,
+    "status": "maxTimeLimit",
+    "gap": 59.13
+  },
+  {
+    "instance": "13_4",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 291.51,
+    "objective": 53.99999999999997,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_4",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1800.8,
+    "objective": 53.99999999999995,
+    "status": "maxTimeLimit",
+    "gap": 58.82
+  },
+  {
+    "instance": "13_4",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 208.8,
+    "objective": 53.999999999998565,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_4",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1800.69,
+    "objective": 53.999999999999986,
+    "status": "maxTimeLimit",
+    "gap": 54.13
+  },
+  {
+    "instance": "13_5",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 1800.73,
+    "objective": 84.99999999995306,
+    "status": "maxTimeLimit",
+    "gap": 41.67
+  },
+  {
+    "instance": "13_5",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1800.58,
+    "objective": 84.99999999999753,
+    "status": "maxTimeLimit",
+    "gap": 54.55
+  },
+  {
+    "instance": "13_5",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1800.82,
+    "objective": 84.99999999964005,
+    "status": "maxTimeLimit",
+    "gap": 40.98
+  },
+  {
+    "instance": "13_5",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.7,
+    "objective": 84.99999999999974,
+    "status": "maxTimeLimit",
+    "gap": 61.90
+  },
+  {
+    "instance": "13_5",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1800.89,
+    "objective": 84.99999999998484,
+    "status": "maxTimeLimit",
+    "gap": 54.55
+  },
+  {
+    "instance": "13_5",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.88,
+    "objective": 84.99999999999993,
+    "status": "maxTimeLimit",
+    "gap": 84.78
+  },
+  {
+    "instance": "13_5",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 1800.69,
+    "objective": 84.99999999999746,
+    "status": "maxTimeLimit",
+    "gap": 39.34
+  },
+  {
+    "instance": "13_5",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1800.68,
+    "objective": 84.99999999999976,
+    "status": "maxTimeLimit",
+    "gap": 54.55
+  },
+  {
+    "instance": "13_5",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1800.64,
+    "objective": 84.99999999999277,
+    "status": "maxTimeLimit",
+    "gap": 45.49
+  },
+  {
+    "instance": "13_5",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1800.77,
+    "objective": 84.99999999999952,
+    "status": "maxTimeLimit",
+    "gap": 65.56
+  },
+  {
+    "instance": "13_6",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 1800.82,
+    "objective": 134.99999999999844,
+    "status": "maxTimeLimit",
+    "gap": 45.16
+  },
+  {
+    "instance": "13_6",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 1800.86,
+    "objective": 134.99999999998755,
+    "status": "maxTimeLimit",
+    "gap": 94.71
+  },
+  {
+    "instance": "13_6",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 1800.79,
+    "objective": 134.99999999997488,
+    "status": "maxTimeLimit",
+    "gap": 46.96
+  },
+  {
+    "instance": "13_6",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.72,
+    "objective": 134.99999999999937,
+    "status": "maxTimeLimit",
+    "gap": 68.75
+  },
+  {
+    "instance": "13_6",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 1800.84,
+    "objective": 134.99999999999864,
+    "status": "maxTimeLimit",
+    "gap": 65.25
+  },
+  {
+    "instance": "13_6",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.76,
+    "objective": 134.99999999999906,
+    "status": "maxTimeLimit",
+    "gap": 90.94
+  },
+  {
+    "instance": "13_6",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 1800.76,
+    "objective": 134.9999999999865,
+    "status": "maxTimeLimit",
+    "gap": 45.16
+  },
+  {
+    "instance": "13_6",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1800.78,
+    "objective": 134.99999999999966,
+    "status": "maxTimeLimit",
+    "gap": 80.86
+  },
+  {
+    "instance": "13_6",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 1800.73,
+    "objective": 134.9999999999393,
+    "status": "maxTimeLimit",
+    "gap": 48.35
+  },
+  {
+    "instance": "13_6",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1801.2,
+    "objective": 134.99999999997505,
+    "status": "maxTimeLimit",
+    "gap": 87.50
+  },
+  {
+    "instance": "13_7",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 10.81,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_7",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 72.31,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_7",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 24.31,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_7",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 647.86,
+    "objective": 78.99999999999996,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_7",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 16.34,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_7",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 326.32,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_7",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 10.47,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_7",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 343.41,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_7",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 13.2,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_7",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 27.72,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_8",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 12.55,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_8",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 29.36,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_8",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 5.27,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_8",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 187.7,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_8",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 7.66,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_8",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 84.28,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_8",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 10.75,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_8",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 46.52,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_8",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 5.56,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_8",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 10.98,
+    "objective": 79.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_9",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 86.41,
+    "objective": 118.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_9",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 859.74,
+    "objective": 118.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_9",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 51.38,
+    "objective": 118.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_9",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.52,
+    "objective": 118.0,
+    "status": "maxTimeLimit",
+    "gap": 37.44
+  },
+  {
+    "instance": "13_9",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 192.68,
+    "objective": 118.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_9",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1800.5,
+    "objective": 118.0,
+    "status": "maxTimeLimit",
+    "gap": 36.70
+  },
+  {
+    "instance": "13_9",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 43.46,
+    "objective": 117.99999999999993,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_9",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 569.32,
+    "objective": 118.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_9",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 71.39,
+    "objective": 118.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_9",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 1800.58,
+    "objective": 117.99999999999997,
+    "status": "maxTimeLimit",
+    "gap": 58.90
+  },
+  {
+    "instance": "13_10",
+    "formulation": "traditional",
+    "reform": "bigm",
+    "time_sec": 10.53,
+    "objective": 68.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_10",
+    "formulation": "traditional",
+    "reform": "hull",
+    "time_sec": 260.25,
+    "objective": 68.00000000000013,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_10",
+    "formulation": "altered",
+    "reform": "bigm",
+    "time_sec": 11.8,
+    "objective": 68.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_10",
+    "formulation": "altered",
+    "reform": "hull",
+    "time_sec": 1800.62,
+    "objective": 68.0000000000002,
+    "status": "maxTimeLimit",
+    "gap": 36.00
+  },
+  {
+    "instance": "13_10",
+    "formulation": "tres",
+    "reform": "bigm",
+    "time_sec": 22.25,
+    "objective": 68.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_10",
+    "formulation": "tres",
+    "reform": "hull",
+    "time_sec": 1043.39,
+    "objective": 67.99999999999964,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_10",
+    "formulation": "tres_sym",
+    "reform": "bigm",
+    "time_sec": 9.42,
+    "objective": 68.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_10",
+    "formulation": "tres_sym",
+    "reform": "hull",
+    "time_sec": 1800.93,
+    "objective": 67.99999999999993,
+    "status": "maxTimeLimit",
+    "gap": 24.77
+  },
+  {
+    "instance": "13_10",
+    "formulation": "reagg",
+    "reform": "MIP",
+    "time_sec": 13.71,
+    "objective": 68.0,
+    "status": "optimal",
+    "gap": 0
+  },
+  {
+    "instance": "13_10",
+    "formulation": "reagg_tres",
+    "reform": "MIP",
+    "time_sec": 53.16,
+    "objective": 68.0,
+    "status": "optimal",
+    "gap": 0
+  }
+]

@@ -1,0 +1,10 @@
+SchedData | Model Name                     | Trans/Type   | Time (sec) |  Objective | Termination
+------------------------------------------------------------------------------------------
+6         | Immediate Precedence BigM      | MINLP        |     900.05 | 775.9999999999984 | maxTimeLimit
+6         | Immediate Precedence HR        | MINLP        |     255.05 | 739.0000000000003 | optimal
+6         | Time Slots Hull                | MINLP        |       4.37 | 739.0000000000001 | optimal
+6         | General Precedence Hull Reagg  | MINLP        |     900.04 | 738.9999195556667 | maxTimeLimit
+6         | General Precedence GDP         | gdp.bigm     |     900.15 | 738.9999990000002 | maxTimeLimit
+6         | General Precedence GDP         | gdp.hull     |     900.19 | 738.9998564287669 | maxTimeLimit
+6         | Time Slots GDP                 | gdp.bigm     |     900.20 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
+6         | Time Slots GDP                 | gdp.hull     |      52.38 | 738.9999999999999 | optimal
