@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # ── 1) Load JSON ────────────────────────────────────────────────────────────────
-file_path = 'results_strip/benchmark_results_datnzig_extended_extended.json'
+file_path = 'results_strip/benchmark_results_dantzig_scip.json'
 if not os.path.isfile(file_path):
     raise FileNotFoundError(f"Cannot find JSON file at {file_path}")
 with open(file_path, 'r') as f:
@@ -104,6 +104,19 @@ if has_obj:
         for i in range(len(solvers))
     }
 
+# ── 5.1) Virtual Best & Virtual Worst across formulations ──────────────────────
+# (rows = formulations, cols = instances)
+vb_time_per_inst = np.nanmin(times, axis=0)   # virtual best time per instance
+vw_time_per_inst = np.nanmax(times, axis=0)   # virtual worst time per instance
+perf_time_vb = np.mean(vb_time_per_inst[None, :] <= time_x[:, None], axis=1) * n_inst
+perf_time_vw = np.mean(vw_time_per_inst[None, :] <= time_x[:, None], axis=1) * n_inst
+
+if has_obj:
+    vb_gap_per_inst = np.nanmin(gaps, axis=0)   # best (smallest) gap per instance
+    vw_gap_per_inst = np.nanmax(gaps, axis=0)   # worst (largest) gap per instance
+    perf_gap_vb = np.mean(vb_gap_per_inst[None, :] <= gap_x[:, None], axis=1) * n_inst
+    perf_gap_vw = np.mean(vw_gap_per_inst[None, :] <= gap_x[:, None], axis=1) * n_inst
+
 # ── 6) Plot with a broken, log-scaled runtime axis ─────────────────────────────
 if has_obj:
     fig, (ax1, ax2) = plt.subplots(
@@ -130,6 +143,17 @@ if has_obj:
         ax1.step(time_x[1:], perf_time[name][1:], where='post', label=name)
         ax2.step(gap_x[1:],  perf_gap [name][1:], where='post')
 
+    # Virtual Best and Virtual Worst
+    ax1.step(time_x[1:], perf_time_vb[1:], where='post',
+         label='Virtual Best', linewidth=3, linestyle='--')
+    ax1.step(time_x[1:], perf_time_vw[1:], where='post',
+            label='Virtual Worst', linewidth=3, linestyle=':')
+
+    ax2.step(gap_x[1:],  perf_gap_vb[1:], where='post',
+            label='Virtual Best', linewidth=3, linestyle='--')
+    ax2.step(gap_x[1:],  perf_gap_vw[1:], where='post',
+            label='Virtual Worst', linewidth=3, linestyle=':')
+
     # increase x- and y-tick label size
     ax1.tick_params(axis='both', which='major', labelsize=18)
     ax2.tick_params(axis='both', which='major', labelsize=18)
@@ -144,7 +168,7 @@ if has_obj:
     ax1.set_xlabel('Runtime [s]', fontsize=18)
     ax2.set_xlabel('Gap (%)',      fontsize=18)
     ax1.set_ylabel('Number of Instances', fontsize=18)
-    fig.suptitle('Absolute Performance Profile of Strip Packing Problem', fontsize=18)
+    fig.suptitle('Absolute Performance Profile of Strip Packing Problem using SCIP', fontsize=18)
 
     # axis limits
     ax1.set_xlim(time_x[1], time_x[-1])
@@ -174,6 +198,6 @@ else:
     ax1.legend(loc='lower right', fontsize='small')
 
 plt.tight_layout()
-plt.savefig('performance_profile_150.png', dpi=150)
-plt.savefig('performance_profile_150.pdf', dpi=150)
+plt.savefig('performance_profile_150_scip.png', dpi=150)
+plt.savefig('performance_profile_150_scip.pdf', dpi=150)
 plt.show()
