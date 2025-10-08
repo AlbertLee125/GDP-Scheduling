@@ -3,223 +3,430 @@
         "scheduling_data": 1,
         "model_name": "Immediate Precedence BigM",
         "transformation": "MINLP",
-        "time_sec": 900.0657901763916,
+        "time_sec": 900.0612444877625,
         "objective": 429.999999,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 39.85
     },
     {
         "scheduling_data": 1,
         "model_name": "Immediate Precedence HR",
         "transformation": "MINLP",
-        "time_sec": 0.9303464889526367,
+        "time_sec": 0.9305520057678223,
         "objective": 429.99999999999926,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 1,
         "model_name": "Time Slots Hull",
         "transformation": "MINLP",
-        "time_sec": 0.33217477798461914,
+        "time_sec": 0.33219242095947266,
         "objective": 430.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 1,
         "model_name": "General Precedence Hull Reagg",
         "transformation": "MINLP",
-        "time_sec": 443.8073253631592,
+        "time_sec": 439.77298069000244,
         "objective": 429.9999310010553,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 2,
         "model_name": "Immediate Precedence BigM",
         "transformation": "MINLP",
-        "time_sec": 900.0609998703003,
+        "time_sec": 900.0486917495728,
         "objective": 437.9999999995829,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 47.26
     },
     {
         "scheduling_data": 2,
         "model_name": "Immediate Precedence HR",
         "transformation": "MINLP",
-        "time_sec": 1.8602561950683594,
+        "time_sec": 1.816516399383545,
         "objective": 437.9999999999917,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 2,
         "model_name": "Time Slots Hull",
         "transformation": "MINLP",
-        "time_sec": 0.07050395011901855,
+        "time_sec": 0.07037043571472168,
         "objective": 438.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 2,
         "model_name": "General Precedence Hull Reagg",
         "transformation": "MINLP",
-        "time_sec": 60.03169131278992,
+        "time_sec": 59.545772075653076,
         "objective": 437.999965001,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 3,
         "model_name": "Immediate Precedence BigM",
         "transformation": "MINLP",
-        "time_sec": 124.02627301216125,
+        "time_sec": 123.93126654624939,
         "objective": 559.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 3,
         "model_name": "Immediate Precedence HR",
         "transformation": "MINLP",
-        "time_sec": 411.90999007225037,
+        "time_sec": 410.96414136886597,
         "objective": 558.999999,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 3,
         "model_name": "Time Slots Hull",
         "transformation": "MINLP",
-        "time_sec": 3.133491039276123,
+        "time_sec": 3.134060859680176,
         "objective": 559.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 3,
         "model_name": "General Precedence Hull Reagg",
         "transformation": "MINLP",
-        "time_sec": 2.1730754375457764,
+        "time_sec": 2.1636273860931396,
         "objective": 559.0000000000022,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 4,
         "model_name": "Immediate Precedence BigM",
         "transformation": "MINLP",
-        "time_sec": 900.0239338874817,
+        "time_sec": 900.0222799777985,
         "objective": 663.9999999999932,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 37.5
     },
     {
         "scheduling_data": 4,
         "model_name": "Immediate Precedence HR",
         "transformation": "MINLP",
-        "time_sec": 370.2176556587219,
+        "time_sec": 368.92691946029663,
         "objective": 663.9999999999994,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 4,
         "model_name": "Time Slots Hull",
         "transformation": "MINLP",
-        "time_sec": 1.5394287109375,
+        "time_sec": 1.5326054096221924,
         "objective": 663.9999999999491,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 4,
         "model_name": "General Precedence Hull Reagg",
         "transformation": "MINLP",
-        "time_sec": 900.0398726463318,
+        "time_sec": 900.0393314361572,
         "objective": 663.9999989999999,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 30.72
     },
     {
         "scheduling_data": 5,
         "model_name": "Immediate Precedence BigM",
         "transformation": "MINLP",
-        "time_sec": 900.0655052661896,
+        "time_sec": 900.0581302642822,
         "objective": 679.9999999998721,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 36.06
     },
     {
         "scheduling_data": 5,
         "model_name": "Immediate Precedence HR",
         "transformation": "MINLP",
-        "time_sec": 159.1567325592041,
+        "time_sec": 158.96187615394592,
         "objective": 679.9999990000008,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 5,
         "model_name": "Time Slots Hull",
         "transformation": "MINLP",
-        "time_sec": 4.2829954624176025,
+        "time_sec": 4.274077653884888,
         "objective": 679.999999,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 5,
         "model_name": "General Precedence Hull Reagg",
         "transformation": "MINLP",
-        "time_sec": 837.347981929779,
+        "time_sec": 824.7570118904114,
         "objective": 679.9998600000179,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
+    },
+    {
+        "scheduling_data": 6,
+        "model_name": "Immediate Precedence BigM",
+        "transformation": "MINLP",
+        "time_sec": 900.0406475067139,
+        "objective": 775.9999999999984,
+        "termination": "maxTimeLimit",
+        "gap": 25
+    },
+    {
+        "scheduling_data": 6,
+        "model_name": "Immediate Precedence HR",
+        "transformation": "MINLP",
+        "time_sec": 253.63402366638184,
+        "objective": 739.0000000000003,
+        "termination": "optimal",
+        "gap": 0
+    },
+    {
+        "scheduling_data": 6,
+        "model_name": "Time Slots Hull",
+        "transformation": "MINLP",
+        "time_sec": 4.341892242431641,
+        "objective": 739.0000000000001,
+        "termination": "optimal",
+        "gap": 0
+    },
+    {
+        "scheduling_data": 6,
+        "model_name": "General Precedence Hull Reagg",
+        "transformation": "MINLP",
+        "time_sec": 900.0310599803925,
+        "objective": 738.9999195556667,
+        "termination": "maxTimeLimit",
+        "gap": 12.04
+    },
+    {
+        "scheduling_data": 7,
+        "model_name": "Immediate Precedence BigM",
+        "transformation": "MINLP",
+        "time_sec": 900.0555372238159,
+        "objective": "ABORTED",
+        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.",
+        "gap": 0
+    },
+    {
+        "scheduling_data": 7,
+        "model_name": "Immediate Precedence HR",
+        "transformation": "MINLP",
+        "time_sec": 317.17631697654724,
+        "objective": 699.9999999999999,
+        "termination": "optimal",
+        "gap": 0
+    },
+    {
+        "scheduling_data": 7,
+        "model_name": "Time Slots Hull",
+        "transformation": "MINLP",
+        "time_sec": 5.222109794616699,
+        "objective": 700.0,
+        "termination": "optimal",
+        "gap": 0
+    },
+    {
+        "scheduling_data": 7,
+        "model_name": "General Precedence Hull Reagg",
+        "transformation": "MINLP",
+        "time_sec": 900.0524506568909,
+        "objective": 699.999854000999,
+        "termination": "maxTimeLimit",
+        "gap": 35.43
+    },
+    {
+        "scheduling_data": 8,
+        "model_name": "Immediate Precedence BigM",
+        "transformation": "MINLP",
+        "time_sec": 900.0372936725616,
+        "objective": "ABORTED",
+        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.",
+        "gap": 0
+    },
+    {
+        "scheduling_data": 8,
+        "model_name": "Immediate Precedence HR",
+        "transformation": "MINLP",
+        "time_sec": 338.07621693611145,
+        "objective": 771.9999999999999,
+        "termination": "optimal",
+        "gap": 0
+    },
+    {
+        "scheduling_data": 8,
+        "model_name": "Time Slots Hull",
+        "transformation": "MINLP",
+        "time_sec": 1.443972110748291,
+        "objective": 771.999999999745,
+        "termination": "optimal",
+        "gap": 0
+    },
+    {
+        "scheduling_data": 8,
+        "model_name": "General Precedence Hull Reagg",
+        "transformation": "MINLP",
+        "time_sec": 900.0563337802887,
+        "objective": 771.9998800000001,
+        "termination": "maxTimeLimit",
+        "gap": 19.67
+    },
+    {
+        "scheduling_data": 9,
+        "model_name": "Immediate Precedence BigM",
+        "transformation": "MINLP",
+        "time_sec": 900.0417754650116,
+        "objective": "ABORTED",
+        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.",
+        "gap": 0
+    },
+    {
+        "scheduling_data": 9,
+        "model_name": "Immediate Precedence HR",
+        "transformation": "MINLP",
+        "time_sec": 398.26961874961853,
+        "objective": 853.0000000000424,
+        "termination": "optimal",
+        "gap": 0
+    },
+    {
+        "scheduling_data": 9,
+        "model_name": "Time Slots Hull",
+        "transformation": "MINLP",
+        "time_sec": 2.983746290206909,
+        "objective": 853.0000000000083,
+        "termination": "optimal",
+        "gap": 0
+    },
+    {
+        "scheduling_data": 9,
+        "model_name": "General Precedence Hull Reagg",
+        "transformation": "MINLP",
+        "time_sec": 900.0448381900787,
+        "objective": 853.0000000000005,
+        "termination": "maxTimeLimit",
+        "gap": 38.58
+    },
+    {
+        "scheduling_data": 10,
+        "model_name": "Immediate Precedence BigM",
+        "transformation": "MINLP",
+        "time_sec": 900.0661988258362,
+        "objective": "ABORTED",
+        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.",
+        "gap": 0
+    },
+    {
+        "scheduling_data": 10,
+        "model_name": "Immediate Precedence HR",
+        "transformation": "MINLP",
+        "time_sec": 299.4954242706299,
+        "objective": 929.0,
+        "termination": "optimal",
+        "gap": 0
+    },
+    {
+        "scheduling_data": 10,
+        "model_name": "Time Slots Hull",
+        "transformation": "MINLP",
+        "time_sec": 2.369673728942871,
+        "objective": 929.0,
+        "termination": "optimal",
+        "gap": 0
+    },
+    {
+        "scheduling_data": 10,
+        "model_name": "General Precedence Hull Reagg",
+        "transformation": "MINLP",
+        "time_sec": 900.063319683075,
+        "objective": 928.999810000061,
+        "termination": "maxTimeLimit",
+        "gap": 35.58
     },
     {
         "scheduling_data": 1,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 420.54057097435,
+        "time_sec": 411.2900698184967,
         "objective": 429.9999160009998,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 1,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.hull",
-        "time_sec": 900.0930163860321,
+        "time_sec": 900.1092376708984,
         "objective": 429.9998600009999,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 25.89
     },
     {
         "scheduling_data": 1,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 900.0674071311951,
+        "time_sec": 900.0648474693298,
         "objective": 429.9999989999035,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 87.96
     },
     {
         "scheduling_data": 1,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.hull",
-        "time_sec": 0.20459890365600586,
+        "time_sec": 0.22594380378723145,
         "objective": 430.00000000000097,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 2,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 89.64085650444031,
+        "time_sec": 86.40131855010986,
         "objective": 437.9999989999995,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 2,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.hull",
-        "time_sec": 466.0485281944275,
+        "time_sec": 453.59320616722107,
         "objective": 437.99973,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 2,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 900.0842816829681,
+        "time_sec": 900.0791871547699,
         "objective": 437.9999999998836,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 90.37
     },
     {
         "scheduling_data": 2,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.hull",
-        "time_sec": 2.285446882247925,
+        "time_sec": 2.261362314224243,
         "objective": 438.0,
         "termination": "optimal"
     },
@@ -227,416 +434,288 @@
         "scheduling_data": 3,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 0.8950860500335693,
+        "time_sec": 0.8775539398193359,
         "objective": 558.999999,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 3,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.hull",
-        "time_sec": 2.9427149295806885,
+        "time_sec": 2.9055912494659424,
         "objective": 558.999999,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 3,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 900.1420586109161,
+        "time_sec": 900.1192197799683,
         "objective": 616.9999999993976,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 90.77
     },
     {
         "scheduling_data": 3,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.hull",
-        "time_sec": 50.8752019405365,
+        "time_sec": 50.14381384849548,
         "objective": 558.9999999999993,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 4,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 900.1132719516754,
+        "time_sec": 900.101238489151,
         "objective": 663.9998800001072,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 31.15
     },
     {
         "scheduling_data": 4,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.hull",
-        "time_sec": 900.1453049182892,
+        "time_sec": 900.1416645050049,
         "objective": 663.9997600009999,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 34.2
     },
     {
         "scheduling_data": 4,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 900.1375868320465,
+        "time_sec": 900.1330044269562,
         "objective": "ABORTED",
-        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution."
+        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.",
+        "gap": 0
     },
     {
         "scheduling_data": 4,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.hull",
-        "time_sec": 7.930560350418091,
+        "time_sec": 7.777719259262085,
         "objective": 663.9999999999995,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 5,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 850.2370851039886,
+        "time_sec": 829.9997715950012,
         "objective": 679.9999989999997,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 5,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.hull",
-        "time_sec": 900.1432616710663,
+        "time_sec": 900.1424992084503,
         "objective": 679.9997410010008,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 20.37
     },
     {
         "scheduling_data": 5,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 900.1156215667725,
+        "time_sec": 900.1137199401855,
         "objective": "ABORTED",
-        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution."
+        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.",
+        "gap": 0
     },
     {
         "scheduling_data": 5,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.hull",
-        "time_sec": 18.36814522743225,
+        "time_sec": 17.896548986434937,
         "objective": 680.0000000000045,
-        "termination": "optimal"
-    },
-{
-        "scheduling_data": 6,
-        "model_name": "Immediate Precedence BigM",
-        "transformation": "MINLP",
-        "time_sec": 900.0532557964325,
-        "objective": 775.9999999999984,
-        "termination": "maxTimeLimit"
-    },
-    {
-        "scheduling_data": 6,
-        "model_name": "Immediate Precedence HR",
-        "transformation": "MINLP",
-        "time_sec": 255.0517861843109,
-        "objective": 739.0000000000003,
-        "termination": "optimal"
-    },
-    {
-        "scheduling_data": 6,
-        "model_name": "Time Slots Hull",
-        "transformation": "MINLP",
-        "time_sec": 4.367767810821533,
-        "objective": 739.0000000000001,
-        "termination": "optimal"
-    },
-    {
-        "scheduling_data": 6,
-        "model_name": "General Precedence Hull Reagg",
-        "transformation": "MINLP",
-        "time_sec": 900.0413064956665,
-        "objective": 738.9999195556667,
-        "termination": "maxTimeLimit"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 6,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 900.1457273960114,
+        "time_sec": 900.1425125598907,
         "objective": 738.9999990000002,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 12.96
     },
     {
         "scheduling_data": 6,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.hull",
-        "time_sec": 900.1916987895966,
+        "time_sec": 900.1821751594543,
         "objective": 738.9998564287669,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 13.68
     },
     {
         "scheduling_data": 6,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 900.1975231170654,
+        "time_sec": 900.1772882938385,
         "objective": "ABORTED",
-        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution."
+        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.",
+        "gap": 0
     },
     {
         "scheduling_data": 6,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.hull",
-        "time_sec": 52.37749004364014,
+        "time_sec": 52.028456926345825,
         "objective": 738.9999999999999,
-        "termination": "optimal"
-    },
-    {
-        "scheduling_data": 7,
-        "model_name": "Immediate Precedence BigM",
-        "transformation": "MINLP",
-        "time_sec": 900.0681269168854,
-        "objective": "ABORTED",
-        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution."
-    },
-    {
-        "scheduling_data": 7,
-        "model_name": "Immediate Precedence HR",
-        "transformation": "MINLP",
-        "time_sec": 320.76645374298096,
-        "objective": 699.9999999999999,
-        "termination": "optimal"
-    },
-    {
-        "scheduling_data": 7,
-        "model_name": "Time Slots Hull",
-        "transformation": "MINLP",
-        "time_sec": 5.259058952331543,
-        "objective": 700.0,
-        "termination": "optimal"
-    },
-    {
-        "scheduling_data": 7,
-        "model_name": "General Precedence Hull Reagg",
-        "transformation": "MINLP",
-        "time_sec": 900.0557951927185,
-        "objective": 699.999854000999,
-        "termination": "maxTimeLimit"
-    },
-    {
-        "scheduling_data": 8,
-        "model_name": "Immediate Precedence BigM",
-        "transformation": "MINLP",
-        "time_sec": 900.0362613201141,
-        "objective": "ABORTED",
-        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution."
-    },
-    {
-        "scheduling_data": 8,
-        "model_name": "Immediate Precedence HR",
-        "transformation": "MINLP",
-        "time_sec": 339.62455701828003,
-        "objective": 771.9999999999999,
-        "termination": "optimal"
-    },
-    {
-        "scheduling_data": 8,
-        "model_name": "Time Slots Hull",
-        "transformation": "MINLP",
-        "time_sec": 1.450411081314087,
-        "objective": 771.999999999745,
-        "termination": "optimal"
-    },
-    {
-        "scheduling_data": 8,
-        "model_name": "General Precedence Hull Reagg",
-        "transformation": "MINLP",
-        "time_sec": 900.0587928295135,
-        "objective": 771.9998800000001,
-        "termination": "maxTimeLimit"
-    },
-    {
-        "scheduling_data": 9,
-        "model_name": "Immediate Precedence BigM",
-        "transformation": "MINLP",
-        "time_sec": 900.0441637039185,
-        "objective": "ABORTED",
-        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution."
-    },
-    {
-        "scheduling_data": 9,
-        "model_name": "Immediate Precedence HR",
-        "transformation": "MINLP",
-        "time_sec": 400.9237780570984,
-        "objective": 853.0000000000424,
-        "termination": "optimal"
-    },
-    {
-        "scheduling_data": 9,
-        "model_name": "Time Slots Hull",
-        "transformation": "MINLP",
-        "time_sec": 2.9907729625701904,
-        "objective": 853.0000000000083,
-        "termination": "optimal"
-    },
-    {
-        "scheduling_data": 9,
-        "model_name": "General Precedence Hull Reagg",
-        "transformation": "MINLP",
-        "time_sec": 900.0468542575836,
-        "objective": 853.0000000000005,
-        "termination": "maxTimeLimit"
-    },
-    {
-        "scheduling_data": 10,
-        "model_name": "Immediate Precedence BigM",
-        "transformation": "MINLP",
-        "time_sec": 900.0433413982391,
-        "objective": "ABORTED",
-        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution."
-    },
-    {
-        "scheduling_data": 10,
-        "model_name": "Immediate Precedence HR",
-        "transformation": "MINLP",
-        "time_sec": 301.9919731616974,
-        "objective": 929.0,
-        "termination": "optimal"
-    },
-    {
-        "scheduling_data": 10,
-        "model_name": "Time Slots Hull",
-        "transformation": "MINLP",
-        "time_sec": 2.412759304046631,
-        "objective": 929.0,
-        "termination": "optimal"
-    },
-    {
-        "scheduling_data": 10,
-        "model_name": "General Precedence Hull Reagg",
-        "transformation": "MINLP",
-        "time_sec": 900.0618143081665,
-        "objective": 928.999810000061,
-        "termination": "maxTimeLimit"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 7,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 900.1496369838715,
+        "time_sec": 900.1550245285034,
         "objective": 699.9999000010953,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 40.65
     },
     {
         "scheduling_data": 7,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.hull",
-        "time_sec": 900.2401854991913,
+        "time_sec": 900.1724972724915,
         "objective": "ABORTED",
-        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution."
+        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.",
+        "gap": 0
     },
     {
         "scheduling_data": 7,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 900.1752316951752,
+        "time_sec": 900.1719436645508,
         "objective": "ABORTED",
-        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution."
+        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.",
+        "gap": 0
     },
     {
         "scheduling_data": 7,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.hull",
-        "time_sec": 56.06032466888428,
+        "time_sec": 55.00469660758972,
         "objective": 700.0000000000002,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 8,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 900.1614110469818,
+        "time_sec": 900.1578872203827,
         "objective": 771.9999600573694,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 26.17
     },
     {
         "scheduling_data": 8,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.hull",
-        "time_sec": 900.1858313083649,
+        "time_sec": 900.1908795833588,
         "objective": 771.9998800000001,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 27.77
     },
     {
         "scheduling_data": 8,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 900.1557621955872,
+        "time_sec": 900.1573536396027,
         "objective": "ABORTED",
-        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution."
+        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.",
+        "gap": 0
     },
     {
         "scheduling_data": 8,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.hull",
-        "time_sec": 56.566524505615234,
+        "time_sec": 55.83689832687378,
         "objective": 771.9999999999999,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 9,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 900.2029218673706,
+        "time_sec": 900.1938908100128,
         "objective": 895.0,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 41.19
     },
     {
         "scheduling_data": 9,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.hull",
-        "time_sec": 900.2354938983917,
+        "time_sec": 900.2364640235901,
         "objective": "ABORTED",
-        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution."
+        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.",
+        "gap": 0
     },
     {
         "scheduling_data": 9,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 900.2232179641724,
+        "time_sec": 900.2192904949188,
         "objective": "ABORTED",
-        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution."
+        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.",
+        "gap": 0
     },
     {
         "scheduling_data": 9,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.hull",
-        "time_sec": 22.039841175079346,
+        "time_sec": 22.203439712524414,
         "objective": 852.9999999999999,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     },
     {
         "scheduling_data": 10,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 900.1888389587402,
+        "time_sec": 900.1891944408417,
         "objective": 928.999999999992,
-        "termination": "maxTimeLimit"
+        "termination": "maxTimeLimit",
+        "gap": 34.38
     },
     {
         "scheduling_data": 10,
         "model_name": "General Precedence GDP",
         "transformation": "gdp.hull",
-        "time_sec": 900.2620100975037,
+        "time_sec": 900.3163270950317,
         "objective": "ABORTED",
-        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution."
+        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.",
+        "gap": 0
     },
     {
         "scheduling_data": 10,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.bigm",
-        "time_sec": 900.2004587650299,
+        "time_sec": 900.2798402309418,
         "objective": "ABORTED",
-        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution."
+        "termination": "exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.",
+        "gap": 0
     },
     {
         "scheduling_data": 10,
         "model_name": "Time Slots GDP",
         "transformation": "gdp.hull",
-        "time_sec": 436.8236849308014,
+        "time_sec": 432.31123876571655,
         "objective": 929.0,
-        "termination": "optimal"
+        "termination": "optimal",
+        "gap": 0
     }
 ]

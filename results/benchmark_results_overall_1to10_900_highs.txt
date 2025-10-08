@@ -1,34 +1,83 @@
 SchedData | Model Name                     | Trans/Type   | Time (sec) |  Objective | Termination
 ------------------------------------------------------------------------------------------
-7         | Immediate Precedence BigM      | MINLP        |     900.07 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
-7         | Immediate Precedence HR        | MINLP        |     320.77 | 699.9999999999999 | optimal
-7         | Time Slots Hull                | MINLP        |       5.26 |      700.0 | optimal
-7         | General Precedence Hull Reagg  | MINLP        |     900.06 | 699.999854000999 | maxTimeLimit
+1         | Immediate Precedence BigM      | MINLP        |     900.06 | 429.999999 | maxTimeLimit
+1         | Immediate Precedence HR        | MINLP        |       0.93 | 429.99999999999926 | optimal
+1         | Time Slots Hull                | MINLP        |       0.33 |      430.0 | optimal
+1         | General Precedence Hull Reagg  | MINLP        |     439.77 | 429.9999310010553 | optimal
+2         | Immediate Precedence BigM      | MINLP        |     900.05 | 437.9999999995829 | maxTimeLimit
+2         | Immediate Precedence HR        | MINLP        |       1.82 | 437.9999999999917 | optimal
+2         | Time Slots Hull                | MINLP        |       0.07 |      438.0 | optimal
+2         | General Precedence Hull Reagg  | MINLP        |      59.55 | 437.999965001 | optimal
+3         | Immediate Precedence BigM      | MINLP        |     123.93 |      559.0 | optimal
+3         | Immediate Precedence HR        | MINLP        |     410.96 | 558.999999 | optimal
+3         | Time Slots Hull                | MINLP        |       3.13 |      559.0 | optimal
+3         | General Precedence Hull Reagg  | MINLP        |       2.16 | 559.0000000000022 | optimal
+4         | Immediate Precedence BigM      | MINLP        |     900.02 | 663.9999999999932 | maxTimeLimit
+4         | Immediate Precedence HR        | MINLP        |     368.93 | 663.9999999999994 | optimal
+4         | Time Slots Hull                | MINLP        |       1.53 | 663.9999999999491 | optimal
+4         | General Precedence Hull Reagg  | MINLP        |     900.04 | 663.9999989999999 | maxTimeLimit
+5         | Immediate Precedence BigM      | MINLP        |     900.06 | 679.9999999998721 | maxTimeLimit
+5         | Immediate Precedence HR        | MINLP        |     158.96 | 679.9999990000008 | optimal
+5         | Time Slots Hull                | MINLP        |       4.27 | 679.999999 | optimal
+5         | General Precedence Hull Reagg  | MINLP        |     824.76 | 679.9998600000179 | optimal
+6         | Immediate Precedence BigM      | MINLP        |     900.04 | 775.9999999999984 | maxTimeLimit
+6         | Immediate Precedence HR        | MINLP        |     253.63 | 739.0000000000003 | optimal
+6         | Time Slots Hull                | MINLP        |       4.34 | 739.0000000000001 | optimal
+6         | General Precedence Hull Reagg  | MINLP        |     900.03 | 738.9999195556667 | maxTimeLimit
+7         | Immediate Precedence BigM      | MINLP        |     900.06 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
+7         | Immediate Precedence HR        | MINLP        |     317.18 | 699.9999999999999 | optimal
+7         | Time Slots Hull                | MINLP        |       5.22 |      700.0 | optimal
+7         | General Precedence Hull Reagg  | MINLP        |     900.05 | 699.999854000999 | maxTimeLimit
 8         | Immediate Precedence BigM      | MINLP        |     900.04 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
-8         | Immediate Precedence HR        | MINLP        |     339.62 | 771.9999999999999 | optimal
-8         | Time Slots Hull                | MINLP        |       1.45 | 771.999999999745 | optimal
+8         | Immediate Precedence HR        | MINLP        |     338.08 | 771.9999999999999 | optimal
+8         | Time Slots Hull                | MINLP        |       1.44 | 771.999999999745 | optimal
 8         | General Precedence Hull Reagg  | MINLP        |     900.06 | 771.9998800000001 | maxTimeLimit
 9         | Immediate Precedence BigM      | MINLP        |     900.04 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
-9         | Immediate Precedence HR        | MINLP        |     400.92 | 853.0000000000424 | optimal
-9         | Time Slots Hull                | MINLP        |       2.99 | 853.0000000000083 | optimal
-9         | General Precedence Hull Reagg  | MINLP        |     900.05 | 853.0000000000005 | maxTimeLimit
-10        | Immediate Precedence BigM      | MINLP        |     900.04 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
-10        | Immediate Precedence HR        | MINLP        |     301.99 |      929.0 | optimal
-10        | Time Slots Hull                | MINLP        |       2.41 |      929.0 | optimal
+9         | Immediate Precedence HR        | MINLP        |     398.27 | 853.0000000000424 | optimal
+9         | Time Slots Hull                | MINLP        |       2.98 | 853.0000000000083 | optimal
+9         | General Precedence Hull Reagg  | MINLP        |     900.04 | 853.0000000000005 | maxTimeLimit
+10        | Immediate Precedence BigM      | MINLP        |     900.07 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
+10        | Immediate Precedence HR        | MINLP        |     299.50 |      929.0 | optimal
+10        | Time Slots Hull                | MINLP        |       2.37 |      929.0 | optimal
 10        | General Precedence Hull Reagg  | MINLP        |     900.06 | 928.999810000061 | maxTimeLimit
-7         | General Precedence GDP         | gdp.bigm     |     900.15 | 699.9999000010953 | maxTimeLimit
-7         | General Precedence GDP         | gdp.hull     |     900.24 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
-7         | Time Slots GDP                 | gdp.bigm     |     900.18 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
-7         | Time Slots GDP                 | gdp.hull     |      56.06 | 700.0000000000002 | optimal
+1         | General Precedence GDP         | gdp.bigm     |     411.29 | 429.9999160009998 | optimal
+1         | General Precedence GDP         | gdp.hull     |     900.11 | 429.9998600009999 | maxTimeLimit
+1         | Time Slots GDP                 | gdp.bigm     |     900.06 | 429.9999989999035 | maxTimeLimit
+1         | Time Slots GDP                 | gdp.hull     |       0.23 | 430.00000000000097 | optimal
+2         | General Precedence GDP         | gdp.bigm     |      86.40 | 437.9999989999995 | optimal
+2         | General Precedence GDP         | gdp.hull     |     453.59 |  437.99973 | optimal
+2         | Time Slots GDP                 | gdp.bigm     |     900.08 | 437.9999999998836 | maxTimeLimit
+2         | Time Slots GDP                 | gdp.hull     |       2.26 |      438.0 | optimal
+3         | General Precedence GDP         | gdp.bigm     |       0.88 | 558.999999 | optimal
+3         | General Precedence GDP         | gdp.hull     |       2.91 | 558.999999 | optimal
+3         | Time Slots GDP                 | gdp.bigm     |     900.12 | 616.9999999993976 | maxTimeLimit
+3         | Time Slots GDP                 | gdp.hull     |      50.14 | 558.9999999999993 | optimal
+4         | General Precedence GDP         | gdp.bigm     |     900.10 | 663.9998800001072 | maxTimeLimit
+4         | General Precedence GDP         | gdp.hull     |     900.14 | 663.9997600009999 | maxTimeLimit
+4         | Time Slots GDP                 | gdp.bigm     |     900.13 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
+4         | Time Slots GDP                 | gdp.hull     |       7.78 | 663.9999999999995 | optimal
+5         | General Precedence GDP         | gdp.bigm     |     830.00 | 679.9999989999997 | optimal
+5         | General Precedence GDP         | gdp.hull     |     900.14 | 679.9997410010008 | maxTimeLimit
+5         | Time Slots GDP                 | gdp.bigm     |     900.11 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
+5         | Time Slots GDP                 | gdp.hull     |      17.90 | 680.0000000000045 | optimal
+6         | General Precedence GDP         | gdp.bigm     |     900.14 | 738.9999990000002 | maxTimeLimit
+6         | General Precedence GDP         | gdp.hull     |     900.18 | 738.9998564287669 | maxTimeLimit
+6         | Time Slots GDP                 | gdp.bigm     |     900.18 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
+6         | Time Slots GDP                 | gdp.hull     |      52.03 | 738.9999999999999 | optimal
+7         | General Precedence GDP         | gdp.bigm     |     900.16 | 699.9999000010953 | maxTimeLimit
+7         | General Precedence GDP         | gdp.hull     |     900.17 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
+7         | Time Slots GDP                 | gdp.bigm     |     900.17 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
+7         | Time Slots GDP                 | gdp.hull     |      55.00 | 700.0000000000002 | optimal
 8         | General Precedence GDP         | gdp.bigm     |     900.16 | 771.9999600573694 | maxTimeLimit
 8         | General Precedence GDP         | gdp.hull     |     900.19 | 771.9998800000001 | maxTimeLimit
 8         | Time Slots GDP                 | gdp.bigm     |     900.16 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
-8         | Time Slots GDP                 | gdp.hull     |      56.57 | 771.9999999999999 | optimal
-9         | General Precedence GDP         | gdp.bigm     |     900.20 |      895.0 | maxTimeLimit
+8         | Time Slots GDP                 | gdp.hull     |      55.84 | 771.9999999999999 | optimal
+9         | General Precedence GDP         | gdp.bigm     |     900.19 |      895.0 | maxTimeLimit
 9         | General Precedence GDP         | gdp.hull     |     900.24 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
 9         | Time Slots GDP                 | gdp.bigm     |     900.22 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
-9         | Time Slots GDP                 | gdp.hull     |      22.04 | 852.9999999999999 | optimal
+9         | Time Slots GDP                 | gdp.hull     |      22.20 | 852.9999999999999 | optimal
 10        | General Precedence GDP         | gdp.bigm     |     900.19 | 928.999999999992 | maxTimeLimit
-10        | General Precedence GDP         | gdp.hull     |     900.26 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
-10        | Time Slots GDP                 | gdp.bigm     |     900.20 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
-10        | Time Slots GDP                 | gdp.hull     |     436.82 |      929.0 | optimal
+10        | General Precedence GDP         | gdp.hull     |     900.32 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
+10        | Time Slots GDP                 | gdp.bigm     |     900.28 |    ABORTED | exception: A feasible solution was not found, so no solution can be loaded.Please set opt.config.load_solution=False and check results.termination_condition and resutls.best_feasible_objective before loading a solution.
+10        | Time Slots GDP                 | gdp.hull     |     432.31 |      929.0 | optimal
+
