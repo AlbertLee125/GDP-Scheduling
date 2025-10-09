@@ -4,9 +4,10 @@ import os
 import json
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib.patches import Patch
 
 # ── 1) Load JSON ────────────────────────────────────────────────────────────────
-file_path = 'results_strip/benchmark_results_dantzig_scip.json'
+file_path = 'results_strip/benchmark_results_dantzig_gurobi.json'
 if not os.path.isfile(file_path):
     raise FileNotFoundError(f"Cannot find JSON file at {file_path}")
 with open(file_path, 'r') as f:
@@ -143,16 +144,41 @@ if has_obj:
         ax1.step(time_x[1:], perf_time[name][1:], where='post', label=name)
         ax2.step(gap_x[1:],  perf_gap [name][1:], where='post')
 
-    # Virtual Best and Virtual Worst
-    ax1.step(time_x[1:], perf_time_vb[1:], where='post',
-         label='Virtual Best', linewidth=3, linestyle='--')
-    ax1.step(time_x[1:], perf_time_vw[1:], where='post',
-            label='Virtual Worst', linewidth=3, linestyle=':')
+    # Left panel: runtime envelope
+    ax1.fill_between(
+        time_x[1:],                # x
+        perf_time_vw[1:],          # lower (virtual worst)
+        perf_time_vb[1:],          # upper (virtual best)
+        step='post',
+        alpha=0.3,
+        color='0.85'               # light grey
+    )
 
-    ax2.step(gap_x[1:],  perf_gap_vb[1:], where='post',
-            label='Virtual Best', linewidth=3, linestyle='--')
-    ax2.step(gap_x[1:],  perf_gap_vw[1:], where='post',
-            label='Virtual Worst', linewidth=3, linestyle=':')
+    # Right panel: gap envelope
+    ax2.fill_between(
+        gap_x[1:],                 # x
+        perf_gap_vw[1:],           # lower (virtual worst)
+        perf_gap_vb[1:],           # upper (virtual best)
+        step='post',
+        alpha=0.3,
+        color='0.85'               # light grey
+    )
+
+    # Build legend with a proxy patch for the envelope
+    handles, labels = ax1.get_legend_handles_labels()
+    mapped_labels = [label_map.get(lbl, lbl) for lbl in labels]
+
+    envelope_patch = Patch(facecolor='0.85', edgecolor='none',
+                           label='Virtual Best–Worst envelope')
+    handles.append(envelope_patch)
+    mapped_labels.append('Virtual Best–Worst envelope')
+
+    ax1.legend(handles, mapped_labels,
+               loc='lower right',
+               fontsize='small',
+               title='Model & Reformulation',
+               prop={'size': 14},
+               title_fontsize=14)
 
     # increase x- and y-tick label size
     ax1.tick_params(axis='both', which='major', labelsize=18)
@@ -168,7 +194,7 @@ if has_obj:
     ax1.set_xlabel('Runtime [s]', fontsize=18)
     ax2.set_xlabel('Gap (%)',      fontsize=18)
     ax1.set_ylabel('Number of Instances', fontsize=18)
-    fig.suptitle('Absolute Performance Profile of Strip Packing Problem using SCIP', fontsize=18)
+    fig.suptitle('Absolute Performance Profile of Strip Packing Problem', fontsize=18)
 
     # axis limits
     ax1.set_xlim(time_x[1], time_x[-1])
@@ -198,6 +224,6 @@ else:
     ax1.legend(loc='lower right', fontsize='small')
 
 plt.tight_layout()
-plt.savefig('performance_profile_150_scip.png', dpi=150)
-plt.savefig('performance_profile_150_scip.pdf', dpi=150)
+plt.savefig('performance_profile_150.png', dpi=150)
+plt.savefig('performance_profile_150.pdf', dpi=150)
 plt.show()
