@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Patch
 
 # ── 1) Load JSON ────────────────────────────────────────────────────────────────
-file_path = 'results_strip/benchmark_results_dantzig_gurobi.json'
+file_path = 'results_strip/benchmark_results_dantzig_highs.json'
 if not os.path.isfile(file_path):
     raise FileNotFoundError(f"Cannot find JSON file at {file_path}")
 with open(file_path, 'r') as f:
@@ -46,12 +46,12 @@ solvers = [
 ]
 
 label_map = {
-    'Original Big-M':              'S0 Big-M',
+    'Original Big-M':              'S0 BM',
     'Original Hull':               'S0 HR',
-    'Original Reaggregated-Hull':  'S0 Reaggregated-Hull',
-    'Trespalacios Big-M':          'S1 Big-M',
+    'Original Reaggregated-Hull':  'S0 RHR',
+    'Trespalacios Big-M':          'S1 BM',
     'Trespalacios Hull':           'S1 HR',
-    'Trespalacios Reaggregated-Hull': 'S1 Reaggregated-Hull',
+    'Trespalacios Reaggregated-Hull': 'S1 RHR',
 }
 
 # ── 3) Build time & objective maps ─────────────────────────────────────────────
@@ -194,7 +194,7 @@ if has_obj:
     ax1.set_xlabel('Runtime [s]', fontsize=18)
     ax2.set_xlabel('Gap (%)',      fontsize=18)
     ax1.set_ylabel('Number of Instances', fontsize=18)
-    fig.suptitle('Absolute Performance Profile of Strip Packing Problem', fontsize=18)
+    fig.suptitle('Absolute Performance Profile of Strip Packing Problem using HiGHS', fontsize=18)
 
     # axis limits
     ax1.set_xlim(time_x[1], time_x[-1])
@@ -224,6 +224,6 @@ else:
     ax1.legend(loc='lower right', fontsize='small')
 
 plt.tight_layout()
-plt.savefig('performance_profile_150.png', dpi=150)
-plt.savefig('performance_profile_150.pdf', dpi=150)
+plt.savefig('performance_profile_150_highs.png', dpi=150)
+plt.savefig('performance_profile_150_highs.pdf', dpi=150)
 plt.show()

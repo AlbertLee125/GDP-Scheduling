@@ -7,12 +7,12 @@ import matplotlib.pyplot as plt
 method_mapping = {
     "General Precedence GDP - gdp.bigm":      "GP_BM",
     "General Precedence GDP - gdp.hull":      "GP_HR",
-    "General Precedence Hull Reagg - MINLP":  "GP_HR_C",
+    "General Precedence Hull Reagg - MINLP":  "GP_RHR",
     "Immediate Precedence BigM - MINLP":      "IP_BM",
     "Immediate Precedence HR - MINLP":        "IP_HR",
     "Time Slots GDP - gdp.bigm":              "TS_BM",
     "Time Slots GDP - gdp.hull":              "TS_HR",
-    "Time Slots Hull - MINLP":                "TS_HR_C"
+    "Time Slots Hull - MINLP":                "TS_RHR"
 }
 
 # 1) Load JSON
@@ -104,7 +104,7 @@ for sol in solvers:
 ax1.set_xlabel('Runtime [s]', fontsize=14)
 ax2.set_xlabel('Gap (%)',      fontsize=14)
 ax1.set_ylabel('Number of Instances', fontsize=14)
-fig.suptitle('Absolute Performance Profile of Single-Unit Scheduling Reformulations', fontsize=16)
+fig.suptitle('Absolute Performance Profile of Single-Unit Scheduling Reformulations using Gurobi', fontsize=16)
 ax1.set_xlim(min_positive, max_time)
 ax2.set_xlim(0, max_gap)
 
@@ -132,6 +132,6 @@ ax1.grid(True, alpha=0.3)
 ax2.grid(True, alpha=0.3)
 
 # plt.tight_layout()
-plt.savefig('performance_profile_scheduling.png', dpi=150)
-plt.savefig('performance_profile_scheduling.pdf', dpi=150)
+plt.savefig('performance_profile_scheduling_gurobi.png', dpi=150)
+plt.savefig('performance_profile_scheduling_gurobi.pdf', dpi=150)
 plt.show()

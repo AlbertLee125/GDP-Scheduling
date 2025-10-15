@@ -5,11 +5,15 @@ import matplotlib.pyplot as plt
 
 # 1. Load & preprocess exactly as before…
 folder    = 'results_strip'
-json_file = 'benchmark_results_datnzig_extended_extended.json'
+json_file = 'benchmark_results_dantzig_scip.json'
 file_path = os.path.join(folder, json_file)
 with open(file_path) as f:
     data = json.load(f)
 data = [d for d in data if d['formulation'] != 'traditional']
+
+data = [d for d in data
+        if f"{d['formulation']}_{d['reform']}" not in {'tres_sym_hull', 'tres_sym_bigm'}]
+
 
 # 2. Build sizes/models and rename_map
 sizes      = sorted({int(d['instance'].split('_')[0]) for d in data})
@@ -85,27 +89,31 @@ ax.set_xticklabels(sizes, fontsize=14)
 ax.set_xlabel('Instance Size', fontsize=14)
 ax.set_ylabel('Average Time (sec)', fontsize=14)
 ax.tick_params(axis='y', labelsize=14)
-ax.set_title('Average Solve Time by Size & Reformulation\n(10 Cases Averaged; ±1 Standard Deviation, Log Scale)', fontsize=14)
+ax.set_title('Average Solve Time by Size & Reformulation using SCIP \n(10 Cases Averaged; ±1 Standard Deviation, Log Scale)', fontsize=14)
 
 # σ
 
 # remap legend labels
 label_map = {
-    'altered_bigm':  'S0 Big-M',
+    'altered_bigm':  'S0 BM',
     'altered_hull':  'S0 HR',
-    'altered_reagg': 'S0 Reaggregated-Hull',
-    'tres_bigm':     'S1 Big-M',
+    'altered_reagg': 'S0 RHR',
+    'tres_bigm':     'S1 BM',
     'tres_hull':     'S1 HR',
-    'tres_reagg':    'S1 Reaggregated-Hull',
+    'tres_reagg':    'S1 RHR',
 }
 handles, labels = ax.get_legend_handles_labels()
 labels = [label_map.get(l,l) for l in labels]
-ax.legend(handles, labels, title='Model & Reformulation',
-          bbox_to_anchor=(1.02,1), loc='upper left')
+ax.legend(handles, labels, 
+            title='Model & Reformulation',
+            loc='lower right',        # put legend inside, bottom-right
+            frameon=True,             # add a box so it’s readable
+            framealpha=0.9,           # slightly transparent
+            borderpad=0.6)
 
 plt.tight_layout()
-out_png = os.path.join(folder, 'avg_run_times_by_size_logerr.png')
-out_pdf = os.path.join(folder, 'avg_run_times_by_size_logerr.pdf')
+out_png = os.path.join(folder, 'avg_run_times_by_size_logerr_scip.png')
+out_pdf = os.path.join(folder, 'avg_run_times_by_size_logerr_scip.pdf')
 plt.savefig(out_pdf, dpi=150)
 plt.savefig(out_png, dpi=150)
 plt.show()
