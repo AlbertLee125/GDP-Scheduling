@@ -76,7 +76,7 @@ python main_benchmark.py
 
 This will:
 - Test scheduling instances 1-10
-- Run 4 MINLP formulations and 2 GDP formulations (with BigM and Hull transformations)
+- Run 4 MILP formulations and 2 GDP formulations (with BigM and Hull transformations)
 - Apply a 900-second time limit per solve
 - Save results to `results/benchmark_results_overall_1to10_900.json`
 
